@@ -1,0 +1,15 @@
+{
+  "title": "《渡者》R17 原创程序合成配乐",
+  "tempoBpm": 80,
+  "durationSeconds": 72.0,
+  "structure": [
+    "0–24秒：段落A",
+    "24–48秒：段落B",
+    "48–72秒：段落C"
+  ],
+  "instrumentSources": "全部为NumPy加法/包络合成：暖键盘、钟琴、柔弦拨音、低音与铺底；无外部采样、无人声。",
+  "BGM01_RiverMist": "A段稀疏钟琴与铺底；B段加入键盘、低音和轻拨音；C段回收并变奏开头，保留安静水面感。",
+  "BGM02_Reunion": "三段落使用同一原创相会动机的配器变奏；B段加入分解和弦，C段加入轻钟琴高光。",
+  "BGM03_SelfCrossing": "A段孤立音型表现迟疑；B段分解和弦逐步推进；C段从第17小节起完整回收R15的16音音序与noteBeats比例，随后回归平静。",
+  "auditioned": false
+}

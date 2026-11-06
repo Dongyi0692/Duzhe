@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": "1.0",
+  "chapterId": "CH03",
+  "displayName": "组一辈子乐队",
+  "segments": [
+    {
+      "segmentId": "CH03_Opening",
+      "stageId": "CH03_Opening",
+      "lines": [
+        {
+          "lineId": "CH03_Opening_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "劳驾，见着一对鼓槌没有？一根头上缺了一小块。"
+        },
+        {
+          "lineId": "CH03_Opening_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "Ferryman",
+          "text": "你还要演奏？"
+        },
+        {
+          "lineId": "CH03_Opening_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "拿惯了。不拿点什么，手总想敲。"
+        },
+        {
+          "lineId": "CH03_Opening_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "Ferryman",
+          "text": "有人等你？"
+        },
+        {
+          "lineId": "CH03_Opening_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "三个。嘴都不太饶人，你一会儿就知道了。"
+        },
+        {
+          "lineId": "CH03_Opening_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "Ferryman",
+          "text": "想回去合奏？"
+        },
+        {
+          "lineId": "CH03_Opening_007",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "想补张照片。说好散伙那天拍的，我没到。"
+        },
+        {
+          "lineId": "CH03_Opening_008",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "后来，他们在我的追思会上，放的还是我们头一回录的那段。"
+        },
+        {
+          "lineId": "CH03_Opening_009",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "开头抢了半拍，我一听就知道。以前总说重新录，没想到，最后拿来送我了。"
+        },
+        {
+          "lineId": "CH03_Opening_010",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "Ferryman",
+          "text": "你想再和他们合奏一次？"
+        },
+        {
+          "lineId": "CH03_Opening_011",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "想。也想告诉他们，那段录音别删。不好听也留着。"
+        },
+        {
+          "lineId": "CH03_Opening_012",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "Ferryman",
+          "text": "你们准备解散？"
+        },
+        {
+          "lineId": "CH03_Opening_013",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "嗯。有人要换工作，有人要回家。我嘴上说散就散，心里挺不乐意。"
+        },
+        {
+          "lineId": "CH03_Opening_014",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "练得那么难听的时候都没散，刚有点样子，一个个倒忙起来了。"
+        },
+        {
+          "lineId": "CH03_Opening_015",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "Ferryman",
+          "text": "你跟他们说了吗？"
+        },
+        {
+          "lineId": "CH03_Opening_016",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "说出来多没面子。我还当着他们的面讲，以后终于不用交排练费了。"
+        },
+        {
+          "lineId": "CH03_Opening_017",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "后来想补一句，又没机会。"
+        },
+        {
+          "lineId": "CH03_Opening_018",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "Ferryman",
+          "text": "把鼓槌找回来，我们去见他们。"
+        },
+        {
+          "lineId": "CH03_Opening_019",
+          "chapterId": "CH03",
+          "stageId": "CH03_Opening",
+          "speakerId": "DrummerSpirit",
+          "text": "行。我先想想，怎么开口才不像求他们别走。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH03_RitualTalk",
+      "stageId": "CH03_RitualTalk",
+      "lines": [
+        {
+          "lineId": "CH03_RitualTalk_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "就是这对。你看，这缺口还是以前磕的。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "没有换过？"
+        },
+        {
+          "lineId": "CH03_RitualTalk_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "换过。新的握着不顺，最后又用回来了。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "跟那几个人一样。吵完架想，明天谁爱来谁来。第二天我又是第一个到。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "这次还有机会说清楚。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "你说，我见着他们，先问什么好？"
+        },
+        {
+          "lineId": "CH03_RitualTalk_007",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "你最想问的。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_008",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "……他们后来有没有练新歌。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_009",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "怕他们不练了？"
+        },
+        {
+          "lineId": "CH03_RitualTalk_010",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "也怕他们练得挺好，不用我了。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_011",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "别告诉他们。我进去还得装得大方点。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_012",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "仪式在石灯旁。准备好了，就过去。"
+        },
+        {
+          "lineId": "CH03_RitualTalk_013",
+          "chapterId": "CH03",
+          "stageId": "CH03_RitualTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "好。这回我到场。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH03_ReunionTalk",
+      "stageId": "CH03_ReunionTalk",
+      "lines": [
+        {
+          "lineId": "CH03_ReunionTalk_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateA",
+          "text": "来了？"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "来了。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateB",
+          "text": "等这么久，就这两句？"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "我本来准备了挺多，一进门，都给你俩忘了。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "你以前也这么说。然后一掏兜，发现鼓槌没带。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "今天带了。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_007",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "喂，真回来了，你们倒不说话。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_008",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "我怕一说，你又没了。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_009",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateA",
+          "text": "他那天把线都收好了，又全拆了，说再留一会儿。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_010",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "你不也没走。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_011",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateB",
+          "text": "你们两个都没走。我一个人关什么灯。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_012",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "……那这回，拍完再收。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_013",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "好。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_014",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "我问一句，你们后来还练吗？"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_015",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateA",
+          "text": "来过一次。光调音，就调了半天。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_016",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateB",
+          "text": "没人喊开始。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_017",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "我试着数过。数完了，谁也没进。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_018",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "我还怕你们把我那点活儿接过去了。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_019",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateB",
+          "text": "你那把椅子一坐下就响，想接也没法接。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_020",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateA",
+          "text": "而且谁都不肯负责说“最后一遍”。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_021",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateA",
+          "text": "他那天还问，要不要把租金结了。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_022",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "你别什么都说。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_023",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateB",
+          "text": "结账我支持。结完了，也没见谁肯把钥匙放下。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_024",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "我以前老觉得，你们一个比一个走得干脆。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_025",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateA",
+          "text": "我把琴盒提到门口，又拎回来了。嫌下雨。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_026",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateB",
+          "text": "那天根本没下。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_027",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "BandmateA",
+          "text": "……我说的是，怕下。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_028",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "原来你们也磨蹭。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_029",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "嗯。谁也没你想得那么容易。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_030",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "那今天我说。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_031",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "先来咱们最早练的那个开头。七个音，别装忘了。"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_032",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "PastSelfBand",
+          "text": "第三个音后面，还是停一下？"
+        },
+        {
+          "lineId": "CH03_ReunionTalk_033",
+          "chapterId": "CH03",
+          "stageId": "CH03_ReunionTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "对。你别又抢着替我打鼓。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH03_PhotoTalk",
+      "stageId": "CH03_PhotoTalk",
+      "lines": [
+        {
+          "lineId": "CH03_PhotoTalk_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_PhotoTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "这回跟上了。"
+        },
+        {
+          "lineId": "CH03_PhotoTalk_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_PhotoTalk",
+          "speakerId": "PastSelfBand",
+          "text": "怕你又敲我后背。"
+        },
+        {
+          "lineId": "CH03_PhotoTalk_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_PhotoTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "行，那张照片，可以拍了。"
+        },
+        {
+          "lineId": "CH03_PhotoTalk_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_PhotoTalk",
+          "speakerId": "BandmateB",
+          "text": "按说好的站。我这次不举手挡人。"
+        },
+        {
+          "lineId": "CH03_PhotoTalk_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_PhotoTalk",
+          "speakerId": "BandmateA",
+          "text": "鼓手最左边。"
+        },
+        {
+          "lineId": "CH03_PhotoTalk_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_PhotoTalk",
+          "speakerId": "DrummerSpirit",
+          "text": "知道。你们别把我塞到后面。"
+        },
+        {
+          "lineId": "CH03_PhotoTalk_007",
+          "chapterId": "CH03",
+          "stageId": "CH03_PhotoTalk",
+          "speakerId": "PastSelfBand",
+          "text": "我站你旁边。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH03_Memory01",
+      "stageId": "CH03_Memory",
+      "lines": [
+        {
+          "lineId": "CH03_Memory01_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "DrummerSpirit",
+          "text": "这儿以后就是咱们的地方了？"
+        },
+        {
+          "lineId": "CH03_Memory01_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateA",
+          "text": "租的。你轻一点，地板刮坏了要赔。"
+        },
+        {
+          "lineId": "CH03_Memory01_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateB",
+          "text": "我只想知道，这音箱到底谁搬上来的。"
+        },
+        {
+          "lineId": "CH03_Memory01_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "PastSelfBand",
+          "text": "我。走到二楼，差点决定改组口琴队。"
+        },
+        {
+          "lineId": "CH03_Memory01_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "DrummerSpirit",
+          "text": "口琴也行，我照样能打拍子。"
+        },
+        {
+          "lineId": "CH03_Memory01_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateB",
+          "text": "那你现在先把手腾出来，搭把手。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH03_Memory02",
+      "stageId": "CH03_Memory",
+      "lines": [
+        {
+          "lineId": "CH03_Memory02_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "PastSelfBand",
+          "text": "停，刚才是我快了。"
+        },
+        {
+          "lineId": "CH03_Memory02_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateA",
+          "text": "你每次说完，下一遍还是快。"
+        },
+        {
+          "lineId": "CH03_Memory02_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "PastSelfBand",
+          "text": "因为我听见他那个鼓，就想往前赶。"
+        },
+        {
+          "lineId": "CH03_Memory02_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "DrummerSpirit",
+          "text": "别赖我。你看我，等我一下。"
+        },
+        {
+          "lineId": "CH03_Memory02_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateB",
+          "text": "都看他。要不四个人能弹出四首歌。"
+        },
+        {
+          "lineId": "CH03_Memory02_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "DrummerSpirit",
+          "text": "一，二，三，四——"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH03_Memory03",
+      "stageId": "CH03_Memory",
+      "lines": [
+        {
+          "lineId": "CH03_Memory03_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateB",
+          "text": "刚才终于没散！拍张照片纪念一下。"
+        },
+        {
+          "lineId": "CH03_Memory03_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateA",
+          "text": "我头发乱着。"
+        },
+        {
+          "lineId": "CH03_Memory03_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "DrummerSpirit",
+          "text": "乱得挺好，显得有技术。"
+        },
+        {
+          "lineId": "CH03_Memory03_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "PastSelfBand",
+          "text": "以后得认真拍一张。像个乐队的样子。"
+        },
+        {
+          "lineId": "CH03_Memory03_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "DrummerSpirit",
+          "text": "怎么，现在不像？"
+        },
+        {
+          "lineId": "CH03_Memory03_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_Memory",
+          "speakerId": "BandmateB",
+          "text": "先别动！他又要闭眼了！"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH03_Farewell",
+      "stageId": "CH03_Farewell",
+      "lines": [
+        {
+          "lineId": "CH03_Farewell_001",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "这张谁闭眼了？"
+        },
+        {
+          "lineId": "CH03_Farewell_002",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateA",
+          "text": "都没有。"
+        },
+        {
+          "lineId": "CH03_Farewell_003",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateB",
+          "text": "我手也放好了。"
+        },
+        {
+          "lineId": "CH03_Farewell_004",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "嗯。四个都在。"
+        },
+        {
+          "lineId": "CH03_Farewell_005",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "以前那张也四个都在。你不是一直嫌我表情傻？"
+        },
+        {
+          "lineId": "CH03_Farewell_006",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "那张我也留着。只是还想有一张，大家肯停下来，好好站在一起的。"
+        },
+        {
+          "lineId": "CH03_Farewell_007",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "散伙那天，本来还想跟你说句话。"
+        },
+        {
+          "lineId": "CH03_Farewell_008",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "什么？"
+        },
+        {
+          "lineId": "CH03_Farewell_009",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "对不起。以前说组一辈子乐队，最后先说没时间的人，是我。"
+        },
+        {
+          "lineId": "CH03_Farewell_010",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "你那份新工作，找了多久？"
+        },
+        {
+          "lineId": "CH03_Farewell_011",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "挺久。"
+        },
+        {
+          "lineId": "CH03_Farewell_012",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "我知道。所以那天我没好意思问，能不能晚一点走。"
+        },
+        {
+          "lineId": "CH03_Farewell_013",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateA",
+          "text": "你那天脸都黑了，还说自己高兴。"
+        },
+        {
+          "lineId": "CH03_Farewell_014",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "我有那么明显？"
+        },
+        {
+          "lineId": "CH03_Farewell_015",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateB",
+          "text": "你把同一句话练了四遍。每遍都说“终于不用来了”。"
+        },
+        {
+          "lineId": "CH03_Farewell_016",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "……我就是有点怕。怕散了以后，你们觉得这些日子没什么。"
+        },
+        {
+          "lineId": "CH03_Farewell_017",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "怎么可能没什么。"
+        },
+        {
+          "lineId": "CH03_Farewell_018",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateA",
+          "text": "线还在我包里。每回翻东西，都能缠我一手。"
+        },
+        {
+          "lineId": "CH03_Farewell_019",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateB",
+          "text": "我现在听别人唱跑了，还想回头看你笑没笑。"
+        },
+        {
+          "lineId": "CH03_Farewell_020",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "我后来遇到一段不好弹的，总想问问你，该从哪里进。"
+        },
+        {
+          "lineId": "CH03_Farewell_021",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "那就从慢的开始。一遍不行，拆开来练。"
+        },
+        {
+          "lineId": "CH03_Farewell_022",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "你又教我。"
+        },
+        {
+          "lineId": "CH03_Farewell_023",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "不然我还能干什么。"
+        },
+        {
+          "lineId": "CH03_Farewell_024",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "我是真的想再跟你们练一次。刚才那一遍，挺好。"
+        },
+        {
+          "lineId": "CH03_Farewell_025",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateB",
+          "text": "嗯。我也这么觉得。"
+        },
+        {
+          "lineId": "CH03_Farewell_026",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "以后还练，就练。不练了，也用不着偷偷躲着这间屋子。"
+        },
+        {
+          "lineId": "CH03_Farewell_027",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "我可能会先把琴拿回去。放在手边，偶尔弹弹。"
+        },
+        {
+          "lineId": "CH03_Farewell_028",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateA",
+          "text": "线我给你找一根。别又拿坏的。"
+        },
+        {
+          "lineId": "CH03_Farewell_029",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "看，这就安排上了。"
+        },
+        {
+          "lineId": "CH03_Farewell_030",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "照片洗四张。"
+        },
+        {
+          "lineId": "CH03_Farewell_031",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateB",
+          "text": "他的那张，我来收。"
+        },
+        {
+          "lineId": "CH03_Farewell_032",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "行。别挑我脸最大的相框。"
+        },
+        {
+          "lineId": "CH03_Farewell_033",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateA",
+          "text": "那得看你表现。"
+        },
+        {
+          "lineId": "CH03_Farewell_034",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "今天表现还不够好？"
+        },
+        {
+          "lineId": "CH03_Farewell_035",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "够了。你今天，一拍都没缺。"
+        },
+        {
+          "lineId": "CH03_Farewell_036",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "那这回，真是最后一遍了。"
+        },
+        {
+          "lineId": "CH03_Farewell_037",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "嗯。"
+        },
+        {
+          "lineId": "CH03_Farewell_038",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "DrummerSpirit",
+          "text": "收工。再见，各位。"
+        },
+        {
+          "lineId": "CH03_Farewell_039",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateB",
+          "text": "再见。"
+        },
+        {
+          "lineId": "CH03_Farewell_040",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "BandmateA",
+          "text": "再见。"
+        },
+        {
+          "lineId": "CH03_Farewell_041",
+          "chapterId": "CH03",
+          "stageId": "CH03_Farewell",
+          "speakerId": "PastSelfBand",
+          "text": "再见。我们听见了。"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "stageId": "CH03_Opening",
+      "text": "走近鼓手，听他提起那张合照。"
+    },
+    {
+      "stageId": "CH03_FindDrumsticks",
+      "text": "找到鼓手丢失的一对鼓槌。"
+    },
+    {
+      "stageId": "CH03_ReturnDrumsticks",
+      "text": "回到鼓手身边，按 E 交还鼓槌。"
+    },
+    {
+      "stageId": "CH03_RitualTalk",
+      "text": "听完鼓手的话。"
+    },
+    {
+      "stageId": "CH03_Ritual",
+      "text": "靠近石灯，按 E 开始仪式。"
+    },
+    {
+      "stageId": "CH03_Board",
+      "text": "带鼓手前往渡口，按 E 上船。"
+    },
+    {
+      "stageId": "CH03_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "stageId": "CH03_ReunionTalk",
+      "text": "走近录音室里的队友。"
+    },
+    {
+      "stageId": "CH03_Perform",
+      "text": "依次选择亮起的音，和乐队完成这段旋律。"
+    },
+    {
+      "stageId": "CH03_Photo",
+      "text": "把鼓手拖到合照中空着的位置。"
+    },
+    {
+      "stageId": "CH03_Farewell",
+      "text": "留下这张完整的合照。"
+    },
+    {
+      "stageId": "CH03_Complete",
+      "text": "这一程，已经完成。"
+    },
+    {
+      "stageId": "CH03_Memory",
+      "text": "想起一起练习的日子。"
+    },
+    {
+      "stageId": "CH03_PhotoTalk",
+      "text": "听队友说完，再一起拍照。"
+    }
+  ],
+  "items": [
+    {
+      "itemId": "IT04_Drumsticks",
+      "displayName": "鼓槌",
+      "description": "一对用旧的鼓槌，其中一根的头部有个小缺口。"
+    }
+  ]
+}

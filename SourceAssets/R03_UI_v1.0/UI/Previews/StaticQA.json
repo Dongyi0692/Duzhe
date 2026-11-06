@@ -1,0 +1,342 @@
+{
+  "type": "Pillow static layout render, not browser or engine",
+  "fonts": "Noto Sans CJK SC Regular",
+  "resolutions": [
+    [
+      1280,
+      720
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "renderCases": 54,
+  "overflows": [],
+  "screens": [
+    {
+      "width": 1280,
+      "screenId": "MainMenu",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Explore",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Dialogue",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "GalleryReplay",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Pause",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Settings",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Chapters",
+      "progress": "new",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Chapters",
+      "progress": "all",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Gallery",
+      "progress": "new",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Gallery",
+      "progress": "all",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "RiverBriefing",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "RiverRetry",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "ConfirmLeave",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "ConfirmReplay",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "ConfirmQuit",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "ConfirmGalleryExit",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "RiverActive",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "TraceCane",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "TraceHeart",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "TraceGoodbye",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "DragStools",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "DragPhoto",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "DoorKnock",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Notes",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Credits",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "Ending",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1280,
+      "screenId": "SaveError",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "MainMenu",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Explore",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Dialogue",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "GalleryReplay",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Pause",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Settings",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Chapters",
+      "progress": "new",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Chapters",
+      "progress": "all",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Gallery",
+      "progress": "new",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Gallery",
+      "progress": "all",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "RiverBriefing",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "RiverRetry",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "ConfirmLeave",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "ConfirmReplay",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "ConfirmQuit",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "ConfirmGalleryExit",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "RiverActive",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "TraceCane",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "TraceHeart",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "TraceGoodbye",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "DragStools",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "DragPhoto",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "DoorKnock",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Notes",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Credits",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "Ending",
+      "progress": "partial",
+      "overflowCount": 0
+    },
+    {
+      "width": 1920,
+      "screenId": "SaveError",
+      "progress": "partial",
+      "overflowCount": 0
+    }
+  ]
+}

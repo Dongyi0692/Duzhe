@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R11_MainCharacters_v1.0",
+  "items": [
+    {
+      "assetId": "CHR01_Ferryman",
+      "actorId": "Ferryman",
+      "category": "Character",
+      "relativePath": "Characters/CHR01_Ferryman.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0",
+      "status": "Generated",
+      "width": 32,
+      "height": 48,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R11",
+      "referenceIds": [
+        "R02_Approved_1.3",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "NotImported",
+      "notes": "32x48 candidate; eye readability and visual consistency pending in-engine review; master retained."
+    },
+    {
+      "assetId": "CHR04_PastSelfFamily",
+      "actorId": "PastSelfFamily",
+      "category": "Character",
+      "relativePath": "Characters/CHR04_PastSelfFamily.png",
+      "chapterIds": [
+        "CH01",
+        "CH05"
+      ],
+      "version": "1.0",
+      "status": "Generated",
+      "width": 32,
+      "height": 48,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R11",
+      "referenceIds": [
+        "R02_Approved_1.3",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "NotImported",
+      "notes": "32x48 candidate; eye readability and visual consistency pending in-engine review; master retained."
+    },
+    {
+      "assetId": "CHR06_PastSelfRomance",
+      "actorId": "PastSelfRomance",
+      "category": "Character",
+      "relativePath": "Characters/CHR06_PastSelfRomance.png",
+      "chapterIds": [
+        "CH02",
+        "CH05"
+      ],
+      "version": "1.0",
+      "status": "Generated",
+      "width": 32,
+      "height": 48,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R11",
+      "referenceIds": [
+        "R02_Approved_1.3",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "NotImported",
+      "notes": "32x48 candidate; eye readability and visual consistency pending in-engine review; master retained."
+    },
+    {
+      "assetId": "CHR08_PastSelfBand",
+      "actorId": "PastSelfBand",
+      "category": "Character",
+      "relativePath": "Characters/CHR08_PastSelfBand.png",
+      "chapterIds": [
+        "CH03",
+        "CH05"
+      ],
+      "version": "1.0",
+      "status": "Generated",
+      "width": 32,
+      "height": 48,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R11",
+      "referenceIds": [
+        "R02_Approved_1.3",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "NotImported",
+      "notes": "32x48 candidate; eye readability and visual consistency pending in-engine review; master retained."
+    },
+    {
+      "assetId": "CHR12_PastSelfSchool",
+      "actorId": "PastSelfSchool",
+      "category": "Character",
+      "relativePath": "Characters/CHR12_PastSelfSchool.png",
+      "chapterIds": [
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0",
+      "status": "Generated",
+      "width": 32,
+      "height": 48,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R11",
+      "referenceIds": [
+        "R02_Approved_1.3",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "NotImported",
+      "notes": "32x48 candidate; eye readability and visual consistency pending in-engine review; master retained."
+    }
+  ]
+}

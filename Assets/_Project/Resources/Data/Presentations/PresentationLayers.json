@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R14_FarewellIllustrations_20261028_v1.0",
+  "deliveryMode": "StaticCG plus explicit reuse of existing clean backgrounds and character sprites for selective fades",
+  "referenceViewport": {
+    "width": 640,
+    "height": 360
+  },
+  "selectiveFadeRule": "The baked people in a static CG cannot be independently faded. Before a spirit fade, switch from the held CG to the existing clean scene background and separate R11/R12 actor sprites. Fade only spiritActorIds. Never claim a whole-CG alpha fade is a selective spirit fade.",
+  "bandPhotoRule": "CG03 is the permanent four-person photograph in the gallery and keepsake. During the playable farewell, fade only CHR07_DrummerSpirit in the reconstructed studio scene; do not remove him from the completed photograph and do not fade the whole CG03.",
+  "blackboardRule": "CG04 blackboard is blank. Render lesson text and the farewell tracing result with engine font/trajectory layers, including the required line from the story text; never bake text into this PNG.",
+  "endingRule": "CG05 may use a full-screen fade after the solitary boat recedes and the light warms. It must lead to reincarnation, not reality awakening, resurrection or return to the living world.",
+  "recallRule": "PR_CH05_Recall reuses CG01-CG04 and their existing characters; no new maps or required CGs.",
+  "items": [
+    {
+      "assetId": "CG01_FamilyFarewell",
+      "chapterId": "CH01",
+      "presentationId": "PR_CH01_Farewell",
+      "mainImagePath": "Illustrations/CG01_FamilyFarewell.png",
+      "backgroundAssetId": "BG03_FarmCourtyard",
+      "spiritActorIds": [
+        "CHR02_Grandfather",
+        "CHR03_Grandmother"
+      ],
+      "persistentActorIds": [
+        "CHR04_PastSelfFamily",
+        "CHR01_Ferryman"
+      ],
+      "staticImagePersonCount": 4,
+      "staticImageDisplayPhase": "Pre-fade held farewell tableau and gallery recall only",
+      "selectiveFadeMethod": "ReturnToCleanBackgroundPlusExistingActorSprites",
+      "switchToRuntimeSceneBeforeSelectiveFade": true,
+      "runtimeBackgroundAssetId": "BG03_FarmCourtyard",
+      "runtimeActorAssetIds": [
+        "CHR04_PastSelfFamily",
+        "CHR01_Ferryman",
+        "CHR02_Grandfather",
+        "CHR03_Grandmother"
+      ],
+      "fadeOnlyActorIds": [
+        "CHR02_Grandfather",
+        "CHR03_Grandmother"
+      ],
+      "persistentRuntimeActorIds": [
+        "CHR04_PastSelfFamily",
+        "CHR01_Ferryman"
+      ],
+      "neverFadeEntireCGForSpiritDeparture": true,
+      "fullScreenFadeAllowed": false,
+      "keepCompleteFourPersonPhoto": false,
+      "blackboardTextRenderedByProgram": false,
+      "integrationNote": "主图包含已烘焙人物，不能直接对主图做选择性透明。告别定格结束后切回由干净背景和既有角色 SpriteRenderer 组成的同场景，再只淡出 spiritActorIds；persistentActorIds 与背景不变。"
+    },
+    {
+      "assetId": "CG02_LoversFarewell",
+      "chapterId": "CH02",
+      "presentationId": "PR_CH02_Farewell",
+      "mainImagePath": "Illustrations/CG02_LoversFarewell.png",
+      "backgroundAssetId": "BG04_Park",
+      "spiritActorIds": [
+        "CHR05_LoverSpirit"
+      ],
+      "persistentActorIds": [
+        "CHR06_PastSelfRomance"
+      ],
+      "staticImagePersonCount": 2,
+      "staticImageDisplayPhase": "Pre-fade held farewell tableau and gallery recall only",
+      "selectiveFadeMethod": "ReturnToCleanBackgroundPlusExistingActorSprites",
+      "switchToRuntimeSceneBeforeSelectiveFade": true,
+      "runtimeBackgroundAssetId": "BG04_Park",
+      "runtimeActorAssetIds": [
+        "CHR06_PastSelfRomance",
+        "CHR05_LoverSpirit"
+      ],
+      "fadeOnlyActorIds": [
+        "CHR05_LoverSpirit"
+      ],
+      "persistentRuntimeActorIds": [
+        "CHR06_PastSelfRomance"
+      ],
+      "neverFadeEntireCGForSpiritDeparture": true,
+      "fullScreenFadeAllowed": false,
+      "keepCompleteFourPersonPhoto": false,
+      "blackboardTextRenderedByProgram": false,
+      "integrationNote": "主图包含已烘焙人物，不能直接对主图做选择性透明。告别定格结束后切回由干净背景和既有角色 SpriteRenderer 组成的同场景，再只淡出 spiritActorIds；persistentActorIds 与背景不变。"
+    },
+    {
+      "assetId": "CG03_BandFarewell",
+      "chapterId": "CH03",
+      "presentationId": "PR_CH03_Farewell",
+      "mainImagePath": "Illustrations/CG03_BandFarewell.png",
+      "backgroundAssetId": "BG05_RecordingStudio",
+      "spiritActorIds": [
+        "CHR07_DrummerSpirit"
+      ],
+      "persistentActorIds": [
+        "CHR08_PastSelfBand",
+        "CHR09_BandmateA",
+        "CHR10_BandmateB"
+      ],
+      "staticImagePersonCount": 4,
+      "staticImageDisplayPhase": "Pre-fade held farewell tableau and gallery recall only",
+      "selectiveFadeMethod": "ReturnToCleanBackgroundPlusExistingActorSprites",
+      "switchToRuntimeSceneBeforeSelectiveFade": true,
+      "runtimeBackgroundAssetId": "BG05_RecordingStudio",
+      "runtimeActorAssetIds": [
+        "CHR08_PastSelfBand",
+        "CHR09_BandmateA",
+        "CHR10_BandmateB",
+        "CHR07_DrummerSpirit"
+      ],
+      "fadeOnlyActorIds": [
+        "CHR07_DrummerSpirit"
+      ],
+      "persistentRuntimeActorIds": [
+        "CHR08_PastSelfBand",
+        "CHR09_BandmateA",
+        "CHR10_BandmateB"
+      ],
+      "neverFadeEntireCGForSpiritDeparture": true,
+      "fullScreenFadeAllowed": false,
+      "keepCompleteFourPersonPhoto": true,
+      "blackboardTextRenderedByProgram": false,
+      "integrationNote": "主图包含已烘焙人物，不能直接对主图做选择性透明。告别定格结束后切回由干净背景和既有角色 SpriteRenderer 组成的同场景，再只淡出 spiritActorIds；persistentActorIds 与背景不变。"
+    },
+    {
+      "assetId": "CG04_TeacherFarewell",
+      "chapterId": "CH04",
+      "presentationId": "PR_CH04_Farewell",
+      "mainImagePath": "Illustrations/CG04_TeacherFarewell.png",
+      "backgroundAssetId": "BG06_Classroom",
+      "spiritActorIds": [
+        "CHR11_TeacherSpirit"
+      ],
+      "persistentActorIds": [
+        "CHR12_PastSelfSchool"
+      ],
+      "staticImagePersonCount": 2,
+      "staticImageDisplayPhase": "Pre-fade held farewell tableau and gallery recall only",
+      "selectiveFadeMethod": "ReturnToCleanBackgroundPlusExistingActorSprites",
+      "switchToRuntimeSceneBeforeSelectiveFade": true,
+      "runtimeBackgroundAssetId": "BG06_Classroom",
+      "runtimeActorAssetIds": [
+        "CHR12_PastSelfSchool",
+        "CHR11_TeacherSpirit"
+      ],
+      "fadeOnlyActorIds": [
+        "CHR11_TeacherSpirit"
+      ],
+      "persistentRuntimeActorIds": [
+        "CHR12_PastSelfSchool"
+      ],
+      "neverFadeEntireCGForSpiritDeparture": true,
+      "fullScreenFadeAllowed": false,
+      "keepCompleteFourPersonPhoto": false,
+      "blackboardTextRenderedByProgram": true,
+      "integrationNote": "主图包含已烘焙人物，不能直接对主图做选择性透明。告别定格结束后切回由干净背景和既有角色 SpriteRenderer 组成的同场景，再只淡出 spiritActorIds；persistentActorIds 与背景不变。"
+    },
+    {
+      "assetId": "CG05_SelfCrossing",
+      "chapterId": "CH05",
+      "presentationId": "PR_CH05_Reincarnation",
+      "mainImagePath": "Illustrations/CG05_SelfCrossing.png",
+      "backgroundAssetId": "BG02_River",
+      "spiritActorIds": [],
+      "persistentActorIds": [
+        "CHR01_Ferryman"
+      ],
+      "staticImagePersonCount": 1,
+      "staticImageDisplayPhase": "Final crossing tableau",
+      "selectiveFadeMethod": "FullScreenFadeAfterBoatDeparture",
+      "switchToRuntimeSceneBeforeSelectiveFade": false,
+      "runtimeBackgroundAssetId": null,
+      "runtimeActorAssetIds": [],
+      "fadeOnlyActorIds": [],
+      "persistentRuntimeActorIds": [],
+      "neverFadeEntireCGForSpiritDeparture": false,
+      "fullScreenFadeAllowed": true,
+      "keepCompleteFourPersonPhoto": false,
+      "blackboardTextRenderedByProgram": false,
+      "integrationNote": "船远去并在暖光处停留后，使用全屏 FadeOverlay 淡出整幅终章画面进入轮回；不得切回现实或复活场景。"
+    }
+  ]
+}

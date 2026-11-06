@@ -1,0 +1,228 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R12_SupportingWalking_20261028_v1.0",
+  "items": [
+    {
+      "assetId": "CHR02_Grandfather",
+      "actorId": "Grandfather",
+      "category": "CharacterAnimation",
+      "relativePath": "Characters/Animations/CHR02_Grandfather.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 192,
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "durationSeconds": 0.5,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow frame slicing and sheet assembly",
+      "promptId": "R12_SupportingWalking_20261028_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "CHR02_Grandfather"
+      ],
+      "usageStatus": "Reviewed animation source; Codely must slice and validate in the actual Unity project",
+      "sourceAssetPath": "SourceAssets/Animations/CHR02_Grandfather/CHR02_Grandfather_walk_source.png",
+      "processingReportPath": "SourceAssets/Animations/CHR02_Grandfather/CHR02_Grandfather_processing.json",
+      "previewPath": "SourceAssets/Animations/CHR02_Grandfather/CHR02_Grandfather_sheet_preview.png",
+      "animatedPreviewPath": "SourceAssets/Animations/CHR02_Grandfather/CHR02_Grandfather_walk_preview.gif",
+      "notes": "Four-direction 12-frame walking sheet, 6 fps, idle column index 1, pivot=(0.5,0). Down/Idle exactly matches R11. Original source, cleaned source frames and final 32x48 frames retained. Not engine-imported or runtime-tested.",
+      "sha256": "4e512556e71f20ecf4f4d9c138f52b9e3cfe65ccee30620d978df163fd212794"
+    },
+    {
+      "assetId": "CHR03_Grandmother",
+      "actorId": "Grandmother",
+      "category": "CharacterAnimation",
+      "relativePath": "Characters/Animations/CHR03_Grandmother.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 192,
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "durationSeconds": 0.5,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow frame slicing and sheet assembly",
+      "promptId": "R12_SupportingWalking_20261028_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "CHR03_Grandmother"
+      ],
+      "usageStatus": "Reviewed animation source; Codely must slice and validate in the actual Unity project",
+      "sourceAssetPath": "SourceAssets/Animations/CHR03_Grandmother/CHR03_Grandmother_walk_source.png",
+      "processingReportPath": "SourceAssets/Animations/CHR03_Grandmother/CHR03_Grandmother_processing.json",
+      "previewPath": "SourceAssets/Animations/CHR03_Grandmother/CHR03_Grandmother_sheet_preview.png",
+      "animatedPreviewPath": "SourceAssets/Animations/CHR03_Grandmother/CHR03_Grandmother_walk_preview.gif",
+      "notes": "Four-direction 12-frame walking sheet, 6 fps, idle column index 1, pivot=(0.5,0). Down/Idle exactly matches R11. Original source, cleaned source frames and final 32x48 frames retained. Not engine-imported or runtime-tested.",
+      "sha256": "2f7743f1e47d5be05221210e62bfe40bb78036a15329daed0a9aea55ac745d7e"
+    },
+    {
+      "assetId": "CHR05_LoverSpirit",
+      "actorId": "LoverSpirit",
+      "category": "CharacterAnimation",
+      "relativePath": "Characters/Animations/CHR05_LoverSpirit.png",
+      "chapterIds": [
+        "CH02"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 192,
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "durationSeconds": 0.5,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow frame slicing and sheet assembly",
+      "promptId": "R12_SupportingWalking_20261028_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "CHR05_LoverSpirit"
+      ],
+      "usageStatus": "Reviewed animation source; Codely must slice and validate in the actual Unity project",
+      "sourceAssetPath": "SourceAssets/Animations/CHR05_LoverSpirit/CHR05_LoverSpirit_walk_source.png",
+      "processingReportPath": "SourceAssets/Animations/CHR05_LoverSpirit/CHR05_LoverSpirit_processing.json",
+      "previewPath": "SourceAssets/Animations/CHR05_LoverSpirit/CHR05_LoverSpirit_sheet_preview.png",
+      "animatedPreviewPath": "SourceAssets/Animations/CHR05_LoverSpirit/CHR05_LoverSpirit_walk_preview.gif",
+      "notes": "Four-direction 12-frame walking sheet, 6 fps, idle column index 1, pivot=(0.5,0). Down/Idle exactly matches R11. Original source, cleaned source frames and final 32x48 frames retained. Not engine-imported or runtime-tested.",
+      "sha256": "f64700a276954a36f5873e0052b7fa6e3a5cc2ac8007eb9cead1d05522463d39"
+    },
+    {
+      "assetId": "CHR07_DrummerSpirit",
+      "actorId": "DrummerSpirit",
+      "category": "CharacterAnimation",
+      "relativePath": "Characters/Animations/CHR07_DrummerSpirit.png",
+      "chapterIds": [
+        "CH03"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 192,
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "durationSeconds": 0.5,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow frame slicing and sheet assembly",
+      "promptId": "R12_SupportingWalking_20261028_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "CHR07_DrummerSpirit"
+      ],
+      "usageStatus": "Reviewed animation source; Codely must slice and validate in the actual Unity project",
+      "sourceAssetPath": "SourceAssets/Animations/CHR07_DrummerSpirit/CHR07_DrummerSpirit_walk_source.png",
+      "processingReportPath": "SourceAssets/Animations/CHR07_DrummerSpirit/CHR07_DrummerSpirit_processing.json",
+      "previewPath": "SourceAssets/Animations/CHR07_DrummerSpirit/CHR07_DrummerSpirit_sheet_preview.png",
+      "animatedPreviewPath": "SourceAssets/Animations/CHR07_DrummerSpirit/CHR07_DrummerSpirit_walk_preview.gif",
+      "notes": "Four-direction 12-frame walking sheet, 6 fps, idle column index 1, pivot=(0.5,0). Down/Idle exactly matches R11. Original source, cleaned source frames and final 32x48 frames retained. Not engine-imported or runtime-tested.",
+      "sha256": "66888b0a215e474666fa2d6651a53147270b091d62849b646bc274aeea9adf0c"
+    },
+    {
+      "assetId": "CHR11_TeacherSpirit",
+      "actorId": "TeacherSpirit",
+      "category": "CharacterAnimation",
+      "relativePath": "Characters/Animations/CHR11_TeacherSpirit.png",
+      "chapterIds": [
+        "CH04"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 192,
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "durationSeconds": 0.5,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow frame slicing and sheet assembly",
+      "promptId": "R12_SupportingWalking_20261028_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "CHR11_TeacherSpirit"
+      ],
+      "usageStatus": "Reviewed animation source; Codely must slice and validate in the actual Unity project",
+      "sourceAssetPath": "SourceAssets/Animations/CHR11_TeacherSpirit/CHR11_TeacherSpirit_walk_source.png",
+      "processingReportPath": "SourceAssets/Animations/CHR11_TeacherSpirit/CHR11_TeacherSpirit_processing.json",
+      "previewPath": "SourceAssets/Animations/CHR11_TeacherSpirit/CHR11_TeacherSpirit_sheet_preview.png",
+      "animatedPreviewPath": "SourceAssets/Animations/CHR11_TeacherSpirit/CHR11_TeacherSpirit_walk_preview.gif",
+      "notes": "Four-direction 12-frame walking sheet, 6 fps, idle column index 1, pivot=(0.5,0). Down/Idle exactly matches R11. Original source, cleaned source frames and final 32x48 frames retained. Not engine-imported or runtime-tested.",
+      "sha256": "9c9962d22e8bef17ab6e790db5a8837781d4d7da4a2ab06afce29f458e4d863a"
+    }
+  ],
+  "scope": "Five supporting-character walking sheets assigned to Kimi Art B; CHR01 is assigned to the resource assistant and is not included.",
+  "taskStatus": "Complete for assigned five-character scope"
+}

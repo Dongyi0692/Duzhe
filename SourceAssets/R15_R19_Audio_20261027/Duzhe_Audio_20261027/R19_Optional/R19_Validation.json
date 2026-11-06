@@ -1,0 +1,17 @@
+{
+  "SFX13_DogHappy": {
+    "durationSeconds": 2.276576,
+    "sampleRate": 44100,
+    "bitDepth": 16,
+    "channels": 1,
+    "peak": 0.719971,
+    "rms": 0.118526,
+    "nonSilent": true,
+    "leadingSilenceMs": 1.769,
+    "clippedSamples": 0,
+    "loopSeamProcessed": false,
+    "auditioned": false,
+    "sourceDurationSeconds": 2.48,
+    "processing": "AI-generated dog SFX; decoded to mono 44.1 kHz, end-trimmed, peak-normalized and converted to 16-bit PCM WAV"
+  }
+}

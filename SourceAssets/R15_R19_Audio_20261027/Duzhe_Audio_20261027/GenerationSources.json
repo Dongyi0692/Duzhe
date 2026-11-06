@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.0",
+  "records": [
+    {
+      "promptId": "R15/N01_Do",
+      "assetId": "N01_Do",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R15/N02_Re",
+      "assetId": "N02_Re",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R15/N03_Mi",
+      "assetId": "N03_Mi",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R15/N04_Fa",
+      "assetId": "N04_Fa",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R15/N05_Sol",
+      "assetId": "N05_Sol",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R15/N06_La",
+      "assetId": "N06_La",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R15/N07_Si",
+      "assetId": "N07_Si",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R15/MEL01_BandPhrase",
+      "assetId": "MEL01_BandPhrase",
+      "sourceType": "original_procedural_synthesis",
+      "design": "统一温暖钟琴/键盘式加法合成；C4–B4或CFG_Notes中的原创16音旋律",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX01_UIConfirm",
+      "assetId": "SFX01_UIConfirm",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A single soft warm UI confirmation sound for a gentle pixel adventure game, short muted wooden tick with a tiny glassy chime, clean dry finish, no human voice, no music, no background ambience",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX02_Footstep",
+      "assetId": "SFX02_Footstep",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "One quiet soft footstep on an old wooden floor, gentle muted heel and sole tap, intimate and dry, very short natural decay suitable for repeating, no human voice, no music, no ambience",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX03_Pickup",
+      "assetId": "SFX03_Pickup",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A gentle item pickup sound, small cloth movement and light wooden lift with one subtle warm high chime, tender and restrained, no human voice, no music, no background ambience",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX04_ReturnItem",
+      "assetId": "SFX04_ReturnItem",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A small keepsake being gently returned into caring hands, soft cloth rustle and delicate wooden placement tap with a faint warm chime, quiet emotional but restrained, no human voice, no music",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX05_Ritual",
+      "assetId": "SFX05_Ritual",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A gentle remembrance ritual sound, soft airy shimmer and sparse delicate bell-like resonances slowly dissolving, calm intimate and comforting, never dark or frightening, no human voice, no choir, no melody, no background music",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX06_Rowing",
+      "assetId": "SFX06_Rowing",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "One wooden oar dipping into calm river water and pulling a small boat forward, gentle liquid splash and soft wooden creak, smooth quiet ending suitable for repeated rowing, no human voice, no music, not frightening",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX07_Whirlpool",
+      "assetId": "SFX07_Whirlpool",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A small boat softly bumping into a gentle whirlpool, muted wooden thud with a rounded swirling water splash, restrained low impact, no explosion, no crash, no human voice, no music, not scary",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX08_Shutter",
+      "assetId": "SFX08_Shutter",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A single compact vintage camera shutter click, precise gentle mechanical snap with two small metal clicks, dry and clean, no human voice, no music, no ambience",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX09_Chalk",
+      "assetId": "SFX09_Chalk",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A continuous short chalk stroke on a classroom blackboard, fine dry granular friction with an even gentle texture, no squeal, no spoken words, no human voice, no music, suitable for looping while drawing",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX10_SchoolBell",
+      "assetId": "SFX10_SchoolBell",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A soft old school class-dismissal bell, three gentle rounded metal bell strikes with a warm short decay, nostalgic and quiet rather than urgent, no melody, no human voice, no music, no crowd",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX11_Knock",
+      "assetId": "SFX11_Knock",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "Three soft polite knocks on a wooden door with fingertips, gentle muted taps evenly spaced, intimate and dry with a short natural decay, no human voice, no music, no ambience",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R16/SFX12_PuzzleSuccess",
+      "assetId": "SFX12_PuzzleSuccess",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A gentle puzzle mechanism success sound, small wooden latch settling into place followed by one soft warm crystalline chime, reassuring and restrained, no fanfare, no melody, no human voice, no background music",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV；循环项另做交叉淡化",
+      "auditioned": false
+    },
+    {
+      "promptId": "R17/BGM01_RiverMist",
+      "assetId": "BGM01_RiverMist",
+      "sourceType": "original_procedural_synthesis",
+      "design": "72秒、80 BPM、三个8小节段落；合成键盘/钟琴/拨音/低音/铺底；循环音符尾部与混响采用环形回卷",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R17/BGM02_Reunion",
+      "assetId": "BGM02_Reunion",
+      "sourceType": "original_procedural_synthesis",
+      "design": "72秒、80 BPM、三个8小节段落；合成键盘/钟琴/拨音/低音/铺底；循环音符尾部与混响采用环形回卷",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R17/BGM03_SelfCrossing",
+      "assetId": "BGM03_SelfCrossing",
+      "sourceType": "original_procedural_synthesis",
+      "design": "72秒、80 BPM、三个8小节段落；合成键盘/钟琴/拨音/低音/铺底；循环音符尾部与混响采用环形回卷",
+      "externalSamples": false,
+      "auditioned": false
+    },
+    {
+      "promptId": "R19/SFX13_DogHappy",
+      "assetId": "SFX13_DogHappy",
+      "sourceType": "ai_generated_sound_effect",
+      "englishDescription": "A friendly medium-sized Chinese rural dog happily recognizing its beloved owner, three short gentle excited barks with a warm playful tone, close clean recording, affectionate and restrained, no growling, no aggressive barking, no fear, no human voice, no music, no background ambience",
+      "modifications": "单声道44.1 kHz解码、首尾修整、峰值归一化、16-bit PCM WAV",
+      "auditioned": false
+    }
+  ],
+  "usageTerms": {
+    "proceduralAudio": "R15与R17为本任务编写的原创程序合成，未使用外部采样；未冒充真实乐器录音。",
+    "aiGeneratedAudio": "R16与R19使用已安装音频生成服务生成；服务及生成内容的使用、商用和再分发条款未随任务提供，标记为待核实。",
+    "thirdPartyPlatforms": "未将文件上传至第三方文件交付平台。"
+  }
+}

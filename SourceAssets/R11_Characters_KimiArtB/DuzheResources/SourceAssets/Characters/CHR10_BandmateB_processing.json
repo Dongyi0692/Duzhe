@@ -1,0 +1,42 @@
+{
+  "sourceFile": "CHR10_BandmateB_master.png",
+  "sourceWidth": 1024,
+  "sourceHeight": 1536,
+  "sourceMode": "RGBA",
+  "sourceAlphaExtrema": [
+    0,
+    254
+  ],
+  "sourceContentBBox": [
+    334,
+    280,
+    669,
+    1253
+  ],
+  "outputWidth": 32,
+  "outputHeight": 48,
+  "outputMode": "RGBA",
+  "outputAlphaExtrema": [
+    0,
+    255
+  ],
+  "outputContentBBox": [
+    8,
+    3,
+    23,
+    48
+  ],
+  "characterPixelWidth": 15,
+  "characterPixelHeight": 45,
+  "placement": {
+    "x": 8,
+    "y": 3
+  },
+  "footBaseline": "bottom canvas edge; pivot=(0.5,0)",
+  "opaqueColorCount": 23,
+  "resizeFilter": "LANCZOS",
+  "alphaThreshold": 112,
+  "quantizationColors": 24,
+  "dithering": "none",
+  "cleanup": "largest 4-connected opaque component retained"
+}

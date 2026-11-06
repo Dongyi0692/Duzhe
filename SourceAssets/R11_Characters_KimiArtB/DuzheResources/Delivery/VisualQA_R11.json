@@ -1,0 +1,317 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R11_Characters_KimiArtB_20261027_v1.0",
+  "technicalStatus": "Passed",
+  "visualStatus": "Reviewed",
+  "engineImportStatus": "Not imported; Codely must validate in the actual Unity project",
+  "items": [
+    {
+      "assetId": "CHR02_Grandfather",
+      "width": 32,
+      "height": 48,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBBox": [
+        4,
+        3,
+        27,
+        48
+      ],
+      "connectedComponents": 1,
+      "footCenterX": 15.0,
+      "opaqueColorCount": 23,
+      "masterWidth": 1024,
+      "masterHeight": 1536,
+      "masterMode": "RGBA",
+      "masterAlphaExtrema": [
+        0,
+        254
+      ],
+      "checks": {
+        "fileExists": true,
+        "size32x48": true,
+        "rgba": true,
+        "trueTransparentAndOpaqueAlpha": true,
+        "contentInsideCanvas": true,
+        "singleConnectedComponent": true,
+        "footBaselineAtBottom": true,
+        "footCenterNearCanvasCenter": true,
+        "masterExists1024x1536RGBA": true,
+        "masterHasTrueAlpha": true,
+        "processingReportExists": true,
+        "colorCountAtMost24": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "温和农村老人；灰短发与灰橄榄外套清楚；无拐杖、眼镜或手持物。",
+      "sha256": "ed092ba4e5fc18ab45b3f5ca608480d69d92560ccc00f431531f90c78c4af091"
+    },
+    {
+      "assetId": "CHR03_Grandmother",
+      "width": 32,
+      "height": 48,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBBox": [
+        5,
+        5,
+        26,
+        48
+      ],
+      "connectedComponents": 1,
+      "footCenterX": 14.285714285714286,
+      "opaqueColorCount": 23,
+      "masterWidth": 1024,
+      "masterHeight": 1536,
+      "masterMode": "RGBA",
+      "masterAlphaExtrema": [
+        0,
+        254
+      ],
+      "checks": {
+        "fileExists": true,
+        "size32x48": true,
+        "rgba": true,
+        "trueTransparentAndOpaqueAlpha": true,
+        "contentInsideCanvas": true,
+        "singleConnectedComponent": true,
+        "footBaselineAtBottom": true,
+        "footCenterNearCanvasCenter": true,
+        "masterExists1024x1536RGBA": true,
+        "masterHasTrueAlpha": true,
+        "processingReportExists": true,
+        "colorCountAtMost24": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "灰白盘发、灰紫开衫与浅内搭符合母图；无眼镜或手持物；较其他成人略矮。",
+      "sha256": "52c830638dbad11957eb4aaf1211d26617953d20f8efdd2b1593e557632ca852"
+    },
+    {
+      "assetId": "CHR05_LoverSpirit",
+      "width": 32,
+      "height": 48,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBBox": [
+        8,
+        3,
+        24,
+        48
+      ],
+      "connectedComponents": 1,
+      "footCenterX": 16.0,
+      "opaqueColorCount": 23,
+      "masterWidth": 1024,
+      "masterHeight": 1536,
+      "masterMode": "RGBA",
+      "masterAlphaExtrema": [
+        0,
+        254
+      ],
+      "checks": {
+        "fileExists": true,
+        "size32x48": true,
+        "rgba": true,
+        "trueTransparentAndOpaqueAlpha": true,
+        "contentInsideCanvas": true,
+        "singleConnectedComponent": true,
+        "footBaselineAtBottom": true,
+        "footCenterNearCanvasCenter": true,
+        "masterExists1024x1536RGBA": true,
+        "masterHasTrueAlpha": true,
+        "processingReportExists": true,
+        "colorCountAtMost24": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "年轻女性、黑色中长发与柔绿开衫清楚；无项链；非透明残影。",
+      "sha256": "136957183ed88ad13ba491adbd2f23696099a6341d42b60333da453666483636"
+    },
+    {
+      "assetId": "CHR07_DrummerSpirit",
+      "width": 32,
+      "height": 48,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBBox": [
+        6,
+        3,
+        25,
+        48
+      ],
+      "connectedComponents": 1,
+      "footCenterX": 15.0,
+      "opaqueColorCount": 23,
+      "masterWidth": 1024,
+      "masterHeight": 1536,
+      "masterMode": "RGBA",
+      "masterAlphaExtrema": [
+        0,
+        254
+      ],
+      "checks": {
+        "fileExists": true,
+        "size32x48": true,
+        "rgba": true,
+        "trueTransparentAndOpaqueAlpha": true,
+        "contentInsideCanvas": true,
+        "singleConnectedComponent": true,
+        "footBaselineAtBottom": true,
+        "footCenterNearCanvasCenter": true,
+        "masterExists1024x1536RGBA": true,
+        "masterHasTrueAlpha": true,
+        "processingReportExists": true,
+        "colorCountAtMost24": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "年轻男性、蓬松短发与灰锈棕外套清楚；无鼓槌、鼓或武器。",
+      "sha256": "0d4b826e839330ae419bceee9167cf6e5753a9d67c0d3fdda0c482d0a55bcb88"
+    },
+    {
+      "assetId": "CHR09_BandmateA",
+      "width": 32,
+      "height": 48,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBBox": [
+        7,
+        3,
+        25,
+        48
+      ],
+      "connectedComponents": 1,
+      "footCenterX": 15.5,
+      "opaqueColorCount": 23,
+      "masterWidth": 1024,
+      "masterHeight": 1536,
+      "masterMode": "RGBA",
+      "masterAlphaExtrema": [
+        0,
+        254
+      ],
+      "checks": {
+        "fileExists": true,
+        "size32x48": true,
+        "rgba": true,
+        "trueTransparentAndOpaqueAlpha": true,
+        "contentInsideCanvas": true,
+        "singleConnectedComponent": true,
+        "footBaselineAtBottom": true,
+        "footCenterNearCanvasCenter": true,
+        "masterExists1024x1536RGBA": true,
+        "masterHasTrueAlpha": true,
+        "processingReportExists": true,
+        "colorCountAtMost24": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "年轻男性、侧分短发与灰牛仔蓝外套清楚；无贝斯或其他手持物。",
+      "sha256": "510c662d0bcaab1b0ca0f68def6a473952923f82833876c5b8144bb7c3765c35"
+    },
+    {
+      "assetId": "CHR10_BandmateB",
+      "width": 32,
+      "height": 48,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBBox": [
+        8,
+        3,
+        23,
+        48
+      ],
+      "connectedComponents": 1,
+      "footCenterX": 15.0,
+      "opaqueColorCount": 23,
+      "masterWidth": 1024,
+      "masterHeight": 1536,
+      "masterMode": "RGBA",
+      "masterAlphaExtrema": [
+        0,
+        254
+      ],
+      "checks": {
+        "fileExists": true,
+        "size32x48": true,
+        "rgba": true,
+        "trueTransparentAndOpaqueAlpha": true,
+        "contentInsideCanvas": true,
+        "singleConnectedComponent": true,
+        "footBaselineAtBottom": true,
+        "footCenterNearCanvasCenter": true,
+        "masterExists1024x1536RGBA": true,
+        "masterHasTrueAlpha": true,
+        "processingReportExists": true,
+        "colorCountAtMost24": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "年轻女性、高马尾与低饱和赭黄外套清楚；无麦克风或乐器。",
+      "sha256": "b2c1a183bf3299ca20a99afe41ce61981084c7ee1ee2dbbc9225a3339879f9f0"
+    },
+    {
+      "assetId": "CHR11_TeacherSpirit",
+      "width": 32,
+      "height": 48,
+      "mode": "RGBA",
+      "alphaValues": [
+        0,
+        255
+      ],
+      "contentBBox": [
+        7,
+        3,
+        25,
+        48
+      ],
+      "connectedComponents": 1,
+      "footCenterX": 15.5,
+      "opaqueColorCount": 23,
+      "masterWidth": 1024,
+      "masterHeight": 1536,
+      "masterMode": "RGBA",
+      "masterAlphaExtrema": [
+        0,
+        255
+      ],
+      "checks": {
+        "fileExists": true,
+        "size32x48": true,
+        "rgba": true,
+        "trueTransparentAndOpaqueAlpha": true,
+        "contentInsideCanvas": true,
+        "singleConnectedComponent": true,
+        "footBaselineAtBottom": true,
+        "footCenterNearCanvasCenter": true,
+        "masterExists1024x1536RGBA": true,
+        "masterHasTrueAlpha": true,
+        "processingReportExists": true,
+        "colorCountAtMost24": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "成年教师、深色低盘发与米色外套清楚；无教案、书本或纸张。",
+      "sha256": "64e6cc75b122da9e180e7ad0d97bd0530610000b744adccb6e4d976c6bb62b2a"
+    }
+  ]
+}

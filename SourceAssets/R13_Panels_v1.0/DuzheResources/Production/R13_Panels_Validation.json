@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R13_Panels_20261029_v1.0",
+  "validationDate": "2026-10-29",
+  "resourceSideStatus": "Reviewed",
+  "engineImportStatus": "NotImported",
+  "runtimeVerificationStatus": "NotVerified",
+  "items": [
+    {
+      "assetId": "PRP03_DoorCloseup",
+      "fileExists": true,
+      "width": 640,
+      "height": 360,
+      "mode": "RGB",
+      "opaque": true,
+      "rawSize": [
+        1280,
+        720
+      ],
+      "alignedSize": [
+        1280,
+        720
+      ],
+      "fullCanvasNearestNeighbor": true,
+      "noCrop": true,
+      "cleanPanelOpenedAndReviewed": true,
+      "generationMarkRemovedFromDeliverable": true,
+      "annotationsExcludedFromCleanPanel": true,
+      "visualChecks": {
+        "singleDoorAndSingleRing": true,
+        "ringAlignedToFinalCenter": true,
+        "oldRingRemoved": true
+      },
+      "sha256": "7bd09fbf66de00724d4dbf0efe31d0f11ae2af29c6f0ae44c3e726334e041c3f"
+    },
+    {
+      "assetId": "PRP06_PhotoFrame",
+      "fileExists": true,
+      "width": 640,
+      "height": 360,
+      "mode": "RGB",
+      "opaque": true,
+      "rawSize": [
+        1280,
+        720
+      ],
+      "alignedSize": [
+        1280,
+        720
+      ],
+      "fullCanvasNearestNeighbor": true,
+      "noCrop": true,
+      "cleanPanelOpenedAndReviewed": true,
+      "generationMarkRemovedFromDeliverable": true,
+      "annotationsExcludedFromCleanPanel": true,
+      "visualChecks": {
+        "exactlyThreeFixedMembers": true,
+        "drummerAbsent": true,
+        "uniqueGapEmpty": true,
+        "startAreaEmpty": true,
+        "membersAlignedToSlots": true
+      },
+      "sha256": "346eeb9fd090a1cfc589c2edb0c642300d061ba63ab8e597bedf48e8fe832752"
+    },
+    {
+      "assetId": "PRP07_BlackboardCloseup",
+      "fileExists": true,
+      "width": 640,
+      "height": 360,
+      "mode": "RGB",
+      "opaque": true,
+      "rawSize": [
+        1280,
+        720
+      ],
+      "alignedSize": [
+        1280,
+        720
+      ],
+      "fullCanvasNearestNeighbor": true,
+      "noCrop": true,
+      "cleanPanelOpenedAndReviewed": true,
+      "generationMarkRemovedFromDeliverable": true,
+      "annotationsExcludedFromCleanPanel": true,
+      "visualChecks": {
+        "blankBoard": true,
+        "goodbyeTextAbsent": true,
+        "otherWritingAbsent": true,
+        "buttonBandsUnobstructed": true
+      },
+      "sha256": "39b02497c1f7aafaeeb42602909515e6fd78b365d044c2ef4ce1b8e76b89c8dd"
+    }
+  ],
+  "hotspotChecks": {
+    "jsonParse": "Passed",
+    "coordinateOrigin": "TopLeft",
+    "rectFormat": "[x,y,width,height]",
+    "doorRingCenter": [
+      380,
+      200
+    ],
+    "doorRingRect": [
+      356,
+      176,
+      48,
+      48
+    ],
+    "oldDoorRingCenter380_160Rejected": true,
+    "photoAvailableRegions": [
+      [
+        20,
+        40,
+        600,
+        300
+      ]
+    ],
+    "drummerDropTargetRect": [
+      384,
+      198,
+      48,
+      64
+    ],
+    "drummerDropTargetCenter": [
+      408,
+      230
+    ],
+    "drummerStartRect": [
+      296,
+      11,
+      48,
+      64
+    ],
+    "snapRadiusPixels": 80,
+    "blackboardWritingAreaRect": [
+      0,
+      80,
+      640,
+      320
+    ],
+    "stoolAnchorAndR04WorldPointsPreserved": true,
+    "stoolUiTargetSlotsRemainNull": true
+  },
+  "previewChecks": {
+    "threeQaPreviewsOpenedAndReviewed": true,
+    "contactSheetOpenedAndReviewed": true,
+    "qaOverlaysExcludedFromCleanPanels": true
+  },
+  "manifestChecks": {
+    "allRequiredFieldsPresent": true,
+    "allRelativePathsExist": true,
+    "allFinalSha256Computed": true
+  },
+  "referenceChecks": {
+    "c03FinalGeometryRead": true,
+    "threeAnnotatedImagesOpened": true,
+    "copiedReferenceFiles": [
+      "Delivery/R13_Panels/References/MinigamePanelGeometry.md",
+      "Delivery/R13_Panels/References/MG02_Door_annotated.png",
+      "Delivery/R13_Panels/References/MG06_Photo_annotated.png",
+      "Delivery/R13_Panels/References/MG07_Goodbye_annotated.png"
+    ]
+  },
+  "packageChecks": {
+    "status": "Passed",
+    "archive": "outputs/Duzhe_R13_Panels_v1.0.zip",
+    "archiveRoot": "DuzheResources/",
+    "expectedEntriesPresent": true,
+    "entryCount": 21,
+    "zipCrcTest": "Passed",
+    "allPngDecodeChecks": "Passed",
+    "allManifestPathsAndSha256": "Passed",
+    "historicalPropsPackageRebuilt": false
+  }
+}

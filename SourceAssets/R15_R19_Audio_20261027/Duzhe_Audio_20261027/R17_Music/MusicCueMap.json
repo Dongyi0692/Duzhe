@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "gainUnit": "linear amplitude multiplier",
+  "cues": [
+    {
+      "assetId": "BGM01_RiverMist",
+      "scene": "阴间接待与冥河航行",
+      "loop": true,
+      "suggestedGain": 0.55,
+      "fadeSeconds": 2.0,
+      "duckDuringNotes": true
+    },
+    {
+      "assetId": "BGM02_Reunion",
+      "scene": "家人、恋人、乐队伙伴与老师四次相会",
+      "loop": true,
+      "suggestedGain": 0.55,
+      "fadeSeconds": 2.5,
+      "duckDuringNotes": true
+    },
+    {
+      "assetId": "BGM03_SelfCrossing",
+      "scene": "第五章认出过去并独自渡河",
+      "loop": true,
+      "suggestedGain": 0.55,
+      "fadeSeconds": 6.0,
+      "duckDuringNotes": true,
+      "endingFadeNote": "交付WAV保留无缝循环；剧情最终结束并进入轮回时，在引擎中对最后6秒做平滑淡出至静音，再切换场景。不要在循环文件末尾预烘焙淡出。"
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "schemaVersion": "1.0",
+  "chapterId": "CH05",
+  "displayName": "自渡",
+  "segments": [
+    {
+      "segmentId": "CH05_Recall",
+      "stageId": "CH05_Recall",
+      "lines": [
+        {
+          "lineId": "CH05_Recall_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "这一次，没有人等。"
+        },
+        {
+          "lineId": "CH05_Recall_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "老师刚才说……先别让家里等太久。"
+        },
+        {
+          "lineId": "CH05_Recall_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我知道下一句。"
+        },
+        {
+          "lineId": "CH05_Recall_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "MemoryPastSelfSchool",
+          "text": "好。老师，明天见。"
+        },
+        {
+          "lineId": "CH05_Recall_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我记得我那天怎么收的书包。"
+        },
+        {
+          "lineId": "CH05_Recall_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "作文压在最下面。我不想回家再看见那些红字。"
+        },
+        {
+          "lineId": "CH05_Recall_007",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "可走到门口，又把它拿出来看了一遍。"
+        },
+        {
+          "lineId": "CH05_Recall_008",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "老师写的，是“这一句，写得真好”。"
+        },
+        {
+          "lineId": "CH05_Recall_009",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "刚才那个学生没有说过这些。"
+        },
+        {
+          "lineId": "CH05_Recall_010",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我却记得，当时自己有多高兴。"
+        },
+        {
+          "lineId": "CH05_Recall_011",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "这是……我的事。"
+        },
+        {
+          "lineId": "CH05_Recall_012",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "MemoryGrandfather",
+          "text": "谁跟你比了？我可没答应。"
+        },
+        {
+          "lineId": "CH05_Recall_013",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "MemoryGrandmother",
+          "text": "没答应你还抄近路？"
+        },
+        {
+          "lineId": "CH05_Recall_014",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我故意没告诉他，我看见他从树后头绕了过去。"
+        },
+        {
+          "lineId": "CH05_Recall_015",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我想赢他一次。"
+        },
+        {
+          "lineId": "CH05_Recall_016",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "后来那把凳子晃，我就总把有问题的那边转进去。"
+        },
+        {
+          "lineId": "CH05_Recall_017",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "在院子里，我怎么会伸手就知道……"
+        },
+        {
+          "lineId": "CH05_Recall_018",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "那是我坐过的地方。"
+        },
+        {
+          "lineId": "CH05_Recall_019",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "爷爷，奶奶。"
+        },
+        {
+          "lineId": "CH05_Recall_020",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我回去吃的那顿饭……"
+        },
+        {
+          "lineId": "CH05_Recall_021",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "MemoryLoverSpirit",
+          "text": "先答应。"
+        },
+        {
+          "lineId": "CH05_Recall_022",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我当时忍着没笑。她低着头，半天不肯把吊坠翻过来。"
+        },
+        {
+          "lineId": "CH05_Recall_023",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "那道划痕，我闭着眼也能摸出来。"
+        },
+        {
+          "lineId": "CH05_Recall_024",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "后来下雨，她靠过来的时候，我一直在想，手该放哪里。"
+        },
+        {
+          "lineId": "CH05_Recall_025",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "这些话，我没有告诉过任何人。"
+        },
+        {
+          "lineId": "CH05_Recall_026",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "原来我在找自己的那一条。"
+        },
+        {
+          "lineId": "CH05_Recall_027",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "在长椅上等她的人，也是我。"
+        },
+        {
+          "lineId": "CH05_Recall_028",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "MemoryDrummerSpirit",
+          "text": "你看我，等我一下。"
+        },
+        {
+          "lineId": "CH05_Recall_029",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我总急着进。他一抬鼓槌，我就知道该等。"
+        },
+        {
+          "lineId": "CH05_Recall_030",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我以为，我只是记住了他们的曲子。"
+        },
+        {
+          "lineId": "CH05_Recall_031",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "可那一段，我练了那么多遍。"
+        },
+        {
+          "lineId": "CH05_Recall_032",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "照片里站在他旁边的，是我。"
+        },
+        {
+          "lineId": "CH05_Recall_033",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "最后一排，空着的作文结尾。"
+        },
+        {
+          "lineId": "CH05_Recall_034",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "也是我。"
+        },
+        {
+          "lineId": "CH05_Recall_035",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我把这些人送到了不同的地方。"
+        },
+        {
+          "lineId": "CH05_Recall_036",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "吃饭的孙子，等她的男孩，弹琴的队友，教室里的学生……"
+        },
+        {
+          "lineId": "CH05_Recall_037",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我一直站在旁边，看着从前的自己。"
+        },
+        {
+          "lineId": "CH05_Recall_038",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "连他们说不出口的话，我都知道。"
+        },
+        {
+          "lineId": "CH05_Recall_039",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "后来呢？"
+        },
+        {
+          "lineId": "CH05_Recall_040",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "老师走了以后，我还长大了。离开学校，遇见后来的人。送走一些人，也过了许多自己的日子。"
+        },
+        {
+          "lineId": "CH05_Recall_041",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "日子不是按刚才那个顺序来的。"
+        },
+        {
+          "lineId": "CH05_Recall_042",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "它们现在……都接起来了。"
+        },
+        {
+          "lineId": "CH05_Recall_043",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "还有第一次到这里的时候。"
+        },
+        {
+          "lineId": "CH05_Recall_044",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "也是这盏灯，这条船。"
+        },
+        {
+          "lineId": "CH05_Recall_045",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我记得我站在岸上。那时，我知道自己已经死了。"
+        },
+        {
+          "lineId": "CH05_Recall_046",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我看着船，想到还有一句话没对奶奶说，还有个人一直在等，还有一张照片、一堂没上完的课。"
+        },
+        {
+          "lineId": "CH05_Recall_047",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我想，至少把这些做完，再上船。"
+        },
+        {
+          "lineId": "CH05_Recall_048",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "再往后的事，记得很碎。"
+        },
+        {
+          "lineId": "CH05_Recall_049",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "等我拿起船桨，开始等人的时候，已经想不起自己为什么留在这儿。"
+        },
+        {
+          "lineId": "CH05_Recall_050",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我忘了来处。只记得，有人需要我送一程。"
+        },
+        {
+          "lineId": "CH05_Recall_051",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "原来我自己，也没有走完这段路。"
+        },
+        {
+          "lineId": "CH05_Recall_052",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我的一生，已经结束了。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_LetGo",
+      "stageId": "CH05_LetGo",
+      "lines": [
+        {
+          "lineId": "CH05_LetGo_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "我一直以为，对岸是阳间。"
+        },
+        {
+          "lineId": "CH05_LetGo_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "可我没有回到某一个今天。我在同一段路上，遇见了相隔很多年的自己。"
+        },
+        {
+          "lineId": "CH05_LetGo_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "那些院子、那张长椅、录音室、教室……是这里让我与他们相见的地方。"
+        },
+        {
+          "lineId": "CH05_LetGo_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "他们真的来过。我听见了，也碰到了。"
+        },
+        {
+          "lineId": "CH05_LetGo_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "可是过去没有重新发生。那些失去，也没有被抹掉。"
+        },
+        {
+          "lineId": "CH05_LetGo_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "来这里以前，我还觉得，至少要把每件事做对，才能走。"
+        },
+        {
+          "lineId": "CH05_LetGo_007",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "现在，饭吃完了，照片拍好了，课也上完了。"
+        },
+        {
+          "lineId": "CH05_LetGo_008",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "他们还是离开了。"
+        },
+        {
+          "lineId": "CH05_LetGo_009",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "可这一次，我们听见了彼此。"
+        },
+        {
+          "lineId": "CH05_LetGo_010",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "我想留住他们。到现在，还是会想。"
+        },
+        {
+          "lineId": "CH05_LetGo_011",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "但我也想，再往前走一程。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_RecollectionFamily",
+      "stageId": "CH05_Reincarnation",
+      "lines": [
+        {
+          "lineId": "CH05_RecollectionFamily_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryGrandmother",
+          "text": "你先把今天这碗吃完。"
+        },
+        {
+          "lineId": "CH05_RecollectionFamily_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryGrandfather",
+          "text": "……那也得留一天在家吃。"
+        },
+        {
+          "lineId": "CH05_RecollectionFamily_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "小时候，我总嫌他们吃得慢。"
+        },
+        {
+          "lineId": "CH05_RecollectionFamily_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "等不及就把碗一推，跑出去玩。回头还能看见他们坐在那儿。"
+        },
+        {
+          "lineId": "CH05_RecollectionFamily_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "后来我想回去，想起的总是空院子。"
+        },
+        {
+          "lineId": "CH05_RecollectionFamily_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "原来我也记得，他们坐在里面的时候。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_RecollectionLover",
+      "stageId": "CH05_Reincarnation",
+      "lines": [
+        {
+          "lineId": "CH05_RecollectionLover_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryLoverSpirit",
+          "text": "下次想牵手，直接说。"
+        },
+        {
+          "lineId": "CH05_RecollectionLover_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryPastSelfRomance",
+          "text": "……嗯。"
+        },
+        {
+          "lineId": "CH05_RecollectionLover_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryLoverSpirit",
+          "text": "光“嗯”有什么用。手呢？"
+        },
+        {
+          "lineId": "CH05_RecollectionLover_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "我那时候，紧张得连伞都拿不稳。"
+        },
+        {
+          "lineId": "CH05_RecollectionLover_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "后来才敢跟她说。我一直以为，她早就看出来了。"
+        },
+        {
+          "lineId": "CH05_RecollectionLover_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "她说，看出来一点，听我自己说，又是另外一回事。"
+        },
+        {
+          "lineId": "CH05_RecollectionLover_007",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "今天，我终于把那句舍不得说了。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_RecollectionFriends",
+      "stageId": "CH05_Reincarnation",
+      "lines": [
+        {
+          "lineId": "CH05_RecollectionFriends_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryBandmateB",
+          "text": "刚才终于没散！拍张照片纪念一下。"
+        },
+        {
+          "lineId": "CH05_RecollectionFriends_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryPastSelfBand",
+          "text": "以后得认真拍一张。像个乐队的样子。"
+        },
+        {
+          "lineId": "CH05_RecollectionFriends_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryDrummerSpirit",
+          "text": "怎么，现在不像？"
+        },
+        {
+          "lineId": "CH05_RecollectionFriends_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "是挺像的。就是每次听录音，我们都能挑出一堆毛病。"
+        },
+        {
+          "lineId": "CH05_RecollectionFriends_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "可第二天，还想去。"
+        },
+        {
+          "lineId": "CH05_RecollectionFriends_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "现在想起来，先听见的还是他们笑。"
+        },
+        {
+          "lineId": "CH05_RecollectionFriends_007",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "那张认认真真的照片，这回也拍好了。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_RecollectionTeacher",
+      "stageId": "CH05_Reincarnation",
+      "lines": [
+        {
+          "lineId": "CH05_RecollectionTeacher_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryTeacherSpirit",
+          "text": "先写一句，我看看。"
+        },
+        {
+          "lineId": "CH05_RecollectionTeacher_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryPastSelfSchool",
+          "text": "写错了又要擦。"
+        },
+        {
+          "lineId": "CH05_RecollectionTeacher_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "MemoryTeacherSpirit",
+          "text": "那就擦。纸还多着呢。"
+        },
+        {
+          "lineId": "CH05_RecollectionTeacher_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "我小时候真以为，写错一次，这一页就不能要了。"
+        },
+        {
+          "lineId": "CH05_RecollectionTeacher_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "她在旁边等，我才敢把笔落下去。"
+        },
+        {
+          "lineId": "CH05_RecollectionTeacher_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "后来有些话，还是没能在当时说出来。"
+        },
+        {
+          "lineId": "CH05_RecollectionTeacher_007",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "今天，她听见了。"
+        },
+        {
+          "lineId": "CH05_RecollectionTeacher_008",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "还有那么多普通的日子，我都想起来了。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_Reincarnation",
+      "stageId": "CH05_Reincarnation",
+      "lines": [
+        {
+          "lineId": "CH05_Reincarnation_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "爷爷，奶奶。碗筷收好了。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "还有你。那天我没说出口的话，你听见了。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "照片拍好了，课也上完了。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "我记得，你们曾经陪着我。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "这一次，轮到我走了。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "再见。"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "stageId": "CH05_Recall",
+      "text": "听渡客说完想起的往事。"
+    },
+    {
+      "stageId": "CH05_LetGo",
+      "text": "把最后的心事说完。"
+    },
+    {
+      "stageId": "CH05_Board",
+      "text": "独自走向渡口，按 E 上船。"
+    },
+    {
+      "stageId": "CH05_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "stageId": "CH05_Reincarnation",
+      "text": "走完最后这一程。"
+    },
+    {
+      "stageId": "CH05_Complete",
+      "text": "故事已结束。返回开始界面。"
+    }
+  ],
+  "items": []
+}

@@ -1,0 +1,1708 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R03_UI_20261027_v1.0",
+  "approvalStatus": "R02StyleApproved",
+  "items": [
+    {
+      "assetId": "DOC_R03_Fonts_FONT_SOURCE",
+      "category": "Documentation",
+      "relativePath": "UI/Fonts/FONT_SOURCE.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "a9b9f5d8118fd2c4c9a1ce16976a6ac95858ad723d076227a8bb100fdf35b0ff"
+    },
+    {
+      "assetId": "UI03_Font",
+      "category": "Font",
+      "relativePath": "UI/Fonts/NotoSansCJKsc-Regular.otf",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "Noto CJK official repository",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "",
+      "sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b"
+    },
+    {
+      "assetId": "DOC_R03_Fonts_OFL",
+      "category": "Documentation",
+      "relativePath": "UI/Fonts/OFL.txt",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "assetId": "UI02_Continue",
+      "category": "UI",
+      "relativePath": "UI/Icons/UI02_Continue.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "007e68f0d008ba7695296dfd114998105f893e4dbb98510eb22311bfcc2b7e43"
+    },
+    {
+      "assetId": "UI02_Interact",
+      "category": "UI",
+      "relativePath": "UI/Icons/UI02_Interact.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "b16c6b7e697b5518bdee92c79138bf904df56c2411c6a8f17fe3e5cf124ec7a1"
+    },
+    {
+      "assetId": "UI02_Item",
+      "category": "UI",
+      "relativePath": "UI/Icons/UI02_Item.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "ec13336088f41957c4ff1afc0fe81fd4073cb73bd51cce47ed0f3af287839097"
+    },
+    {
+      "assetId": "UI02_Pause",
+      "category": "UI",
+      "relativePath": "UI/Icons/UI02_Pause.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "8aeb0189b436d2b711b875b459d3f34927ca92a8921323d02d8e2f7d30fa4447"
+    },
+    {
+      "assetId": "UI02_Volume",
+      "category": "UI",
+      "relativePath": "UI/Icons/UI02_Volume.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "533e394ebe28c8582c6c03a32a9213fa690f78c9eac1b4ad2cd332018a878dbb"
+    },
+    {
+      "assetId": "PREVIEW_R03_ApprovedStyleReference",
+      "category": "Preview",
+      "relativePath": "UI/Previews/ApprovedStyleReference.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1672,
+      "height": 941,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "b2085150a136303ea18f700d67f25b906586771bfdb6c8e5018bbcfe1cefa6eb"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Chapters_all_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Chapters_all_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "e14a537bfaa2e2a6aaf54f4de123f49e5491bad3c4f10b3f51b1f0fbeac9011f"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Chapters_new_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Chapters_new_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "2f797803760195fde2aec4acad35dc76888bc0c85fb595d5fb3a49101997e9c4"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_ConfirmGalleryExit_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/ConfirmGalleryExit_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "1d4408282a14b237afd270bd51c7d6c10b8d9f59460c69af9c8f0b8981d12198"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_ConfirmLeave_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/ConfirmLeave_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "d7098ee65c3b74d7f94e3af34dc8de1abb84d22a4c4b8ad224697c1f59d5f0b8"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_ConfirmQuit_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/ConfirmQuit_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "92bea8ac42548a72bdea06855241c37a2e042174e281d348875f8b30e1427483"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_ConfirmReplay_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/ConfirmReplay_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "9905ae2c2ab12e365ad231e399eb3e7e928ead33f201b2c12eef85f53f517578"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Credits_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Credits_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "67a18b5399f7ee042753cc6c1da2bee981c7c3d7f9734804bdefe9c6a175e948"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Dialogue_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Dialogue_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "f3aaad3fe00042a07f1c9b6242ace81d1856a8f99e9b284c991de9340e8d0a72"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Dialogue_1920",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Dialogue_1920.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1920,
+      "height": 1080,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "992df73f0a85b1bb5d73868a5f1ad7f6fbedbe1b7471fd602c3bffe0698d7d0f"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_DoorKnock_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/DoorKnock_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "fc810db725066d25e4870f319dbf8be552512e79f04c4b805c06082c249dd53a"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_DragPhoto_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/DragPhoto_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "843d551f700ac93a13a7518c4fb479c7dc85605c273f650ebd2009d7d8a8195a"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_DragStools_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/DragStools_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "0002c624000b7294f7e51b916153e5a2a8fbc6b03a8d29f251ffb19c10d90fea"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Ending_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Ending_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "705870646f3eec0fde5cb2afc56c8eb43b5b1ba23154f1fccb12da6a966f2c4b"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Explore_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Explore_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "fe2cd9a88dda71dcbfa96c23492c224d72338fbf033e1d78bce53e70a696a444"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Gallery_all_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Gallery_all_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "56c8cc3ddf379b54791a432ab6878b7bd32ccc7626f43d71743e3eed88b88bb5"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Gallery_new_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Gallery_new_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "4ac1e8b1e72ab8ee7a679bea79ee2ce3761370369af4045800ebcbacce38f7fa"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_GalleryReplay_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/GalleryReplay_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "1c12a8efb0bb54c718b425b0b4a9e9cba20d1ae56931c18925241a6b015f3210"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_MainMenu_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/MainMenu_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "8d073e8df9dcd7ddd2df04a6459c1daf9c419a842793f881fea467669b0b74dc"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_MainMenu_1920",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/MainMenu_1920.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1920,
+      "height": 1080,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "c867e740c199b44a7a85d8c40f198939718d2c72307d8e22ba4b4b05c86a83e0"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Notes_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Notes_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "9196418eeba78c2ebd447a66cb4c444cd120677b63e71dddcdd19f798cdf2bbc"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Notes_1920",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Notes_1920.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1920,
+      "height": 1080,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "530135372cfd8ee16e7fdecce9966070b762f1569ab16946e374e83a39e33047"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Pause_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Pause_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "6afc1ae9ad5fd0c86dd3e6924e4ff640ee227a3837a3753b3fb4a21e3ef3f550"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Pause_1920",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Pause_1920.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1920,
+      "height": 1080,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "3fb4f11e1bd2b871f98d11d0f102e64b01764cf2ba7b176d894b1cbd3575ff22"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_RiverActive_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/RiverActive_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "24f831b12e086535c8de52ba86d8e52347c2383f73d9fced2bf60848d678fa60"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_RiverBriefing_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/RiverBriefing_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "3a4138f81f77671b857504476d322a180e0307598e22ca3f9cf989fe93d8ed5a"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_RiverRetry_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/RiverRetry_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "fc7dfa6b70353fb0acbc871ff793ed53d0f0c810b29dc43d9b380403bd462a24"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_SaveError_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/SaveError_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "9bfa6997dde6ef665b5bd36ca6a69206d4c7cc19e66179125f4b83c6083da325"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_Settings_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/Settings_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "31be62820b2c33ffd0948e59885e7b0886b3e679deb6190ee05bd2b7a446d858"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_TraceCane_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/TraceCane_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "9bb0935fd2e7203eede4aa004d097b37a218a4295b926db26b42f6a7d5baa59f"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_TraceGoodbye_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/TraceGoodbye_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "0b726ed4473dc92d26d0688a6588237f36a844d8f16c9e9594ec855faae8e6d1"
+    },
+    {
+      "assetId": "PREVIEW_R03_Static_TraceHeart_1280",
+      "category": "Preview",
+      "relativePath": "UI/Previews/Static/TraceHeart_1280.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "Static design preview, not a runtime screenshot.",
+      "sha256": "9b529619664dafbbb8ad6b57e0111c6408f106599c5cad2ba491377d387c2432"
+    },
+    {
+      "assetId": "DOC_R03_Previews_StaticQA",
+      "category": "Documentation",
+      "relativePath": "UI/Previews/StaticQA.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "40337086cff0e85450de7d75b1c85a700ea03f5ab89d2bb20a173cedcd893f3f"
+    },
+    {
+      "assetId": "DOC_R03_Previews_ValidationReport",
+      "category": "Documentation",
+      "relativePath": "UI/Previews/ValidationReport.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "94b49ff191fe29e67dfe5d3abb5e7f91df44a84a0e5dc92a6c990b3bbd661c59"
+    },
+    {
+      "assetId": "DOC_R03_R03_CodelyIntegration",
+      "category": "Documentation",
+      "relativePath": "UI/R03_CodelyIntegration.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "6585697531d6284ddd078ba8094df3ea684b4f7071a3f29c3505f51febd46e2d"
+    },
+    {
+      "assetId": "DOC_R03_ResourcesHandoff",
+      "category": "Documentation",
+      "relativePath": "UI/ResourcesHandoff.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "b74666926c53153da0729171b2b3e75df5434c7e78d0e81318f1b7433163ca0e"
+    },
+    {
+      "assetId": "UI01_Button",
+      "category": "UI",
+      "relativePath": "UI/Skins/UI01_Button.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 160,
+      "height": 48,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "777e29f60051dae86f8efbec3fef7c7b5136dba7380cfd964042e04c71d50ba4"
+    },
+    {
+      "assetId": "UI01_DialoguePanel",
+      "category": "UI",
+      "relativePath": "UI/Skins/UI01_DialoguePanel.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 256,
+      "height": 96,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "51a724ebb3659f22561c170e5ee917e0aa8f0a79eb6b677c14ebc6f525f2c4da"
+    },
+    {
+      "assetId": "UI01_GenericPanel",
+      "category": "UI",
+      "relativePath": "UI/Skins/UI01_GenericPanel.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 192,
+      "height": 192,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Ready for Codely integration; not imported or engine verified",
+      "notes": "Image sources were cropped and normalized with user permission.",
+      "sha256": "da538e627b52811940aa89a3cfec9f39663817f5f7439777e4b81332d56a1979"
+    },
+    {
+      "assetId": "DOC_R03_SourceAssets_GenerationPrompts",
+      "category": "Documentation",
+      "relativePath": "UI/SourceAssets/GenerationPrompts.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "7a62c017cfa62ed6390c028d8b232317645453c3f4e3215b2f379d44d819b7e6"
+    },
+    {
+      "assetId": "DOC_R03_SourceAssets_ProcessingLog",
+      "category": "Documentation",
+      "relativePath": "UI/SourceAssets/ProcessingLog.jsonl",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "1a5c5288dcc25b0f5f68f7a5bfc51a0f39791385b4c610768dbcd67c03a1bf1d"
+    },
+    {
+      "assetId": "SRC_R03_UI01_Button",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI01_Button.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 2172,
+      "height": 724,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "3c7679d3171f8a3bce2616e8a0882ce0ba7677311af88801c23ecac45d8cc21d"
+    },
+    {
+      "assetId": "SRC_R03_UI01_DialoguePanel",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI01_DialoguePanel.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 2048,
+      "height": 768,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "2e0618a2afbefad9f985202df1c1c8f2da860bd2f4593dcb9fceb372b4fb7bec"
+    },
+    {
+      "assetId": "SRC_R03_UI01_GenericPanel",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI01_GenericPanel.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1254,
+      "height": 1254,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "ac2dc6751e21489c0f72f1d3b12faf9076da1bd62a6c9bc74dfbbd6c4be2d809"
+    },
+    {
+      "assetId": "SRC_R03_UI02_Continue",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI02_Continue.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1254,
+      "height": 1254,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "e1715408f4314801ee1d77a9e88d62babdda16176c9f54ae8f5a69582a3dde02"
+    },
+    {
+      "assetId": "SRC_R03_UI02_Interact",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI02_Interact.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1254,
+      "height": 1254,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "3d4e476acd0cd69f200ff95a382af0cf34d720dbb150e244e9c0f8b310f48f94"
+    },
+    {
+      "assetId": "SRC_R03_UI02_Item",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI02_Item.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1254,
+      "height": 1254,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "6d33f55d32a9b8bd39b05ac133e51d613750574413c1ac2d56e65a53754ddd29"
+    },
+    {
+      "assetId": "SRC_R03_UI02_Pause",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI02_Pause.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1254,
+      "height": 1254,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "b2fcf00c0caa88fc6365db77cd228dc09276b6088a6c2ea647425940e35e36f9"
+    },
+    {
+      "assetId": "SRC_R03_UI02_Volume",
+      "category": "SourceImage",
+      "relativePath": "UI/SourceAssets/UI02_Volume.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1254,
+      "height": 1254,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "48e37c2772bb931a691fda88910c74ab1557989cd5041092a2e1390c966d8de2"
+    },
+    {
+      "assetId": "DOC_R03_UI_Copy_Reference",
+      "category": "Documentation",
+      "relativePath": "UI/UI_Copy_Reference.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "d2e295027d03aa52e7674bc4945cf6a9a4ec445e588d103965eddac860742d1f"
+    },
+    {
+      "assetId": "DOC_R03_UI_Design",
+      "category": "Documentation",
+      "relativePath": "UI/UI_Design.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "c388974de75e867d870f8be4dd357d3a266ce0c1bbd9308328cb2ce08b1b6d00"
+    },
+    {
+      "assetId": "DOC_R03_UI_Layout",
+      "category": "Documentation",
+      "relativePath": "UI/UI_Layout.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "7340cbf9a95b49c1a09c8332ccdf3b45b23226497de48855bef8e71f2e2d414e"
+    },
+    {
+      "assetId": "DOC_R03_UI_Overview",
+      "category": "Documentation",
+      "relativePath": "UI/UI_Overview.html",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "0a14948f893b6644fcb43d1af7b7aee6de8da320fa0ab3c8972162d30ddeef8b"
+    },
+    {
+      "assetId": "DOC_R03_UI_TextAdditions",
+      "category": "Documentation",
+      "relativePath": "UI/UI_TextAdditions.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "ded6ffb6f319252c6995541c52a859b232273cf15a9fa91d6575c9439b505cd8"
+    },
+    {
+      "assetId": "DOC_R03_UI_Wireframes",
+      "category": "Documentation",
+      "relativePath": "UI/UI_Wireframes.html",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant; static preview renderer where applicable",
+      "promptId": "R03",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "R01_Text_20261026_v1.0"
+      ],
+      "usageStatus": "Reference or working source; not a runtime asset",
+      "notes": "",
+      "sha256": "9a5f9b50652a44511d6e7122ea62bc7e97b8131225af2c1b8d84a4b21a9eecb3"
+    }
+  ]
+}

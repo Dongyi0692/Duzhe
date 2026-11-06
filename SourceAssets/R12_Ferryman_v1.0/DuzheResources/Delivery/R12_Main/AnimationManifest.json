@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R12_MainCharacter_20261028_v1.0",
+  "items": [
+    {
+      "assetId": "CHR01_Ferryman",
+      "actorId": "Ferryman",
+      "relativePath": "Characters/Animations/CHR01_Ferryman.png",
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "fps": 6,
+      "idleColumnIndex": 1,
+      "footPivot": {
+        "x": 0.5,
+        "y": 0
+      },
+      "cycleFrameCount": 3,
+      "durationSeconds": 0.5,
+      "frames": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Down_WalkA.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Down_Idle.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Down_WalkB.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Left_WalkA.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Left_Idle.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Left_WalkB.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Right_WalkA.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Right_Idle.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Right_WalkB.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Up_WalkA.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Up_Idle.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR01_Ferryman/Frames/Up_WalkB.png"
+        }
+      ]
+    }
+  ]
+}

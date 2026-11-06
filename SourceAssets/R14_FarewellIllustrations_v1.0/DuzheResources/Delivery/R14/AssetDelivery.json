@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R14_FarewellIllustrations_20261028_v1.0",
+  "items": [
+    {
+      "assetId": "CG01_FamilyFarewell",
+      "category": "Illustration",
+      "relativePath": "Illustrations/CG01_FamilyFarewell.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "presentationId": "PR_CH01_Farewell",
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow corner cleanup and BOX downsampling",
+      "promptId": "R14_CG01_FamilyFarewell_20261028_a01",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "BG03_FarmCourtyard",
+        "CHR02_Grandfather",
+        "CHR03_Grandmother",
+        "CHR04_PastSelfFamily",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "Reviewed illustration source; Codely must validate import and presentation in the actual Unity project",
+      "rawSourceAssetPath": "SourceAssets/Illustrations/CG01_FamilyFarewell_a01.png",
+      "cleanSourceAssetPath": "SourceAssets/Illustrations/CG01_FamilyFarewell_clean.png",
+      "notes": "两位老人与成年孙子围同一饭桌用餐；灰蓝短兜帽渡客在旁，合计四人。人物服装与母图一致，手部动作自然，情绪安静克制。 原稿保留，正式图已清理左下角生成标记；无对白、标题或署名烘焙。未导入引擎。",
+      "sha256": "d3ef47d77eb479de21d34653486950bf35946efdfb187db8e35127df0c2c48d1"
+    },
+    {
+      "assetId": "CG02_LoversFarewell",
+      "category": "Illustration",
+      "relativePath": "Illustrations/CG02_LoversFarewell.png",
+      "chapterIds": [
+        "CH02"
+      ],
+      "presentationId": "PR_CH02_Farewell",
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow corner cleanup and BOX downsampling",
+      "promptId": "R14_CG02_LoversFarewell_20261028_a01",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "BG04_Park",
+        "CHR05_LoverSpirit",
+        "CHR06_PastSelfRomance"
+      ],
+      "usageStatus": "Reviewed illustration source; Codely must validate import and presentation in the actual Unity project",
+      "rawSourceAssetPath": "SourceAssets/Illustrations/CG02_LoversFarewell_a01.png",
+      "cleanSourceAssetPath": "SourceAssets/Illustrations/CG02_LoversFarewell_clean.png",
+      "notes": "中长黑发、柔绿开衫的女孩与灰绿外套、深棕短发男生拥抱；只有两人，性别与身份正确，手臂和腿部关系自然。 原稿保留，正式图已清理左下角生成标记；无对白、标题或署名烘焙。未导入引擎。",
+      "sha256": "de7b30918c8b1c57287adeafbec99f7f006bbfb8e5bc7f444bc27ed6a0a49252"
+    },
+    {
+      "assetId": "CG03_BandFarewell",
+      "category": "Illustration",
+      "relativePath": "Illustrations/CG03_BandFarewell.png",
+      "chapterIds": [
+        "CH03"
+      ],
+      "presentationId": "PR_CH03_Farewell",
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow corner cleanup and BOX downsampling",
+      "promptId": "R14_CG03_BandFarewell_20261028_a01",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "BG05_RecordingStudio",
+        "CHR07_DrummerSpirit",
+        "CHR08_PastSelfBand",
+        "CHR09_BandmateA",
+        "CHR10_BandmateB"
+      ],
+      "usageStatus": "Reviewed illustration source; Codely must validate import and presentation in the actual Unity project",
+      "rawSourceAssetPath": "SourceAssets/Illustrations/CG03_BandFarewell_a01.png",
+      "cleanSourceAssetPath": "SourceAssets/Illustrations/CG03_BandFarewell_clean.png",
+      "notes": "红衣鼓手、灰紫夹克过去自我、蓝夹克队友和黄外套女队友四人全身合照；没有渡客或第五人。四人照片本身永久保留。 原稿保留，正式图已清理左下角生成标记；无对白、标题或署名烘焙。未导入引擎。",
+      "sha256": "b53e13708fcfbe3a6567ab965bb66be972e15cb3c5943d6fc00fe56049bfed95"
+    },
+    {
+      "assetId": "CG04_TeacherFarewell",
+      "category": "Illustration",
+      "relativePath": "Illustrations/CG04_TeacherFarewell.png",
+      "chapterIds": [
+        "CH04"
+      ],
+      "presentationId": "PR_CH04_Farewell",
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow corner cleanup and BOX downsampling",
+      "promptId": "R14_CG04_TeacherFarewell_20261028_a01",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "BG06_Classroom",
+        "CHR11_TeacherSpirit",
+        "CHR12_PastSelfSchool"
+      ],
+      "usageStatus": "Reviewed illustration source; Codely must validate import and presentation in the actual Unity project",
+      "rawSourceAssetPath": "SourceAssets/Illustrations/CG04_TeacherFarewell_a01.png",
+      "cleanSourceAssetPath": "SourceAssets/Illustrations/CG04_TeacherFarewell_clean.png",
+      "notes": "低盘发米棕外套教师与蓝白校服学生两人；教师手搭学生肩头，表情温和。大黑板保持空白，正文和再见均由程序叠加。 原稿保留，正式图已清理左下角生成标记；无对白、标题或署名烘焙。未导入引擎。",
+      "sha256": "99be5c36d8df0f32f8b259748d47e0735064a618de8ccb3c051775b51350fbe8"
+    },
+    {
+      "assetId": "CG05_SelfCrossing",
+      "category": "Illustration",
+      "relativePath": "Illustrations/CG05_SelfCrossing.png",
+      "chapterIds": [
+        "CH05"
+      ],
+      "presentationId": "PR_CH05_Reincarnation",
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow corner cleanup and BOX downsampling",
+      "promptId": "R14_CG05_SelfCrossing_20261028_a01",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "BG02_River",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "Reviewed illustration source; Codely must validate import and presentation in the actual Unity project",
+      "rawSourceAssetPath": "SourceAssets/Illustrations/CG05_SelfCrossing_a01.png",
+      "cleanSourceAssetPath": "SourceAssets/Illustrations/CG05_SelfCrossing_clean.png",
+      "notes": "渡客背向镜头独自乘船沿冥河远去，冷色河面前方渐暖；没有乘客或第二船夫，不是现实醒来、复活或回到阳间。 原稿保留，正式图已清理左下角生成标记；无对白、标题或署名烘焙。未导入引擎。",
+      "sha256": "54a0b7b7ea9ff8ac0137f4c9f657a919f4956a8a69ca124da84bd20322085549"
+    }
+  ],
+  "scope": "Five required 640x360 R14 illustrations; gallery recall reuses CG01-CG04.",
+  "taskStatus": "Complete for five required illustrations",
+  "placeholderItems": [],
+  "missingItems": []
+}

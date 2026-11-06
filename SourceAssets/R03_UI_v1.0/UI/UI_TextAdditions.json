@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "strings": [
+    {
+      "key": "r03.notes.play_demo",
+      "text": "听一遍示范"
+    },
+    {
+      "key": "r03.notes.progress",
+      "text": "已演奏 {count} / {total}"
+    },
+    {
+      "key": "r03.trace.progress",
+      "text": "当前笔画 {current} / {total}"
+    }
+  ]
+}

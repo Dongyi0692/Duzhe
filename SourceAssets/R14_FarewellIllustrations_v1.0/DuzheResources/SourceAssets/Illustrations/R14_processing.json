@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "assetId": "CG01_FamilyFarewell",
+      "rawPath": "CG01_FamilyFarewell_a01.png",
+      "cleanedPath": "CG01_FamilyFarewell_clean.png",
+      "finalPath": "CG01_FamilyFarewell.png",
+      "finalSize": [
+        640,
+        360
+      ],
+      "mode": "RGB",
+      "cleanedCorner": [
+        10,
+        669,
+        93,
+        704
+      ],
+      "horizontalInterpolationOnly": false
+    },
+    {
+      "assetId": "CG02_LoversFarewell",
+      "rawPath": "CG02_LoversFarewell_a01.png",
+      "cleanedPath": "CG02_LoversFarewell_clean.png",
+      "finalPath": "CG02_LoversFarewell.png",
+      "finalSize": [
+        640,
+        360
+      ],
+      "mode": "RGB",
+      "cleanedCorner": [
+        10,
+        669,
+        93,
+        704
+      ],
+      "horizontalInterpolationOnly": false
+    },
+    {
+      "assetId": "CG03_BandFarewell",
+      "rawPath": "CG03_BandFarewell_a01.png",
+      "cleanedPath": "CG03_BandFarewell_clean.png",
+      "finalPath": "CG03_BandFarewell.png",
+      "finalSize": [
+        640,
+        360
+      ],
+      "mode": "RGB",
+      "cleanedCorner": [
+        10,
+        669,
+        93,
+        704
+      ],
+      "horizontalInterpolationOnly": true
+    },
+    {
+      "assetId": "CG04_TeacherFarewell",
+      "rawPath": "CG04_TeacherFarewell_a01.png",
+      "cleanedPath": "CG04_TeacherFarewell_clean.png",
+      "finalPath": "CG04_TeacherFarewell.png",
+      "finalSize": [
+        640,
+        360
+      ],
+      "mode": "RGB",
+      "cleanedCorner": [
+        10,
+        669,
+        93,
+        704
+      ],
+      "horizontalInterpolationOnly": false
+    },
+    {
+      "assetId": "CG05_SelfCrossing",
+      "rawPath": "CG05_SelfCrossing_a01.png",
+      "cleanedPath": "CG05_SelfCrossing_clean.png",
+      "finalPath": "CG05_SelfCrossing.png",
+      "finalSize": [
+        640,
+        360
+      ],
+      "mode": "RGB",
+      "cleanedCorner": [
+        10,
+        669,
+        93,
+        704
+      ],
+      "horizontalInterpolationOnly": false
+    }
+  ],
+  "resampling": "BOX 1280x720 to 640x360; no aspect distortion",
+  "cornerCleanup": "Harmonic interpolation limited to generated corner label; raw files retained unchanged"
+}

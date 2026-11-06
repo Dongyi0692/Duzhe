@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R13_PropsAndPanels_20261027_v1.0",
+  "checks": [
+    "actual_dimensions",
+    "rgba_alpha_present",
+    "binary_alpha",
+    "nonempty_visible_pixels",
+    "source_and_preview_exist",
+    "visual_preview_opened"
+  ],
+  "allRasterChecksPassed": true,
+  "visualPreviewOpened": true,
+  "items": [
+    {
+      "assetId": "IT01_Glasses",
+      "actualWidth": 32,
+      "actualHeight": 32,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 919,
+      "opaquePixels": 105,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        2,
+        8,
+        30,
+        24
+      ],
+      "sha256": "78ffe6be91c9a0c8a0232ccc1aa26d1353e6aa21faa4c850157b98473d6c7f25",
+      "passed": true
+    },
+    {
+      "assetId": "IT02_Cane",
+      "actualWidth": 32,
+      "actualHeight": 64,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1821,
+      "opaquePixels": 227,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        10,
+        2,
+        22,
+        62
+      ],
+      "sha256": "604b660ab6192cf8a38f0e6b8ff6886440580a1b5b96659ed7304e1210599d9e",
+      "passed": true
+    },
+    {
+      "assetId": "IT03_Necklace",
+      "actualWidth": 32,
+      "actualHeight": 32,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 894,
+      "opaquePixels": 130,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        5,
+        2,
+        27,
+        30
+      ],
+      "sha256": "b924e4c71bbcb6f2a5cc0ee40af158b90f0b562366d83c8c26baf262f2ff4005",
+      "passed": true
+    },
+    {
+      "assetId": "IT04_Drumsticks",
+      "actualWidth": 32,
+      "actualHeight": 32,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 776,
+      "opaquePixels": 248,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "sha256": "9cd9b8993c680f58a505e6d40199f6aad617521403876a4f411581db18f3613d",
+      "passed": true
+    },
+    {
+      "assetId": "IT05_LessonPlan",
+      "actualWidth": 32,
+      "actualHeight": 32,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 644,
+      "opaquePixels": 380,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        4,
+        4,
+        28,
+        28
+      ],
+      "sha256": "ca96d0d762986b4830a40086df784cb5e1157be7f21b5386aa52065251f09d39",
+      "passed": true
+    },
+    {
+      "assetId": "PRP01_Boat",
+      "actualWidth": 96,
+      "actualHeight": 64,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 3543,
+      "opaquePixels": 2601,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        2,
+        14,
+        94,
+        50
+      ],
+      "sha256": "29d4b9531be72609aa607f71352b07c8aaddc76c6b03ee18905b7a65648d38a4",
+      "passed": true
+    },
+    {
+      "assetId": "PRP02_Whirlpool",
+      "actualWidth": 64,
+      "actualHeight": 64,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1830,
+      "opaquePixels": 2266,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        3,
+        3,
+        61,
+        60
+      ],
+      "sha256": "8fe3baa2a378a097e033ad0f419b602d1570faaa69e7b55d01db0c0d043d844a",
+      "passed": true
+    },
+    {
+      "assetId": "PRP04_Stool",
+      "actualWidth": 32,
+      "actualHeight": 32,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 474,
+      "opaquePixels": 550,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        4,
+        4,
+        28,
+        32
+      ],
+      "sha256": "eaa19fcc2865894cb3ab360413693d5a9349c7fe0399165c6ad7706764024494",
+      "passed": true
+    },
+    {
+      "assetId": "PRP05_DiningTable",
+      "actualWidth": 96,
+      "actualHeight": 64,
+      "mode": "RGBA",
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 2500,
+      "opaquePixels": 3644,
+      "partialAlphaPixels": 0,
+      "alphaBoundingBox": [
+        8,
+        3,
+        88,
+        61
+      ],
+      "sha256": "8c12fc4ec93a7ac543ecb113396ec51c150a910bb2e9455c7102e0c8715ff8cb",
+      "passed": true
+    }
+  ],
+  "pendingAssetIds": [
+    "PRP03_DoorCloseup",
+    "PRP06_PhotoFrame",
+    "PRP07_BlackboardCloseup"
+  ],
+  "engineImportStatus": "NotImported",
+  "runtimeVerificationStatus": "NotVerified"
+}

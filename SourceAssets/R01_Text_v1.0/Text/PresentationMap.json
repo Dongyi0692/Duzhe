@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "presentations": [
+    {
+      "presentationId": "PR_CH01_Farewell",
+      "sceneId": "FarmCourtyard",
+      "galleryTitle": "再吃一顿饭",
+      "orderedSegmentIds": [
+        "CH01_Farewell"
+      ],
+      "visualNotes": "主线前置：MG03_Stools实际完成。进入时两位老人和孙子已坐好，渡客在旁；可用CG01_FamilyFarewell配场景人物层。全段手动推进；CH01_Farewell_016后奶奶轻轻伸手，可用位置/缩放代替复杂动作。末句CH01_Farewell_026推进完毕后，两位老人用独立演员层同步淡出约1.2秒，背景与孙子保持；停留约0.8秒，再发PresentationFinished。回看直接进入摆好凳子的状态，不重新拖凳子、不写任务进度。"
+    },
+    {
+      "presentationId": "PR_CH02_Farewell",
+      "sceneId": "Park",
+      "galleryTitle": "再抱一会儿",
+      "orderedSegmentIds": [
+        "CH02_Farewell"
+      ],
+      "visualNotes": "主线前置：CH02_ReunionTalk结束并完成MG04_Heart。拥抱基础画面在描画前已就位；本段使用CG02_LoversFarewell和必要分层。对白手动推进，末句CH02_Farewell_016结束后女孩淡出约1.2秒，男孩放下双臂并留在长椅旁。不得让整张公园背景跟着消失。回看从已完成爱心的拥抱开始，无描画交互。本批不创建PR_CH02_Memory或锁定空槽。"
+    },
+    {
+      "presentationId": "PR_CH03_Farewell",
+      "sceneId": "RecordingStudio",
+      "galleryTitle": "一个也没少",
+      "orderedSegmentIds": [
+        "CH03_Farewell"
+      ],
+      "visualNotes": "主线前置：完成MG05_Notes后，MG06_Photo中的鼓手已正确吸附到空位。快门只在Photo阶段完成时触发一次，转本段时先显示CG03_BandFarewell的四人合照。照片含PastSelfBand、DrummerSpirit、BandmateA、BandmateB，不含Ferryman。对白手动推进；末句CH03_Farewell_019结束后收起照片特写或缩为角落，场景鼓手淡出，照片中完整四人记录保留。回看直接从合照画面开始，不再次要求演奏或拖人，也不另触发Photo完成事件。"
+    },
+    {
+      "presentationId": "PR_CH04_Farewell",
+      "sceneId": "Classroom",
+      "galleryTitle": "最后一课",
+      "orderedSegmentIds": [
+        "CH04_Lesson",
+        "CH04_Farewell"
+      ],
+      "visualNotes": "orderedSegmentIds是回忆馆重播顺序：先手动播CH04_Lesson，末句CH04_Lesson_021结束后轻响下课铃，以渐显方式直接呈现已完成的“再见”，再手动播CH04_Farewell。主线不能整段重放：CH04_Lesson已在自己的阶段播过，LessonFinished后必须实际完成MG07_Goodbye；到CH04_Farewell阶段只播放同名段。使用CG04_TeacherFarewell或教室人物层，黑板字由程序绘制。Farewell末句CH04_Farewell_008结束后老师淡出；只在完整告别结束才解锁此回看。回看没有书写机关和LessonFinished等主线状态写入。"
+    },
+    {
+      "presentationId": "PR_CH05_Recall",
+      "sceneId": "Underworld",
+      "galleryTitle": "想起来了",
+      "orderedSegmentIds": [
+        "CH05_Recall"
+      ],
+      "visualNotes": "只在CH05进入时播放。所有现场对白均为Ferryman，回忆图中人物不新增现场发言。CH05_Recall_004出现时叠出CG01，CH05_Recall_005换CG02，CH05_Recall_006换CG03并可轻响原创动机，CH05_Recall_007换CG04；每次切图只影响视觉，文字仍由玩家手动推进。在四个身份被逐一认出时对应人物剪影与渡客短暂衔接；不用新增模型或脱帽动画。末句后画面回到阴间，主线置MemoryRestored并解锁本记录，再进入LetGo。河段重试绝不播放此段。回看不修改MemoryRestored或章节进度。"
+    },
+    {
+      "presentationId": "PR_CH05_Reincarnation",
+      "sceneId": "River",
+      "galleryTitle": "最后这一程",
+      "orderedSegmentIds": [
+        "CH05_Reincarnation"
+      ],
+      "visualNotes": "主线前置：CH05_River真正成功。保持River场景，禁用避障输入进入短结尾，用CG05_SelfCrossing或船与水面层；船上没有乘客。手动播四句，末句CH05_Reincarnation_004推进完后船缓缓远去、光线变暖、整体淡出，表示已进入轮回；没有醒来或加载阳间场景的镜头。演出完成后主线解锁本记录与CH05、写盘、显示制作名单；玩家确认后返回MainMenu。章节回放完成返回章节目录；Gallery退出返回回忆列表，二者均无主线写盘副作用。"
+    }
+  ]
+}

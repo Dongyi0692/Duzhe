@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R05_Underworld_v1.0",
+  "items": [
+    {
+      "assetId": "BG01_Underworld",
+      "category": "Background",
+      "relativePath": "Backgrounds/BG01_Underworld.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0",
+      "status": "Generated",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R05",
+      "referenceIds": [
+        "R02_Approved_1.3",
+        "R04_Underworld"
+      ],
+      "usageStatus": "NotImported",
+      "notes": "Whole image nearest-neighbor resized; dock shoreline and edge collisions pending in-engine reconciliation."
+    }
+  ]
+}

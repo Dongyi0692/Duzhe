@@ -1,0 +1,337 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R01_Text_20261026_v1.0",
+  "items": [
+    {
+      "assetId": "TXT_CH01",
+      "category": "Text",
+      "relativePath": "Text/TXT_CH01.json",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "c44c93c4bb217cf89c837a25619a60e027f10190d034f4778e07e8a82bddb545"
+    },
+    {
+      "assetId": "TXT_CH02",
+      "category": "Text",
+      "relativePath": "Text/TXT_CH02.json",
+      "chapterIds": [
+        "CH02"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "49ea5fddf2bc3986b4db180640af0a39f9153a603afa9c22bb4b7d7e59d8240b"
+    },
+    {
+      "assetId": "TXT_CH03",
+      "category": "Text",
+      "relativePath": "Text/TXT_CH03.json",
+      "chapterIds": [
+        "CH03"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "f06f6c05a25a6001d338757042ae199e149ca238d641b5eab542544dbe8f772b"
+    },
+    {
+      "assetId": "TXT_CH04",
+      "category": "Text",
+      "relativePath": "Text/TXT_CH04.json",
+      "chapterIds": [
+        "CH04"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "21ddd4daf904e00b1326714dacc8159d779c3f0cea64ea45ced00f09c9c41da6"
+    },
+    {
+      "assetId": "TXT_CH05",
+      "category": "Text",
+      "relativePath": "Text/TXT_CH05.json",
+      "chapterIds": [
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "4a29e2b3e860f24dba62e123a8c8d80f85f011e776ac510f3bac88f5c1389a30"
+    },
+    {
+      "assetId": "TXT_UI",
+      "category": "Text",
+      "relativePath": "Text/TXT_UI.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "dadcf2afb76e7e3172530b390e19ad37fc5bccc45bdd7379ee302627dac397f3"
+    },
+    {
+      "assetId": "CFG_Presentations",
+      "category": "Config",
+      "relativePath": "Text/PresentationMap.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "c1c07377891bfaffe99477a485b7b83f77e427cd99ace8a52c65d58bba19c057"
+    },
+    {
+      "assetId": "CFG_CharacterDisplayNames",
+      "category": "Config",
+      "relativePath": "Text/CharacterDisplayNames.json",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "6fd32ab6b0b82e3dafa0ca718846aeddb520ccd1a545307928ae713cc9c04155"
+    },
+    {
+      "assetId": "DOC_StoryFinal",
+      "category": "Documentation",
+      "relativePath": "Text/Story_Final.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "29e42b4cf14a326ae828e793edce04633b4f76c0f5c8c50a308be09812c0c9f6"
+    },
+    {
+      "assetId": "DOC_UICopy",
+      "category": "Documentation",
+      "relativePath": "Text/UI_Copy.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "2bbeae5c2509bcfaa128fc4a6ba24e59bbd6ca86b541e9162387d14ec980420c"
+    },
+    {
+      "assetId": "DOC_TextIntegration",
+      "category": "Documentation",
+      "relativePath": "Text/TextIntegration.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "8e84b6b807e85963a6a12489ce39c297e3d2b533dfac7779f8f94d9e7e67662f"
+    },
+    {
+      "assetId": "DOC_StoryContinuity",
+      "category": "Documentation",
+      "relativePath": "Text/StoryContinuityCheck.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "b8cadde9633ccd645ea11b6f036e8e3c6ea080b3e796ff9741dc5d2b3311b13a"
+    },
+    {
+      "assetId": "DOC_R01Handoff",
+      "category": "Documentation",
+      "relativePath": "Text/ResourcesHandoff.md",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": null,
+      "height": null,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "AI assistant in this conversation",
+      "promptId": "R01",
+      "referenceIds": [
+        "FinalSpecification_v1.0",
+        "ResourceContract_20261026"
+      ],
+      "usageStatus": "Generated for this project; user editorial and submission review pending",
+      "notes": "Text/structure review only; not imported or engine-verified.",
+      "sha256": "be576c7c0c7e92a98bca2f8dc241442c177116f8484329bc67f301780d9b0c50"
+    }
+  ]
+}

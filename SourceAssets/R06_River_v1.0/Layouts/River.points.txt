@@ -1,0 +1,11 @@
+River / BG02_River
+1. RV_BoatStart (640, 456)
+2. RV_LaneLeft (544, 456)
+3. RV_LaneMiddle (640, 456)
+4. RV_LaneRight (736, 456)
+5. RV_SteerLeft (496, 456)
+6. RV_SteerRight (784, 456)
+
+Water x=432..848
+Boat y=456; steer x=496..784
+Obstacles are dynamic

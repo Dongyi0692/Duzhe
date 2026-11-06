@@ -1,0 +1,406 @@
+{
+  "schemaVersion": "1.0",
+  "chapterId": "CH02",
+  "displayName": "真心为你",
+  "segments": [
+    {
+      "segmentId": "CH02_Opening",
+      "stageId": "CH02_Opening",
+      "lines": [
+        {
+          "lineId": "CH02_Opening_001",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "LoverSpirit",
+          "text": "你有没有看见一条项链？吊坠很小，一边有道划痕。"
+        },
+        {
+          "lineId": "CH02_Opening_002",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "Ferryman",
+          "text": "是在这附近丢的？"
+        },
+        {
+          "lineId": "CH02_Opening_003",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "LoverSpirit",
+          "text": "大概吧。我一直攥着它，刚才才发现手里空了。"
+        },
+        {
+          "lineId": "CH02_Opening_004",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "Ferryman",
+          "text": "很重要的人送的？"
+        },
+        {
+          "lineId": "CH02_Opening_005",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "LoverSpirit",
+          "text": "我们一起买的。他那一条，背面也有一样的划痕。"
+        },
+        {
+          "lineId": "CH02_Opening_006",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "LoverSpirit",
+          "text": "那天刻坏了两个，他还非说这样才是一对。"
+        },
+        {
+          "lineId": "CH02_Opening_007",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "Ferryman",
+          "text": "他现在在哪里？"
+        },
+        {
+          "lineId": "CH02_Opening_008",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "LoverSpirit",
+          "text": "我想去公园找他。以前我迟到，他就坐在那张长椅上。"
+        },
+        {
+          "lineId": "CH02_Opening_009",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "LoverSpirit",
+          "text": "最后那次，我没能去成。"
+        },
+        {
+          "lineId": "CH02_Opening_010",
+          "chapterId": "CH02",
+          "stageId": "CH02_Opening",
+          "speakerId": "Ferryman",
+          "text": "我先帮你找回来。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH02_RitualTalk",
+      "stageId": "CH02_RitualTalk",
+      "lines": [
+        {
+          "lineId": "CH02_RitualTalk_001",
+          "chapterId": "CH02",
+          "stageId": "CH02_RitualTalk",
+          "speakerId": "LoverSpirit",
+          "text": "找到了……原来还在。"
+        },
+        {
+          "lineId": "CH02_RitualTalk_002",
+          "chapterId": "CH02",
+          "stageId": "CH02_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "收好了。过河前，还有一道仪式。"
+        },
+        {
+          "lineId": "CH02_RitualTalk_003",
+          "chapterId": "CH02",
+          "stageId": "CH02_RitualTalk",
+          "speakerId": "LoverSpirit",
+          "text": "做完以后，他能看见我，也能碰到我吗？"
+        },
+        {
+          "lineId": "CH02_RitualTalk_004",
+          "chapterId": "CH02",
+          "stageId": "CH02_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "能。这次你可以亲自把话告诉他。"
+        },
+        {
+          "lineId": "CH02_RitualTalk_005",
+          "chapterId": "CH02",
+          "stageId": "CH02_RitualTalk",
+          "speakerId": "LoverSpirit",
+          "text": "我想了很久，真要见面，又不知道先说哪句。"
+        },
+        {
+          "lineId": "CH02_RitualTalk_006",
+          "chapterId": "CH02",
+          "stageId": "CH02_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "见到他以后，慢慢说。"
+        },
+        {
+          "lineId": "CH02_RitualTalk_007",
+          "chapterId": "CH02",
+          "stageId": "CH02_RitualTalk",
+          "speakerId": "LoverSpirit",
+          "text": "好。我知道不能留下。只是这回，不想连再见都没有。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH02_ReunionTalk",
+      "stageId": "CH02_ReunionTalk",
+      "lines": [
+        {
+          "lineId": "CH02_ReunionTalk_001",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "PastSelfRomance",
+          "text": "你……怎么还是从那条小路过来。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_002",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "LoverSpirit",
+          "text": "不然呢？你每次都看着这边。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_003",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "PastSelfRomance",
+          "text": "我以为我已经不会认错人了。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_004",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "LoverSpirit",
+          "text": "这次没认错。是我。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_005",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "PastSelfRomance",
+          "text": "那天之后，我有时候还是会往这里走。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_006",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "PastSelfRomance",
+          "text": "走到了才想起来，你不会再让我等了。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_007",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "LoverSpirit",
+          "text": "以前你总说我慢，还不是每回都来得更早。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_008",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "PastSelfRomance",
+          "text": "怕你到了，找不着我。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_009",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "LoverSpirit",
+          "text": "我看见你那条项链了。还戴着呢？"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_010",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "PastSelfRomance",
+          "text": "嗯。你那条，我一直不知道去了哪里。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_011",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "LoverSpirit",
+          "text": "现在找到啦。两条都在。"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_012",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "PastSelfRomance",
+          "text": "我能抱抱你吗？"
+        },
+        {
+          "lineId": "CH02_ReunionTalk_013",
+          "chapterId": "CH02",
+          "stageId": "CH02_ReunionTalk",
+          "speakerId": "LoverSpirit",
+          "text": "这句话，你以前可不问。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH02_Farewell",
+      "stageId": "CH02_Farewell",
+      "lines": [
+        {
+          "lineId": "CH02_Farewell_001",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "你怎么一点都不肯松手。"
+        },
+        {
+          "lineId": "CH02_Farewell_002",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "PastSelfRomance",
+          "text": "让我再抱一会儿。我连你外套是什么样的，都快记不清了。"
+        },
+        {
+          "lineId": "CH02_Farewell_003",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "袖口起球，你总偷偷替我揪。我又不是没看见。"
+        },
+        {
+          "lineId": "CH02_Farewell_004",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "PastSelfRomance",
+          "text": "我怕有一天，连这些也想不起来。"
+        },
+        {
+          "lineId": "CH02_Farewell_005",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "想不起来某件小事，也没关系。"
+        },
+        {
+          "lineId": "CH02_Farewell_006",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "你不用每天都很难过，来证明还记得我。"
+        },
+        {
+          "lineId": "CH02_Farewell_007",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "PastSelfRomance",
+          "text": "我还有好多地方，想带你去。"
+        },
+        {
+          "lineId": "CH02_Farewell_008",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "那就替自己去看看。遇到好吃的，也别一个人只点凉水。"
+        },
+        {
+          "lineId": "CH02_Farewell_009",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "PastSelfRomance",
+          "text": "你连这个都要管。"
+        },
+        {
+          "lineId": "CH02_Farewell_010",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "不然呢？以前就是我先点菜。"
+        },
+        {
+          "lineId": "CH02_Farewell_011",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "PastSelfRomance",
+          "text": "我会好好吃饭，也会出去走走。只是还要慢一点。"
+        },
+        {
+          "lineId": "CH02_Farewell_012",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "好。慢一点也行。"
+        },
+        {
+          "lineId": "CH02_Farewell_013",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "我真舍不得你。能把这句话亲口说完，真好。"
+        },
+        {
+          "lineId": "CH02_Farewell_014",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "PastSelfRomance",
+          "text": "我也是。我爱你。"
+        },
+        {
+          "lineId": "CH02_Farewell_015",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "LoverSpirit",
+          "text": "我知道。再见啦。"
+        },
+        {
+          "lineId": "CH02_Farewell_016",
+          "chapterId": "CH02",
+          "stageId": "CH02_Farewell",
+          "speakerId": "PastSelfRomance",
+          "text": "再见。"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "stageId": "CH02_Opening",
+      "text": "走近女孩，听她说说项链的事。"
+    },
+    {
+      "stageId": "CH02_FindNecklace",
+      "text": "在附近找到女孩丢失的项链。"
+    },
+    {
+      "stageId": "CH02_ReturnNecklace",
+      "text": "回到女孩身边，按 E 交还项链。"
+    },
+    {
+      "stageId": "CH02_RitualTalk",
+      "text": "听完女孩的话。"
+    },
+    {
+      "stageId": "CH02_Ritual",
+      "text": "靠近女孩，按 E 开始仪式。"
+    },
+    {
+      "stageId": "CH02_Board",
+      "text": "带女孩前往渡口，按 E 上船。"
+    },
+    {
+      "stageId": "CH02_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "stageId": "CH02_ReunionTalk",
+      "text": "走近长椅旁的男孩。"
+    },
+    {
+      "stageId": "CH02_Heart",
+      "text": "按住鼠标，沿引导画出完整的爱心。"
+    },
+    {
+      "stageId": "CH02_Farewell",
+      "text": "陪他们完成这次告别。"
+    },
+    {
+      "stageId": "CH02_Complete",
+      "text": "这一程，已经完成。"
+    }
+  ],
+  "items": [
+    {
+      "itemId": "IT03_Necklace",
+      "displayName": "情侣项链",
+      "description": "小小的吊坠背面，有一道不太整齐的划痕。"
+    }
+  ]
+}

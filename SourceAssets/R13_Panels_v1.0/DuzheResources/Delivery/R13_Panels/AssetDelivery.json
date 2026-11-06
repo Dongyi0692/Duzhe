@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R13_Panels_20261029_v1.0",
+  "items": [
+    {
+      "assetId": "PRP03_DoorCloseup",
+      "category": "MinigamePanel",
+      "relativePath": "Props/PRP03_DoorCloseup.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic geometry alignment, local cleanup and nearest-neighbor resize",
+      "promptId": "R13_PRP03_DoorCloseup_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_BG03_FarmCourtyard",
+        "REF_C03_MinigamePanelGeometry",
+        "REF_MG02_Door_Annotated"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "RGB不透明；单门与单个门环，视觉门环对齐中心(380,200)，命中矩形[356,176,48,48]；原门环已移除，生成标记已修补；未进行引擎导入或运行验证。",
+      "alpha": "RGB_Opaque",
+      "sourceAssetPath": "SourceAssets/R13/PRP03_DoorCloseup_aligned.png",
+      "rawSourceAssetPath": "SourceAssets/R13/PRP03_DoorCloseup_raw.png",
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "resizeMethod": "FullCanvas_NearestNeighbor_1280x720_to_640x360_NoCrop",
+      "cleanupMethod": "Original ring removed with clean plank texture; one ring moved and scaled to C03 center; lower-left generation mark patched.",
+      "previewPath": "Previews/Panels/PRP03_DoorCloseup_QA.png",
+      "sha256": "7bd09fbf66de00724d4dbf0efe31d0f11ae2af29c6f0ae44c3e726334e041c3f"
+    },
+    {
+      "assetId": "PRP06_PhotoFrame",
+      "category": "MinigamePanel",
+      "relativePath": "Props/PRP06_PhotoFrame.png",
+      "chapterIds": [
+        "CH03"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic geometry alignment, local cleanup and nearest-neighbor resize",
+      "promptId": "R13_PRP06_PhotoFrame_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_BG05_RecordingStudio",
+        "REF_C03_MinigamePanelGeometry",
+        "REF_MG06_Photo_Annotated"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "RGB不透明；仅烘焙三名固定成员，分别对齐A/B/C槽位；唯一鼓手缺口[384,198,48,64]为普通照片背景，不含可拖鼓手、永久人影、重复人物或槽位框线；生成标记已修补；未进行引擎导入或运行验证。",
+      "alpha": "RGB_Opaque",
+      "sourceAssetPath": "SourceAssets/R13/PRP06_PhotoFrame_aligned.png",
+      "rawSourceAssetPath": "SourceAssets/R13/PRP06_PhotoFrame_raw.png",
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "resizeMethod": "FullCanvas_NearestNeighbor_1280x720_to_640x360_NoCrop",
+      "cleanupMethod": "Three generated fixed members resized and aligned to A/B/C; original figures removed; drummer gap and start area left empty; lower-left generation mark repaired from symmetric frame.",
+      "previewPath": "Previews/Panels/PRP06_PhotoFrame_QA.png",
+      "sha256": "346eeb9fd090a1cfc589c2edb0c642300d061ba63ab8e597bedf48e8fe832752"
+    },
+    {
+      "assetId": "PRP07_BlackboardCloseup",
+      "category": "MinigamePanel",
+      "relativePath": "Props/PRP07_BlackboardCloseup.png",
+      "chapterIds": [
+        "CH04"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 640,
+      "height": 360,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic geometry alignment, local cleanup and nearest-neighbor resize",
+      "promptId": "R13_PRP07_BlackboardCloseup_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_BG06_Classroom",
+        "REF_C03_MinigamePanelGeometry",
+        "REF_MG07_Goodbye_Annotated"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "RGB不透明；黑板完全空白，不含“再见”、其他板书、人物或UI；书写区[0,80,640,320]，下部按钮带保持简洁；生成标记已修补；未进行引擎导入或运行验证。",
+      "alpha": "RGB_Opaque",
+      "sourceAssetPath": "SourceAssets/R13/PRP07_BlackboardCloseup_aligned.png",
+      "rawSourceAssetPath": "SourceAssets/R13/PRP07_BlackboardCloseup_raw.png",
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "resizeMethod": "FullCanvas_NearestNeighbor_1280x720_to_640x360_NoCrop",
+      "cleanupMethod": "Blank board retained; lower-left generation mark patched with adjacent clean frame texture; no writing or UI added.",
+      "previewPath": "Previews/Panels/PRP07_BlackboardCloseup_QA.png",
+      "sha256": "39b02497c1f7aafaeeb42602909515e6fd78b365d044c2ef4ce1b8e76b89c8dd"
+    }
+  ],
+  "pendingItems": [],
+  "hotspotsPath": "Props/PropsHotspots.json",
+  "geometryReferencePath": "Delivery/R13_Panels/References/MinigamePanelGeometry.md",
+  "contactSheetPath": "Previews/Panels/R13_Panels_ContactSheet.png",
+  "engineImportStatus": "NotImported",
+  "runtimeVerificationStatus": "NotVerified",
+  "historicalPackagePolicy": "Duzhe_R13_Props_v1.0.zip remains unchanged; this is a three-panel supplement."
+}

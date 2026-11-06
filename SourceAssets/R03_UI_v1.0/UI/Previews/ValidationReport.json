@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-27",
+  "screens": 25,
+  "controls": 182,
+  "uniqueTextKeys": 204,
+  "dialogueLinesTested": 237,
+  "dialogueOverflow": [],
+  "glyphCount": 697,
+  "missingGlyphs": [],
+  "fontFamily": "Noto Sans CJK SC",
+  "fontVersion": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+  "fontCopyright": "© 2014-2021 Adobe (http://www.adobe.com/).",
+  "fontSha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "png": [
+    {
+      "assetId": "UI01_DialoguePanel",
+      "size": [
+        256,
+        96
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "51a724ebb3659f22561c170e5ee917e0aa8f0a79eb6b677c14ebc6f525f2c4da"
+    },
+    {
+      "assetId": "UI01_GenericPanel",
+      "size": [
+        192,
+        192
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "da538e627b52811940aa89a3cfec9f39663817f5f7439777e4b81332d56a1979"
+    },
+    {
+      "assetId": "UI01_Button",
+      "size": [
+        160,
+        48
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "777e29f60051dae86f8efbec3fef7c7b5136dba7380cfd964042e04c71d50ba4"
+    },
+    {
+      "assetId": "UI02_Interact",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "b16c6b7e697b5518bdee92c79138bf904df56c2411c6a8f17fe3e5cf124ec7a1"
+    },
+    {
+      "assetId": "UI02_Item",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "ec13336088f41957c4ff1afc0fe81fd4073cb73bd51cce47ed0f3af287839097"
+    },
+    {
+      "assetId": "UI02_Pause",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "8aeb0189b436d2b711b875b459d3f34927ca92a8921323d02d8e2f7d30fa4447"
+    },
+    {
+      "assetId": "UI02_Volume",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "533e394ebe28c8582c6c03a32a9213fa690f78c9eac1b4ad2cd332018a878dbb"
+    },
+    {
+      "assetId": "UI02_Continue",
+      "size": [
+        32,
+        32
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "sha256": "007e68f0d008ba7695296dfd114998105f893e4dbb98510eb22311bfcc2b7e43"
+    }
+  ],
+  "usedAssets": [
+    "PRP03_DoorCloseup",
+    "PRP04_Stool",
+    "PRP05_DiningTable",
+    "PRP06_PhotoFrame",
+    "UI01_Button",
+    "UI01_DialoguePanel",
+    "UI01_GenericPanel",
+    "UI02_Continue",
+    "UI02_Interact",
+    "UI02_Item",
+    "UI02_Pause",
+    "UI02_Volume"
+  ],
+  "staticCases": 54,
+  "staticOverflows": 0,
+  "interactivePreviewRuntimeTested": false,
+  "engineImportedOrTested": false,
+  "issues": []
+}

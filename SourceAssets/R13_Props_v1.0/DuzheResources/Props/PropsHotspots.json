@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R13_PropsAndPanels_20261027_v1.0",
+  "coordinateSystem": {
+    "origin": "TopLeft",
+    "xDirection": "Right",
+    "yDirection": "Down",
+    "panelReferenceWidth": 640,
+    "panelReferenceHeight": 360,
+    "units": "referenceUiPixels"
+  },
+  "sourceStatus": {
+    "R04": "Read",
+    "C02": "Read",
+    "C03FinalExport": "Missing"
+  },
+  "items": [
+    {
+      "assetId": "PRP03_DoorCloseup",
+      "status": "PendingC03",
+      "doorRingRect": null,
+      "notes": "R04 LayoutHandoff“Codely 对接”第4条记录代码推导中心(380,200)、48×48矩形(356,176,48,48)，同时指出旧交接(380,160)与代码符号不一致；此处不将任何候选写成最终热点。"
+    },
+    {
+      "assetId": "PRP04_Stool",
+      "status": "AssetAnchorReviewed_UiSlotsPendingC03",
+      "assetBottomCenterAnchor": {
+        "pixel": [
+          16,
+          32
+        ],
+        "origin": "TopLeft",
+        "status": "Reviewed",
+        "notes": "32×32资源画布底部中心；y=32表示画布下边界，不是最后一行像素索引。"
+      },
+      "r04WorldPlacementPoints": [
+        {
+          "pointId": "FC_StoolLeft",
+          "pixel": [
+            672,
+            448
+          ]
+        },
+        {
+          "pointId": "FC_StoolRight",
+          "pixel": [
+            800,
+            448
+          ]
+        },
+        {
+          "pointId": "FC_StoolFront",
+          "pixel": [
+            736,
+            496
+          ]
+        }
+      ],
+      "uiTargetSlots": null
+    },
+    {
+      "assetId": "PRP06_PhotoFrame",
+      "status": "PendingC03",
+      "photoAvailableRegions": null,
+      "drummerDropTargetRect": null,
+      "notes": "等待C03最终合照UI导出；不把R04世界站位冒充面板内拖放坐标。"
+    },
+    {
+      "assetId": "PRP07_BlackboardCloseup",
+      "status": "PendingC03",
+      "writingAreaRect": null,
+      "notes": "等待C03最终黑板描画区与逐笔模板导出；面板尚未制作，不烘焙“再见”。"
+    }
+  ]
+}

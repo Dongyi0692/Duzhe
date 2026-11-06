@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R06_River_v1.0",
+  "items": [
+    {
+      "assetId": "BG02_River",
+      "category": "Background",
+      "relativePath": "Backgrounds/BG02_River.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0",
+      "status": "Generated",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "built-in image_gen",
+      "promptId": "R06",
+      "referenceIds": [
+        "R02_Approved_1.3",
+        "R04_River"
+      ],
+      "usageStatus": "NotImported",
+      "notes": "Whole source nearest-neighbor resized; static background not verified tileable; engine integration pending."
+    }
+  ]
+}

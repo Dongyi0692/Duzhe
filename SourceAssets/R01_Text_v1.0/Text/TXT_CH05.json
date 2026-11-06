@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "1.0",
+  "chapterId": "CH05",
+  "displayName": "自渡",
+  "segments": [
+    {
+      "segmentId": "CH05_Recall",
+      "stageId": "CH05_Recall",
+      "lines": [
+        {
+          "lineId": "CH05_Recall_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "这里怎么一下子，安静了这么多。"
+        },
+        {
+          "lineId": "CH05_Recall_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "眼镜，项链，鼓槌，还有那本教案……"
+        },
+        {
+          "lineId": "CH05_Recall_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我明明已经把它们送回去了。"
+        },
+        {
+          "lineId": "CH05_Recall_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "那把凳子，我小时候就爱挪到桌角。"
+        },
+        {
+          "lineId": "CH05_Recall_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "项链被衣领卡住的时候，我总会伸手碰一下。"
+        },
+        {
+          "lineId": "CH05_Recall_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "合奏前，我还是抢了那半拍。"
+        },
+        {
+          "lineId": "CH05_Recall_007",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "老师一叫人坐直，我就下意识抬起头。"
+        },
+        {
+          "lineId": "CH05_Recall_008",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "这些动作，我不是头一回做。"
+        },
+        {
+          "lineId": "CH05_Recall_009",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "饭桌前那个没空回家的孙子，是我。"
+        },
+        {
+          "lineId": "CH05_Recall_010",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "公园里等她的男孩，也是我。"
+        },
+        {
+          "lineId": "CH05_Recall_011",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "合照里的队友，坐在教室里的学生……都是我。"
+        },
+        {
+          "lineId": "CH05_Recall_012",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "那些时候隔了那么远，我竟一直没有发现。"
+        },
+        {
+          "lineId": "CH05_Recall_013",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我想起来了。我这一生，已经走完了。"
+        },
+        {
+          "lineId": "CH05_Recall_014",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "我也已经死了。"
+        },
+        {
+          "lineId": "CH05_Recall_015",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "忘掉自己的时候，我只记得要替别人撑船。"
+        },
+        {
+          "lineId": "CH05_Recall_016",
+          "chapterId": "CH05",
+          "stageId": "CH05_Recall",
+          "speakerId": "Ferryman",
+          "text": "原来一直放不下的，是这些没来得及的告别。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_LetGo",
+      "stageId": "CH05_LetGo",
+      "lines": [
+        {
+          "lineId": "CH05_LetGo_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "这里不是我从前生活的阳间。"
+        },
+        {
+          "lineId": "CH05_LetGo_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "是另一处地方，容得下那些相隔很远的时刻。"
+        },
+        {
+          "lineId": "CH05_LetGo_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "桌子的木纹，公园里的风，都和记得的一样。"
+        },
+        {
+          "lineId": "CH05_LetGo_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "可过去并没有被改写，他们也没有重新活过来。"
+        },
+        {
+          "lineId": "CH05_LetGo_005",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "这几次相见，我听到了他们的话，也终于把自己的话说完了。"
+        },
+        {
+          "lineId": "CH05_LetGo_006",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "我总想把每件事重来一次，才肯承认已经结束。"
+        },
+        {
+          "lineId": "CH05_LetGo_007",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "爷爷没让我补回所有日子，只让我把那顿饭吃完。"
+        },
+        {
+          "lineId": "CH05_LetGo_008",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "她舍不得我，还是把手松开了。"
+        },
+        {
+          "lineId": "CH05_LetGo_009",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "合照里不再有空位，老师也听见了那声再见。"
+        },
+        {
+          "lineId": "CH05_LetGo_010",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "他们给我的，不全是遗憾。还有这么多，我一直带着的东西。"
+        },
+        {
+          "lineId": "CH05_LetGo_011",
+          "chapterId": "CH05",
+          "stageId": "CH05_LetGo",
+          "speakerId": "Ferryman",
+          "text": "现在轮到我了。我也该渡过冥河，走向轮回。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH05_Reincarnation",
+      "stageId": "CH05_Reincarnation",
+      "lines": [
+        {
+          "lineId": "CH05_Reincarnation_001",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "这一次，船上没有要送的人了。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_002",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "爷爷，奶奶。那顿饭，我吃完了。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_003",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "还有你们。该说的话，我也都记住了。"
+        },
+        {
+          "lineId": "CH05_Reincarnation_004",
+          "chapterId": "CH05",
+          "stageId": "CH05_Reincarnation",
+          "speakerId": "Ferryman",
+          "text": "我走了。再见。"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "stageId": "CH05_Recall",
+      "text": "听渡客说完想起的往事。"
+    },
+    {
+      "stageId": "CH05_LetGo",
+      "text": "把最后的心事说完。"
+    },
+    {
+      "stageId": "CH05_Board",
+      "text": "独自走向渡口，按 E 上船。"
+    },
+    {
+      "stageId": "CH05_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "stageId": "CH05_Reincarnation",
+      "text": "走完最后这一程。"
+    },
+    {
+      "stageId": "CH05_Complete",
+      "text": "故事已结束。返回开始界面。"
+    }
+  ],
+  "items": []
+}

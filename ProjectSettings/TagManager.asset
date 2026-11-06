@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - WorldSolid
+  - Interactable
+  - Trigger
+  - Boat
+  - RiverHazard
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 295748569
+    locked: 0
+  - name: GroundProps
+    uniqueID: 582209637
+    locked: 0
+  - name: Actors
+    uniqueID: 142304112
+    locked: 0
+  - name: Foreground
+    uniqueID: 936587308
+    locked: 0
+  - name: Effects
+    uniqueID: 587611951
+    locked: 0

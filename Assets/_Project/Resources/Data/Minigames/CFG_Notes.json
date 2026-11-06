@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "minigameId": "MG05_Notes",
+  "tempoBpm": 78,
+  "noteAssetIds": [
+    "N01_Do",
+    "N02_Re",
+    "N03_Mi",
+    "N04_Fa",
+    "N05_Sol",
+    "N06_La",
+    "N07_Si"
+  ],
+  "sequence": [
+    1,
+    2,
+    3,
+    5,
+    3,
+    2,
+    1,
+    2,
+    3,
+    5,
+    6,
+    5,
+    3,
+    2,
+    1,
+    1
+  ],
+  "noteBeats": [
+    1,
+    1,
+    0.5,
+    0.5,
+    1,
+    1,
+    1,
+    0.5,
+    0.5,
+    1,
+    1,
+    1.5,
+    0.5,
+    1,
+    1,
+    2
+  ],
+  "demoAssetId": "MEL01_BandPhrase"
+}

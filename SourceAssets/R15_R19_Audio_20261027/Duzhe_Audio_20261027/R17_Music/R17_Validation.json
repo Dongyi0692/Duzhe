@@ -1,0 +1,68 @@
+{
+  "BGM01_RiverMist": {
+    "durationSeconds": 72.0,
+    "sampleRate": 44100,
+    "bitDepth": 16,
+    "channels": 2,
+    "peak": 0.699982,
+    "rms": 0.148088,
+    "nonSilent": true,
+    "clippedSamples": 0,
+    "loopBoundarySampleStepPerChannel": [
+      0.011841,
+      0.014923
+    ],
+    "interiorSampleStepP99PerChannel": [
+      0.016754,
+      0.019012
+    ],
+    "loopSeamClickCheck": true,
+    "loopSeamRegionRms": 0.142116,
+    "loopConstruction": "Circular note-tail wrapping and circular reverb; no end fade baked into loop file",
+    "auditioned": false
+  },
+  "BGM02_Reunion": {
+    "durationSeconds": 72.0,
+    "sampleRate": 44100,
+    "bitDepth": 16,
+    "channels": 2,
+    "peak": 0.73999,
+    "rms": 0.187378,
+    "nonSilent": true,
+    "clippedSamples": 0,
+    "loopBoundarySampleStepPerChannel": [
+      0.006531,
+      0.009613
+    ],
+    "interiorSampleStepP99PerChannel": [
+      0.027771,
+      0.02774
+    ],
+    "loopSeamClickCheck": true,
+    "loopSeamRegionRms": 0.184547,
+    "loopConstruction": "Circular note-tail wrapping and circular reverb; no end fade baked into loop file",
+    "auditioned": false
+  },
+  "BGM03_SelfCrossing": {
+    "durationSeconds": 72.0,
+    "sampleRate": 44100,
+    "bitDepth": 16,
+    "channels": 2,
+    "peak": 0.719971,
+    "rms": 0.143363,
+    "nonSilent": true,
+    "clippedSamples": 0,
+    "loopBoundarySampleStepPerChannel": [
+      0.011566,
+      0.014954
+    ],
+    "interiorSampleStepP99PerChannel": [
+      0.014191,
+      0.016296
+    ],
+    "loopSeamClickCheck": true,
+    "loopSeamRegionRms": 0.168862,
+    "loopConstruction": "Circular note-tail wrapping and circular reverb; no end fade baked into loop file",
+    "auditioned": false
+  }
+}

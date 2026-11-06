@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R14_FarewellIllustrations_20261028_v1.0",
+  "technicalStatus": "Passed",
+  "visualStatus": "Reviewed",
+  "reviewedImageCount": 5,
+  "engineImportStatus": "Not imported or runtime-tested",
+  "contactSheet": "SourceAssets/Illustrations/R14_FarewellIllustrations_Preview.png",
+  "items": [
+    {
+      "assetId": "CG01_FamilyFarewell",
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "technicalChecks": {
+        "final640x360PNG": true,
+        "finalOpaqueRGB": true,
+        "raw1280x720Retained": true,
+        "clean1280x720Retained": true,
+        "aspectRatioUnchanged": true
+      },
+      "visualChecks": {
+        "exactPeopleAndIdentities": true,
+        "facesClothesHandsEmotionReviewed": true,
+        "noBakedDialogueTitleOrSignature": true,
+        "generatorCornerLabelRemoved": true,
+        "backgroundAndCompositionMatch": true
+      },
+      "expectedPersonCount": 4,
+      "observedPersonCount": 4,
+      "visualNotes": "两位老人与成年孙子围同一饭桌用餐；灰蓝短兜帽渡客在旁，合计四人。人物服装与母图一致，手部动作自然，情绪安静克制。",
+      "sha256": "d3ef47d77eb479de21d34653486950bf35946efdfb187db8e35127df0c2c48d1"
+    },
+    {
+      "assetId": "CG02_LoversFarewell",
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "technicalChecks": {
+        "final640x360PNG": true,
+        "finalOpaqueRGB": true,
+        "raw1280x720Retained": true,
+        "clean1280x720Retained": true,
+        "aspectRatioUnchanged": true
+      },
+      "visualChecks": {
+        "exactPeopleAndIdentities": true,
+        "womanAndManNotSwapped": true,
+        "facesClothesHandsEmotionReviewed": true,
+        "coherentTwoPersonEmbrace": true,
+        "noBakedDialogueTitleOrSignature": true,
+        "generatorCornerLabelRemoved": true,
+        "backgroundAndCompositionMatch": true
+      },
+      "expectedPersonCount": 2,
+      "observedPersonCount": 2,
+      "visualNotes": "中长黑发、柔绿开衫的女孩与灰绿外套、深棕短发男生拥抱；只有两人，性别与身份正确，手臂和腿部关系自然。",
+      "sha256": "de7b30918c8b1c57287adeafbec99f7f006bbfb8e5bc7f444bc27ed6a0a49252"
+    },
+    {
+      "assetId": "CG03_BandFarewell",
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "technicalChecks": {
+        "final640x360PNG": true,
+        "finalOpaqueRGB": true,
+        "raw1280x720Retained": true,
+        "clean1280x720Retained": true,
+        "aspectRatioUnchanged": true
+      },
+      "visualChecks": {
+        "exactFourBandMembers": true,
+        "ferrymanExcluded": true,
+        "facesClothesHandsEmotionReviewed": true,
+        "noBakedDialogueTitleOrSignature": true,
+        "generatorCornerLabelRemoved": true,
+        "backgroundAndCompositionMatch": true
+      },
+      "expectedPersonCount": 4,
+      "observedPersonCount": 4,
+      "visualNotes": "红衣鼓手、灰紫夹克过去自我、蓝夹克队友和黄外套女队友四人全身合照；没有渡客或第五人。四人照片本身永久保留。",
+      "sha256": "b53e13708fcfbe3a6567ab965bb66be972e15cb3c5943d6fc00fe56049bfed95"
+    },
+    {
+      "assetId": "CG04_TeacherFarewell",
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "technicalChecks": {
+        "final640x360PNG": true,
+        "finalOpaqueRGB": true,
+        "raw1280x720Retained": true,
+        "clean1280x720Retained": true,
+        "aspectRatioUnchanged": true
+      },
+      "visualChecks": {
+        "exactPeopleAndIdentities": true,
+        "blackboardBlankForRuntimeText": true,
+        "facesClothesHandsEmotionReviewed": true,
+        "noBakedDialogueTitleOrSignature": true,
+        "generatorCornerLabelRemoved": true,
+        "backgroundAndCompositionMatch": true
+      },
+      "expectedPersonCount": 2,
+      "observedPersonCount": 2,
+      "visualNotes": "低盘发米棕外套教师与蓝白校服学生两人；教师手搭学生肩头，表情温和。大黑板保持空白，正文和再见均由程序叠加。",
+      "sha256": "99be5c36d8df0f32f8b259748d47e0735064a618de8ccb3c051775b51350fbe8"
+    },
+    {
+      "assetId": "CG05_SelfCrossing",
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "technicalChecks": {
+        "final640x360PNG": true,
+        "finalOpaqueRGB": true,
+        "raw1280x720Retained": true,
+        "clean1280x720Retained": true,
+        "aspectRatioUnchanged": true
+      },
+      "visualChecks": {
+        "onlyOneFerrymanAndOneBoat": true,
+        "noPassengerOrOtherPerson": true,
+        "otherworldlyNotRealityAwakening": true,
+        "noBakedDialogueTitleOrSignature": true,
+        "generatorCornerLabelRemoved": true,
+        "backgroundAndCompositionMatch": true
+      },
+      "expectedPersonCount": 1,
+      "observedPersonCount": 1,
+      "visualNotes": "渡客背向镜头独自乘船沿冥河远去，冷色河面前方渐暖；没有乘客或第二船夫，不是现实醒来、复活或回到阳间。",
+      "sha256": "54a0b7b7ea9ff8ac0137f4c9f657a919f4956a8a69ca124da84bd20322085549"
+    }
+  ]
+}

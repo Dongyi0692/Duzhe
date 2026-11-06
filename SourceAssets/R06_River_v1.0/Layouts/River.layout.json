@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "sceneId": "River",
+  "canvasWidth": 1280,
+  "canvasHeight": 720,
+  "pixelsPerUnit": 32,
+  "origin": "TopLeft",
+  "points": [
+    {
+      "pointId": "RV_BoatStart",
+      "x": 640,
+      "y": 456
+    },
+    {
+      "pointId": "RV_LaneLeft",
+      "x": 544,
+      "y": 456
+    },
+    {
+      "pointId": "RV_LaneMiddle",
+      "x": 640,
+      "y": 456
+    },
+    {
+      "pointId": "RV_LaneRight",
+      "x": 736,
+      "y": 456
+    },
+    {
+      "pointId": "RV_SteerLeft",
+      "x": 496,
+      "y": 456
+    },
+    {
+      "pointId": "RV_SteerRight",
+      "x": 784,
+      "y": 456
+    }
+  ],
+  "walkablePolygons": [],
+  "solidPolygons": [],
+  "hotspots": []
+}

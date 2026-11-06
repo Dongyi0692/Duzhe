@@ -1,0 +1,4664 @@
+{
+  "schemaVersion": "1.0",
+  "designVersion": "R03-1.0.0",
+  "canvasWidth": 1280,
+  "canvasHeight": 720,
+  "origin": "TopLeft",
+  "styleReference": "R02-Approved-1.3",
+  "pixelArtScale": 1,
+  "fontAssetId": "UI03_Font",
+  "fontFile": "Fonts/NotoSansCJKsc-Regular.otf",
+  "canvasScaler": {
+    "uiScaleMode": "ScaleWithScreenSize",
+    "referenceResolution": [
+      1280,
+      720
+    ],
+    "screenMatchMode": "MatchWidthOrHeight",
+    "matchWidthOrHeight": 0.5
+  },
+  "modalOrder": [
+    "World",
+    "HUD",
+    "Dialogue",
+    "MiniGame",
+    "RiverModal",
+    "MenuSubpage",
+    "Pause",
+    "Confirm",
+    "SaveError"
+  ],
+  "buttonStates": {
+    "normal": {
+      "tint": "#FFFFFF",
+      "text": "#EEF2F4"
+    },
+    "hover": {
+      "tint": "#E1E9EC",
+      "outline": "#D7BC8D"
+    },
+    "focused": {
+      "tint": "#FFFFFF",
+      "outline": "#D7BC8D",
+      "outlineWidth": 2
+    },
+    "pressed": {
+      "tint": "#B2C1CC",
+      "contentOffset": [
+        0,
+        1
+      ]
+    },
+    "disabled": {
+      "tint": "#748490",
+      "text": "#AAB5BC",
+      "interactable": false
+    }
+  },
+  "skinSlices": {
+    "UI01_DialoguePanel": {
+      "file": "Skins/UI01_DialoguePanel.png",
+      "size": [
+        256,
+        96
+      ],
+      "borderLTRB": [
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    "UI01_GenericPanel": {
+      "file": "Skins/UI01_GenericPanel.png",
+      "size": [
+        192,
+        192
+      ],
+      "borderLTRB": [
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    "UI01_Button": {
+      "file": "Skins/UI01_Button.png",
+      "size": [
+        160,
+        48
+      ],
+      "borderLTRB": [
+        8,
+        8,
+        8,
+        8
+      ]
+    }
+  },
+  "dataRules": {
+    "chapterIdsAllowlist": [
+      "CH01",
+      "CH02",
+      "CH03",
+      "CH04",
+      "CH05"
+    ],
+    "chaptersShowOnlyCompleted": true,
+    "galleryShowOnlyPlayedToEnd": true,
+    "hideLockedNames": true,
+    "minHitTarget": [
+      44,
+      44
+    ],
+    "allDynamicTextSanitized": true,
+    "actionsAreLabelsNotExecutableCode": true
+  },
+  "screens": [
+    {
+      "screenId": "MainMenu",
+      "name": "主菜单",
+      "inputMode": "Menu",
+      "layer": 10,
+      "visibleWhen": "screen == MainMenu",
+      "controls": [
+        {
+          "controlId": "MainMenu.title",
+          "kind": "Text",
+          "rect": [
+            96,
+            78,
+            660,
+            100
+          ],
+          "textKey": "game.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 72,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "MainMenu.subtitle",
+          "kind": "Text",
+          "rect": [
+            100,
+            184,
+            720,
+            42
+          ],
+          "textKey": "menu.subtitle",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "MainMenu.start",
+          "kind": "Button",
+          "rect": [
+            100,
+            260,
+            336,
+            56
+          ],
+          "textKey": "menu.start",
+          "action": "StartOrContinue",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "textBinding": "startLabelByFormalProgress",
+          "textKeyVariants": [
+            "menu.start",
+            "menu.continue",
+            "menu.replay_first"
+          ],
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "MainMenu.chapters",
+          "kind": "Button",
+          "rect": [
+            100,
+            332,
+            336,
+            56
+          ],
+          "textKey": "menu.chapters",
+          "action": "OpenChapters",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "MainMenu.gallery",
+          "kind": "Button",
+          "rect": [
+            100,
+            404,
+            336,
+            56
+          ],
+          "textKey": "menu.gallery",
+          "action": "OpenGallery",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "MainMenu.settings",
+          "kind": "Button",
+          "rect": [
+            100,
+            476,
+            336,
+            56
+          ],
+          "textKey": "menu.settings",
+          "action": "OpenSettings",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "MainMenu.credits",
+          "kind": "Button",
+          "rect": [
+            100,
+            548,
+            160,
+            52
+          ],
+          "textKey": "menu.credits",
+          "action": "OpenCredits",
+          "visibleWhen": "screen.visible",
+          "fontSize": 23,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "MainMenu.quit",
+          "kind": "Button",
+          "rect": [
+            276,
+            548,
+            160,
+            52
+          ],
+          "textKey": "menu.quit",
+          "action": "ConfirmQuit",
+          "visibleWhen": "screen.visible",
+          "fontSize": 23,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "MainMenu.saveNotice",
+          "kind": "Text",
+          "rect": [
+            100,
+            638,
+            1072,
+            54
+          ],
+          "textKey": "menu.save_notice",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        }
+      ],
+      "defaultFocus": "MainMenu.start",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Explore",
+      "name": "探索与交互",
+      "inputMode": "Exploring",
+      "layer": 20,
+      "visibleWhen": "screen == Explore",
+      "controls": [
+        {
+          "controlId": "Explore.objectivePanel",
+          "kind": "Panel",
+          "rect": [
+            32,
+            32,
+            812,
+            92
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Explore.objective",
+          "kind": "Text",
+          "rect": [
+            56,
+            48,
+            764,
+            60
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "currentStageObjective",
+          "previewTextKey": "objective.CH01_Prepare"
+        },
+        {
+          "controlId": "Explore.pause",
+          "kind": "Button",
+          "rect": [
+            1184,
+            32,
+            64,
+            64
+          ],
+          "textKey": null,
+          "action": "OpenPause",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Pause",
+          "accessibleTextKey": "hint.pause",
+          "focusable": true
+        },
+        {
+          "controlId": "Explore.interactionPanel",
+          "kind": "Panel",
+          "rect": [
+            360,
+            606,
+            560,
+            64
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "legalInteractableInRange",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Explore.interactIcon",
+          "kind": "Icon",
+          "rect": [
+            380,
+            622,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "legalInteractableInRange",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Interact"
+        },
+        {
+          "controlId": "Explore.interact",
+          "kind": "Text",
+          "rect": [
+            428,
+            620,
+            468,
+            36
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "legalInteractableInRange",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "currentInteractionText",
+          "previewTextKey": "hint.pickup"
+        },
+        {
+          "controlId": "Explore.itemToastIcon",
+          "kind": "Icon",
+          "rect": [
+            320,
+            540,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "toast.active && toast.kind == Item",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Item"
+        },
+        {
+          "controlId": "Explore.toast",
+          "kind": "Text",
+          "rect": [
+            364,
+            536,
+            596,
+            40
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "toast.active",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "currentToast",
+          "previewTextKey": "feedback.item_collected"
+        },
+        {
+          "controlId": "Explore.moveHint",
+          "kind": "Text",
+          "rect": [
+            32,
+            674,
+            880,
+            30
+          ],
+          "textKey": "hint.move",
+          "action": "None",
+          "visibleWhen": "tutorial.moveVisible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        }
+      ],
+      "defaultFocus": "Explore.pause",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": false,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Dialogue",
+      "name": "故事对白",
+      "inputMode": "Dialogue",
+      "layer": 30,
+      "visibleWhen": "screen == Dialogue",
+      "controls": [
+        {
+          "controlId": "Dialogue.panel",
+          "kind": "Panel",
+          "rect": [
+            48,
+            500,
+            1184,
+            196
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_DialoguePanel"
+        },
+        {
+          "controlId": "Dialogue.speaker",
+          "kind": "Text",
+          "rect": [
+            80,
+            516,
+            1040,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "currentLine.speakerDisplayName",
+          "previewTextKey": "speaker.Grandmother",
+          "color": "accent"
+        },
+        {
+          "controlId": "Dialogue.body",
+          "kind": "Text",
+          "rect": [
+            80,
+            554,
+            1120,
+            96
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 28,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.14,
+          "textBinding": "currentLine.text",
+          "previewText": "小伙子，你看见一副老花镜没有？镜腿上缠着线的。"
+        },
+        {
+          "controlId": "Dialogue.hint",
+          "kind": "Text",
+          "rect": [
+            80,
+            658,
+            1040,
+            26
+          ],
+          "textKey": "hint.dialogue_next",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Dialogue.continueIcon",
+          "kind": "Icon",
+          "rect": [
+            1168,
+            650,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Continue"
+        },
+        {
+          "controlId": "Dialogue.advanceArea",
+          "kind": "InteractionArea",
+          "rect": [
+            48,
+            500,
+            1184,
+            196
+          ],
+          "textKey": null,
+          "action": "AdvanceDialogue",
+          "visibleWhen": "dialogue.active && !paused",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "keyboard": [
+            "Space"
+          ],
+          "consumeOnClose": true,
+          "transparent": true,
+          "previewHidden": true
+        }
+      ],
+      "defaultFocus": null,
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "GalleryReplay",
+      "name": "回忆回放",
+      "inputMode": "Gallery",
+      "layer": 30,
+      "visibleWhen": "screen == GalleryReplay",
+      "controls": [
+        {
+          "controlId": "GalleryReplay.panel",
+          "kind": "Panel",
+          "rect": [
+            48,
+            500,
+            1184,
+            196
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_DialoguePanel"
+        },
+        {
+          "controlId": "GalleryReplay.speaker",
+          "kind": "Text",
+          "rect": [
+            80,
+            516,
+            1040,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "currentLine.speakerDisplayName",
+          "previewTextKey": "speaker.Grandmother",
+          "color": "accent"
+        },
+        {
+          "controlId": "GalleryReplay.body",
+          "kind": "Text",
+          "rect": [
+            80,
+            554,
+            1120,
+            96
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 28,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.14,
+          "textBinding": "currentLine.text",
+          "previewText": "小伙子，你看见一副老花镜没有？镜腿上缠着线的。"
+        },
+        {
+          "controlId": "GalleryReplay.hint",
+          "kind": "Text",
+          "rect": [
+            80,
+            658,
+            1040,
+            26
+          ],
+          "textKey": "hint.dialogue_next",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "GalleryReplay.continueIcon",
+          "kind": "Icon",
+          "rect": [
+            1168,
+            650,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Continue"
+        },
+        {
+          "controlId": "GalleryReplay.advanceArea",
+          "kind": "InteractionArea",
+          "rect": [
+            48,
+            500,
+            1184,
+            196
+          ],
+          "textKey": null,
+          "action": "AdvanceDialogue",
+          "visibleWhen": "dialogue.active && !paused",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "keyboard": [
+            "Space"
+          ],
+          "consumeOnClose": true,
+          "transparent": true,
+          "previewHidden": true
+        },
+        {
+          "controlId": "GalleryReplay.leave",
+          "kind": "Button",
+          "rect": [
+            1024,
+            32,
+            208,
+            52
+          ],
+          "textKey": "button.leave_replay",
+          "action": "ConfirmLeaveGallery",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "GalleryReplay.modeHint",
+          "kind": "Text",
+          "rect": [
+            48,
+            38,
+            920,
+            36
+          ],
+          "textKey": "gallery.manual_hint",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        }
+      ],
+      "defaultFocus": "GalleryReplay.leave",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Pause",
+      "name": "暂停与音量",
+      "inputMode": "Paused",
+      "layer": 80,
+      "visibleWhen": "screen == Pause",
+      "controls": [
+        {
+          "controlId": "Pause.panel",
+          "kind": "Panel",
+          "rect": [
+            360,
+            44,
+            560,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Pause.title",
+          "kind": "Text",
+          "rect": [
+            416,
+            72,
+            448,
+            48
+          ],
+          "textKey": "pause.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 36,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Pause.resume",
+          "kind": "Button",
+          "rect": [
+            416,
+            136,
+            448,
+            52
+          ],
+          "textKey": "button.resume",
+          "action": "Resume",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Pause.label0",
+          "kind": "Text",
+          "rect": [
+            416,
+            220,
+            112,
+            40
+          ],
+          "textKey": "volume.master",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Pause.volumeIcon0",
+          "kind": "Icon",
+          "rect": [
+            544,
+            222,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Volume"
+        },
+        {
+          "controlId": "Pause.volume0",
+          "kind": "Slider",
+          "rect": [
+            592,
+            214,
+            272,
+            48
+          ],
+          "textKey": null,
+          "action": "SetVolume",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "volumeChannel": "master",
+          "value": 0.7,
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "keyboard": [
+            "Left",
+            "Right"
+          ],
+          "accessibleTextKey": "volume.master"
+        },
+        {
+          "controlId": "Pause.label1",
+          "kind": "Text",
+          "rect": [
+            416,
+            296,
+            112,
+            40
+          ],
+          "textKey": "volume.music",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Pause.volumeIcon1",
+          "kind": "Icon",
+          "rect": [
+            544,
+            298,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Volume"
+        },
+        {
+          "controlId": "Pause.volume1",
+          "kind": "Slider",
+          "rect": [
+            592,
+            290,
+            272,
+            48
+          ],
+          "textKey": null,
+          "action": "SetVolume",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "volumeChannel": "music",
+          "value": 0.7,
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "keyboard": [
+            "Left",
+            "Right"
+          ],
+          "accessibleTextKey": "volume.music"
+        },
+        {
+          "controlId": "Pause.label2",
+          "kind": "Text",
+          "rect": [
+            416,
+            372,
+            112,
+            40
+          ],
+          "textKey": "volume.sfx",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Pause.volumeIcon2",
+          "kind": "Icon",
+          "rect": [
+            544,
+            374,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Volume"
+        },
+        {
+          "controlId": "Pause.volume2",
+          "kind": "Slider",
+          "rect": [
+            592,
+            366,
+            272,
+            48
+          ],
+          "textKey": null,
+          "action": "SetVolume",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "volumeChannel": "sfx",
+          "value": 0.7,
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "keyboard": [
+            "Left",
+            "Right"
+          ],
+          "accessibleTextKey": "volume.sfx"
+        },
+        {
+          "controlId": "Pause.chapters",
+          "kind": "Button",
+          "rect": [
+            416,
+            464,
+            216,
+            52
+          ],
+          "textKey": "menu.chapters",
+          "action": "OpenChapters",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Pause.gallery",
+          "kind": "Button",
+          "rect": [
+            648,
+            464,
+            216,
+            52
+          ],
+          "textKey": "menu.gallery",
+          "action": "OpenGallery",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Pause.menu",
+          "kind": "Button",
+          "rect": [
+            416,
+            532,
+            448,
+            52
+          ],
+          "textKey": "button.return_menu",
+          "action": "ConfirmLeaveChapter",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Pause.hint",
+          "kind": "Text",
+          "rect": [
+            416,
+            610,
+            448,
+            30
+          ],
+          "textKey": "pause.help",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        }
+      ],
+      "defaultFocus": "Pause.resume",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Settings",
+      "name": "音量设置",
+      "inputMode": "Menu",
+      "layer": 50,
+      "visibleWhen": "screen == Settings",
+      "controls": [
+        {
+          "controlId": "Settings.panel",
+          "kind": "Panel",
+          "rect": [
+            360,
+            104,
+            560,
+            512
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Settings.title",
+          "kind": "Text",
+          "rect": [
+            416,
+            128,
+            448,
+            48
+          ],
+          "textKey": "settings.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 36,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Settings.label0",
+          "kind": "Text",
+          "rect": [
+            416,
+            220,
+            112,
+            40
+          ],
+          "textKey": "volume.master",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Settings.volumeIcon0",
+          "kind": "Icon",
+          "rect": [
+            544,
+            222,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Volume"
+        },
+        {
+          "controlId": "Settings.volume0",
+          "kind": "Slider",
+          "rect": [
+            592,
+            214,
+            272,
+            48
+          ],
+          "textKey": null,
+          "action": "SetVolume",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "volumeChannel": "master",
+          "value": 0.7,
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "accessibleTextKey": "volume.master"
+        },
+        {
+          "controlId": "Settings.label1",
+          "kind": "Text",
+          "rect": [
+            416,
+            308,
+            112,
+            40
+          ],
+          "textKey": "volume.music",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Settings.volumeIcon1",
+          "kind": "Icon",
+          "rect": [
+            544,
+            310,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Volume"
+        },
+        {
+          "controlId": "Settings.volume1",
+          "kind": "Slider",
+          "rect": [
+            592,
+            302,
+            272,
+            48
+          ],
+          "textKey": null,
+          "action": "SetVolume",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "volumeChannel": "music",
+          "value": 0.7,
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "accessibleTextKey": "volume.music"
+        },
+        {
+          "controlId": "Settings.label2",
+          "kind": "Text",
+          "rect": [
+            416,
+            396,
+            112,
+            40
+          ],
+          "textKey": "volume.sfx",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Settings.volumeIcon2",
+          "kind": "Icon",
+          "rect": [
+            544,
+            398,
+            32,
+            32
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Volume"
+        },
+        {
+          "controlId": "Settings.volume2",
+          "kind": "Slider",
+          "rect": [
+            592,
+            390,
+            272,
+            48
+          ],
+          "textKey": null,
+          "action": "SetVolume",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "volumeChannel": "sfx",
+          "value": 0.7,
+          "min": 0,
+          "max": 1,
+          "step": 0.05,
+          "accessibleTextKey": "volume.sfx"
+        },
+        {
+          "controlId": "Settings.back",
+          "kind": "Button",
+          "rect": [
+            416,
+            532,
+            448,
+            52
+          ],
+          "textKey": "button.back",
+          "action": "CloseSettingsSaveVolumes",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "Settings.back",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Chapters",
+      "name": "已通关章节",
+      "inputMode": "MenuOrPaused",
+      "layer": 60,
+      "visibleWhen": "screen == Chapters",
+      "controls": [
+        {
+          "controlId": "Chapters.panel",
+          "kind": "Panel",
+          "rect": [
+            120,
+            56,
+            1040,
+            608
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Chapters.title",
+          "kind": "Text",
+          "rect": [
+            160,
+            86,
+            880,
+            52
+          ],
+          "textKey": "chapters.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 36,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Chapters.empty",
+          "kind": "Text",
+          "rect": [
+            184,
+            296,
+            912,
+            84
+          ],
+          "textKey": "chapters.empty",
+          "action": "None",
+          "visibleWhen": "completedFormalChapters.count == 0",
+          "fontSize": 28,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Chapters.list",
+          "kind": "List",
+          "rect": [
+            160,
+            164,
+            960,
+            368
+          ],
+          "textKey": null,
+          "action": "ReplayCompletedChapter",
+          "visibleWhen": "completedFormalChapters.count > 0",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "dataSource": "completedFormalChapters",
+          "filterIds": [
+            "CH01",
+            "CH02",
+            "CH03",
+            "CH04",
+            "CH05"
+          ],
+          "onlyCompleted": true,
+          "itemSize": [
+            960,
+            64
+          ],
+          "itemGap": [
+            0,
+            12
+          ],
+          "maxItems": 5,
+          "columns": 1,
+          "itemTextKeyPattern": "chapter.{chapterId}.name",
+          "itemAction": "RequestChapterReplay",
+          "focusable": true,
+          "previewItems": [
+            "chapter.CH01.name",
+            "chapter.CH02.name"
+          ]
+        },
+        {
+          "controlId": "Chapters.notice",
+          "kind": "Text",
+          "rect": [
+            160,
+            552,
+            744,
+            48
+          ],
+          "textKey": "menu.replay_notice",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 21,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Chapters.back",
+          "kind": "Button",
+          "rect": [
+            944,
+            592,
+            176,
+            48
+          ],
+          "textKey": "button.back",
+          "action": "BackToCaller",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "Chapters.list",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Gallery",
+      "name": "已解锁回忆",
+      "inputMode": "MenuOrPaused",
+      "layer": 60,
+      "visibleWhen": "screen == Gallery",
+      "controls": [
+        {
+          "controlId": "Gallery.panel",
+          "kind": "Panel",
+          "rect": [
+            120,
+            56,
+            1040,
+            608
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Gallery.title",
+          "kind": "Text",
+          "rect": [
+            160,
+            86,
+            880,
+            52
+          ],
+          "textKey": "gallery.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 36,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Gallery.empty",
+          "kind": "Text",
+          "rect": [
+            184,
+            296,
+            912,
+            84
+          ],
+          "textKey": "gallery.empty",
+          "action": "None",
+          "visibleWhen": "unlockedPlayedPresentations.count == 0",
+          "fontSize": 28,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Gallery.list",
+          "kind": "List",
+          "rect": [
+            160,
+            166,
+            960,
+            398
+          ],
+          "textKey": null,
+          "action": "PlayUnlockedPresentation",
+          "visibleWhen": "unlockedPlayedPresentations.count > 0",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "dataSource": "unlockedPlayedPresentations",
+          "onlyPlaybackCompleted": true,
+          "itemSize": [
+            464,
+            112
+          ],
+          "itemGap": [
+            32,
+            20
+          ],
+          "maxItems": 6,
+          "columns": 2,
+          "itemTextKeyPattern": "gallery.{presentationId}.title",
+          "itemAction": "StartGalleryReplay",
+          "focusable": true,
+          "previewItems": [
+            "gallery.PR_CH01_Farewell.title",
+            "gallery.PR_CH02_Farewell.title"
+          ]
+        },
+        {
+          "controlId": "Gallery.back",
+          "kind": "Button",
+          "rect": [
+            944,
+            592,
+            176,
+            48
+          ],
+          "textKey": "button.back",
+          "action": "BackToCaller",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "Gallery.list",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "RiverBriefing",
+      "name": "渡河说明",
+      "inputMode": "Modal",
+      "layer": 45,
+      "visibleWhen": "screen == RiverBriefing",
+      "controls": [
+        {
+          "controlId": "RiverBriefing.panel",
+          "kind": "Panel",
+          "rect": [
+            328,
+            196,
+            624,
+            328
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "RiverBriefing.title",
+          "kind": "Text",
+          "rect": [
+            368,
+            228,
+            544,
+            48
+          ],
+          "textKey": "river.instructions_title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 32,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "RiverBriefing.body",
+          "kind": "Text",
+          "rect": [
+            368,
+            292,
+            544,
+            72
+          ],
+          "textKey": "river.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "RiverBriefing.confirm",
+          "kind": "Button",
+          "rect": [
+            432,
+            436,
+            416,
+            56
+          ],
+          "textKey": "button.start_crossing",
+          "action": "StartRiver",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "defaultFocus": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "RiverBriefing.retryInfo",
+          "kind": "Text",
+          "rect": [
+            368,
+            370,
+            544,
+            64
+          ],
+          "textKey": "river.instructions_retry",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        }
+      ],
+      "defaultFocus": "RiverBriefing.confirm",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "RiverRetry",
+      "name": "重新渡河",
+      "inputMode": "Modal",
+      "layer": 45,
+      "visibleWhen": "screen == RiverRetry",
+      "controls": [
+        {
+          "controlId": "RiverRetry.panel",
+          "kind": "Panel",
+          "rect": [
+            328,
+            196,
+            624,
+            328
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "RiverRetry.title",
+          "kind": "Text",
+          "rect": [
+            368,
+            228,
+            544,
+            48
+          ],
+          "textKey": "river.retry_title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 32,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "RiverRetry.body",
+          "kind": "Text",
+          "rect": [
+            368,
+            294,
+            544,
+            110
+          ],
+          "textKey": "river.retry_body",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "RiverRetry.confirm",
+          "kind": "Button",
+          "rect": [
+            432,
+            436,
+            416,
+            56
+          ],
+          "textKey": "button.retry_river",
+          "action": "RetryCurrentRiver",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "defaultFocus": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "RiverRetry.confirm",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "ConfirmLeave",
+      "name": "离开当前章节",
+      "inputMode": "Modal",
+      "layer": 90,
+      "visibleWhen": "screen == ConfirmLeave",
+      "controls": [
+        {
+          "controlId": "ConfirmLeave.panel",
+          "kind": "Panel",
+          "rect": [
+            328,
+            196,
+            624,
+            328
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "ConfirmLeave.title",
+          "kind": "Text",
+          "rect": [
+            368,
+            228,
+            544,
+            48
+          ],
+          "textKey": "confirm.leave_chapter_title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 32,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmLeave.body",
+          "kind": "Text",
+          "rect": [
+            368,
+            294,
+            544,
+            110
+          ],
+          "textKey": "confirm.leave_chapter_body",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmLeave.cancel",
+          "kind": "Button",
+          "rect": [
+            368,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.cancel",
+          "action": "CancelModal",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "defaultFocus": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "ConfirmLeave.confirm",
+          "kind": "Button",
+          "rect": [
+            656,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.confirm",
+          "action": "ConfirmPendingLeave",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "ConfirmLeave.cancel",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "ConfirmReplay",
+      "name": "重玩已通关章节",
+      "inputMode": "Modal",
+      "layer": 90,
+      "visibleWhen": "screen == ConfirmReplay",
+      "controls": [
+        {
+          "controlId": "ConfirmReplay.panel",
+          "kind": "Panel",
+          "rect": [
+            328,
+            196,
+            624,
+            328
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "ConfirmReplay.title",
+          "kind": "Text",
+          "rect": [
+            368,
+            228,
+            544,
+            48
+          ],
+          "textKey": "confirm.replay_chapter_title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 32,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmReplay.body",
+          "kind": "Text",
+          "rect": [
+            368,
+            294,
+            544,
+            110
+          ],
+          "textKey": "confirm.replay_chapter_body",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmReplay.cancel",
+          "kind": "Button",
+          "rect": [
+            368,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.cancel",
+          "action": "CancelModal",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "defaultFocus": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "ConfirmReplay.confirm",
+          "kind": "Button",
+          "rect": [
+            656,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.confirm",
+          "action": "ConfirmPendingReplay",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "ConfirmReplay.cancel",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "ConfirmQuit",
+      "name": "退出游戏",
+      "inputMode": "Modal",
+      "layer": 90,
+      "visibleWhen": "screen == ConfirmQuit",
+      "controls": [
+        {
+          "controlId": "ConfirmQuit.panel",
+          "kind": "Panel",
+          "rect": [
+            328,
+            196,
+            624,
+            328
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "ConfirmQuit.title",
+          "kind": "Text",
+          "rect": [
+            368,
+            228,
+            544,
+            48
+          ],
+          "textKey": "confirm.quit_title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 32,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmQuit.body",
+          "kind": "Text",
+          "rect": [
+            368,
+            294,
+            544,
+            110
+          ],
+          "textKey": "confirm.quit_body",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmQuit.cancel",
+          "kind": "Button",
+          "rect": [
+            368,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.cancel",
+          "action": "CancelModal",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "defaultFocus": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "ConfirmQuit.confirm",
+          "kind": "Button",
+          "rect": [
+            656,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.confirm",
+          "action": "QuitGame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "ConfirmQuit.cancel",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "ConfirmGalleryExit",
+      "name": "退出回忆回放",
+      "inputMode": "Modal",
+      "layer": 90,
+      "visibleWhen": "screen == ConfirmGalleryExit",
+      "controls": [
+        {
+          "controlId": "ConfirmGalleryExit.panel",
+          "kind": "Panel",
+          "rect": [
+            328,
+            196,
+            624,
+            328
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "ConfirmGalleryExit.title",
+          "kind": "Text",
+          "rect": [
+            368,
+            228,
+            544,
+            48
+          ],
+          "textKey": "gallery.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 32,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmGalleryExit.body",
+          "kind": "Text",
+          "rect": [
+            368,
+            294,
+            544,
+            110
+          ],
+          "textKey": "gallery.exit_confirm",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "ConfirmGalleryExit.cancel",
+          "kind": "Button",
+          "rect": [
+            368,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.cancel",
+          "action": "CancelModal",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "defaultFocus": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "ConfirmGalleryExit.confirm",
+          "kind": "Button",
+          "rect": [
+            656,
+            436,
+            256,
+            56
+          ],
+          "textKey": "button.leave_replay",
+          "action": "LeaveGalleryReplay",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "ConfirmGalleryExit.cancel",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "RiverActive",
+      "name": "渡河操作提示",
+      "inputMode": "River",
+      "layer": 20,
+      "visibleWhen": "screen == RiverActive",
+      "controls": [
+        {
+          "controlId": "RiverActive.hint",
+          "kind": "Text",
+          "rect": [
+            320,
+            630,
+            640,
+            48
+          ],
+          "textKey": "river.active_hint",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "RiverActive.pause",
+          "kind": "Button",
+          "rect": [
+            1184,
+            32,
+            64,
+            64
+          ],
+          "textKey": null,
+          "action": "OpenPause",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI02_Pause",
+          "accessibleTextKey": "hint.pause",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "RiverActive.pause",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": false,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "TraceCane",
+      "name": "描画拐杖",
+      "inputMode": "MiniGame",
+      "layer": 40,
+      "visibleWhen": "screen == TraceCane",
+      "controls": [
+        {
+          "controlId": "TraceCane.panel",
+          "kind": "Panel",
+          "rect": [
+            104,
+            44,
+            1072,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "TraceCane.title",
+          "kind": "Text",
+          "rect": [
+            144,
+            68,
+            840,
+            48
+          ],
+          "textKey": "minigame.cane.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 34,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "TraceCane.instructions",
+          "kind": "Text",
+          "rect": [
+            144,
+            126,
+            968,
+            66
+          ],
+          "textKey": "minigame.cane.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "TraceCane.close",
+          "kind": "Button",
+          "rect": [
+            1080,
+            64,
+            64,
+            52
+          ],
+          "textKey": "button.close",
+          "action": "CloseMinigame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "TraceCane.drawingArea",
+          "kind": "InteractionArea",
+          "rect": [
+            320,
+            212,
+            640,
+            360
+          ],
+          "textKey": null,
+          "action": "TracePointer",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "interactionType": "Trace",
+          "templateId": "MG01_Cane",
+          "previewShape": "cane",
+          "allowPenLift": true
+        },
+        {
+          "controlId": "TraceCane.feedback",
+          "kind": "Text",
+          "rect": [
+            144,
+            604,
+            680,
+            40
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "traceFeedback",
+          "previewTextKey": "minigame.trace.stroke_complete"
+        },
+        {
+          "controlId": "TraceCane.redraw",
+          "kind": "Button",
+          "rect": [
+            880,
+            600,
+            232,
+            52
+          ],
+          "textKey": "button.clear_shape",
+          "action": "ResetCurrentTraceUnit",
+          "visibleWhen": "screen.visible",
+          "fontSize": 23,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "minigameId": "MG01_Cane",
+      "defaultFocus": "TraceCane.close",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "TraceHeart",
+      "name": "描画爱心",
+      "inputMode": "MiniGame",
+      "layer": 40,
+      "visibleWhen": "screen == TraceHeart",
+      "controls": [
+        {
+          "controlId": "TraceHeart.panel",
+          "kind": "Panel",
+          "rect": [
+            104,
+            44,
+            1072,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "TraceHeart.title",
+          "kind": "Text",
+          "rect": [
+            144,
+            68,
+            840,
+            48
+          ],
+          "textKey": "minigame.heart.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 34,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "TraceHeart.instructions",
+          "kind": "Text",
+          "rect": [
+            144,
+            126,
+            968,
+            66
+          ],
+          "textKey": "minigame.heart.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "TraceHeart.close",
+          "kind": "Button",
+          "rect": [
+            1080,
+            64,
+            64,
+            52
+          ],
+          "textKey": "button.close",
+          "action": "CloseMinigame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "TraceHeart.drawingArea",
+          "kind": "InteractionArea",
+          "rect": [
+            320,
+            212,
+            640,
+            360
+          ],
+          "textKey": null,
+          "action": "TracePointer",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "interactionType": "Trace",
+          "templateId": "MG04_Heart",
+          "previewShape": "heart",
+          "allowPenLift": true
+        },
+        {
+          "controlId": "TraceHeart.feedback",
+          "kind": "Text",
+          "rect": [
+            144,
+            604,
+            680,
+            40
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "traceFeedback",
+          "previewTextKey": "minigame.trace.stroke_complete"
+        },
+        {
+          "controlId": "TraceHeart.redraw",
+          "kind": "Button",
+          "rect": [
+            880,
+            600,
+            232,
+            52
+          ],
+          "textKey": "button.clear_shape",
+          "action": "ResetCurrentTraceUnit",
+          "visibleWhen": "screen.visible",
+          "fontSize": 23,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "minigameId": "MG04_Heart",
+      "defaultFocus": "TraceHeart.close",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "TraceGoodbye",
+      "name": "书写再见",
+      "inputMode": "MiniGame",
+      "layer": 40,
+      "visibleWhen": "screen == TraceGoodbye",
+      "controls": [
+        {
+          "controlId": "TraceGoodbye.panel",
+          "kind": "Panel",
+          "rect": [
+            104,
+            44,
+            1072,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "TraceGoodbye.title",
+          "kind": "Text",
+          "rect": [
+            144,
+            68,
+            840,
+            48
+          ],
+          "textKey": "minigame.goodbye.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 34,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "TraceGoodbye.instructions",
+          "kind": "Text",
+          "rect": [
+            144,
+            126,
+            968,
+            66
+          ],
+          "textKey": "minigame.goodbye.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "TraceGoodbye.close",
+          "kind": "Button",
+          "rect": [
+            1080,
+            64,
+            64,
+            52
+          ],
+          "textKey": "button.close",
+          "action": "CloseMinigame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "TraceGoodbye.drawingArea",
+          "kind": "InteractionArea",
+          "rect": [
+            320,
+            212,
+            640,
+            360
+          ],
+          "textKey": null,
+          "action": "TracePointer",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "interactionType": "Trace",
+          "templateId": "MG07_Goodbye",
+          "previewShape": "goodbye",
+          "allowPenLift": true
+        },
+        {
+          "controlId": "TraceGoodbye.feedback",
+          "kind": "Text",
+          "rect": [
+            144,
+            604,
+            680,
+            40
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "traceFeedback",
+          "previewTextKey": "minigame.trace.stroke_complete"
+        },
+        {
+          "controlId": "TraceGoodbye.redraw",
+          "kind": "Button",
+          "rect": [
+            880,
+            600,
+            232,
+            52
+          ],
+          "textKey": "button.clear_stroke",
+          "action": "ResetCurrentTraceUnit",
+          "visibleWhen": "screen.visible",
+          "fontSize": 23,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "TraceGoodbye.strokeProgress",
+          "kind": "Text",
+          "rect": [
+            144,
+            206,
+            152,
+            92
+          ],
+          "textKey": "r03.trace.progress",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "formatBindings": {
+            "current": "currentStroke",
+            "total": "totalStrokes"
+          },
+          "previewValues": {
+            "current": 1,
+            "total": 10
+          }
+        }
+      ],
+      "minigameId": "MG07_Goodbye",
+      "defaultFocus": "TraceGoodbye.close",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "DragStools",
+      "name": "摆放三把凳子",
+      "inputMode": "MiniGame",
+      "layer": 40,
+      "visibleWhen": "screen == DragStools",
+      "controls": [
+        {
+          "controlId": "DragStools.panel",
+          "kind": "Panel",
+          "rect": [
+            104,
+            44,
+            1072,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "DragStools.title",
+          "kind": "Text",
+          "rect": [
+            144,
+            68,
+            840,
+            48
+          ],
+          "textKey": "minigame.stools.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 34,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "DragStools.instructions",
+          "kind": "Text",
+          "rect": [
+            144,
+            126,
+            968,
+            66
+          ],
+          "textKey": "minigame.stools.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "DragStools.close",
+          "kind": "Button",
+          "rect": [
+            1080,
+            64,
+            64,
+            52
+          ],
+          "textKey": "button.close",
+          "action": "CloseMinigame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "DragStools.stage",
+          "kind": "PreviewArea",
+          "rect": [
+            320,
+            212,
+            640,
+            360
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "PRP05_DiningTable",
+          "previewShape": "stools"
+        },
+        {
+          "controlId": "DragStools.target1",
+          "kind": "DropTarget",
+          "rect": [
+            400,
+            292,
+            80,
+            80
+          ],
+          "textKey": null,
+          "action": "DropStool",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "accepts": "anyUnplacedStool",
+          "requiredCount": 1
+        },
+        {
+          "controlId": "DragStools.stool1",
+          "kind": "DragSource",
+          "rect": [
+            168,
+            244,
+            72,
+            72
+          ],
+          "textKey": null,
+          "action": "DragStool",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "PRP04_Stool",
+          "previewShape": "stool",
+          "resetOnPause": true,
+          "lockOnCorrect": true
+        },
+        {
+          "controlId": "DragStools.target2",
+          "kind": "DropTarget",
+          "rect": [
+            552,
+            456,
+            80,
+            80
+          ],
+          "textKey": null,
+          "action": "DropStool",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "accepts": "anyUnplacedStool",
+          "requiredCount": 1
+        },
+        {
+          "controlId": "DragStools.stool2",
+          "kind": "DragSource",
+          "rect": [
+            168,
+            348,
+            72,
+            72
+          ],
+          "textKey": null,
+          "action": "DragStool",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "PRP04_Stool",
+          "previewShape": "stool",
+          "resetOnPause": true,
+          "lockOnCorrect": true
+        },
+        {
+          "controlId": "DragStools.target3",
+          "kind": "DropTarget",
+          "rect": [
+            800,
+            292,
+            80,
+            80
+          ],
+          "textKey": null,
+          "action": "DropStool",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "accepts": "anyUnplacedStool",
+          "requiredCount": 1
+        },
+        {
+          "controlId": "DragStools.stool3",
+          "kind": "DragSource",
+          "rect": [
+            168,
+            452,
+            72,
+            72
+          ],
+          "textKey": null,
+          "action": "DragStool",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "PRP04_Stool",
+          "previewShape": "stool",
+          "resetOnPause": true,
+          "lockOnCorrect": true
+        },
+        {
+          "controlId": "DragStools.progress",
+          "kind": "Text",
+          "rect": [
+            144,
+            608,
+            680,
+            36
+          ],
+          "textKey": "minigame.stools.progress",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "formatBindings": {
+            "count": "placedCount",
+            "total": "requiredCount"
+          },
+          "previewValues": {
+            "count": 0,
+            "total": 3
+          }
+        }
+      ],
+      "minigameId": "MG03_Stools",
+      "defaultFocus": "DragStools.close",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "DragPhoto",
+      "name": "补齐乐队合照",
+      "inputMode": "MiniGame",
+      "layer": 40,
+      "visibleWhen": "screen == DragPhoto",
+      "controls": [
+        {
+          "controlId": "DragPhoto.panel",
+          "kind": "Panel",
+          "rect": [
+            104,
+            44,
+            1072,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "DragPhoto.title",
+          "kind": "Text",
+          "rect": [
+            144,
+            68,
+            840,
+            48
+          ],
+          "textKey": "minigame.photo.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 34,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "DragPhoto.instructions",
+          "kind": "Text",
+          "rect": [
+            144,
+            126,
+            968,
+            66
+          ],
+          "textKey": "minigame.photo.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "DragPhoto.close",
+          "kind": "Button",
+          "rect": [
+            1080,
+            64,
+            64,
+            52
+          ],
+          "textKey": "button.close",
+          "action": "CloseMinigame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "DragPhoto.photo",
+          "kind": "PreviewArea",
+          "rect": [
+            320,
+            212,
+            640,
+            360
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "PRP06_PhotoFrame",
+          "previewShape": "photo"
+        },
+        {
+          "controlId": "DragPhoto.slot",
+          "kind": "DropTarget",
+          "rect": [
+            704,
+            316,
+            96,
+            144
+          ],
+          "textKey": null,
+          "action": "DropDrummer",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "accepts": "DrummerSpirit",
+          "lockOnCorrect": true
+        },
+        {
+          "controlId": "DragPhoto.drummer",
+          "kind": "DragSource",
+          "rect": [
+            168,
+            316,
+            96,
+            144
+          ],
+          "textKey": null,
+          "action": "DragDrummer",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "actorId": "DrummerSpirit",
+          "previewShape": "person",
+          "resetOnPause": true
+        },
+        {
+          "controlId": "DragPhoto.feedback",
+          "kind": "Text",
+          "rect": [
+            144,
+            608,
+            968,
+            40
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "dragFeedback",
+          "previewTextKey": "minigame.drag.wrong_position"
+        }
+      ],
+      "minigameId": "MG06_Photo",
+      "defaultFocus": "DragPhoto.close",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "DoorKnock",
+      "name": "门环特写",
+      "inputMode": "MiniGame",
+      "layer": 40,
+      "visibleWhen": "screen == DoorKnock",
+      "controls": [
+        {
+          "controlId": "DoorKnock.panel",
+          "kind": "Panel",
+          "rect": [
+            104,
+            44,
+            1072,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "DoorKnock.title",
+          "kind": "Text",
+          "rect": [
+            144,
+            68,
+            840,
+            48
+          ],
+          "textKey": "minigame.door.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 34,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "DoorKnock.instructions",
+          "kind": "Text",
+          "rect": [
+            144,
+            126,
+            968,
+            66
+          ],
+          "textKey": "minigame.door.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "DoorKnock.close",
+          "kind": "Button",
+          "rect": [
+            1080,
+            64,
+            64,
+            52
+          ],
+          "textKey": "button.close",
+          "action": "CloseMinigame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "DoorKnock.doorImage",
+          "kind": "PreviewArea",
+          "rect": [
+            320,
+            212,
+            640,
+            360
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "PRP03_DoorCloseup",
+          "previewShape": "door"
+        },
+        {
+          "controlId": "DoorKnock.knocker",
+          "kind": "InteractionArea",
+          "rect": [
+            596,
+            340,
+            88,
+            96
+          ],
+          "textKey": null,
+          "action": "KnockOnce",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "interactionType": "Click",
+          "sourceLocalRect": [
+            276,
+            128,
+            88,
+            96
+          ],
+          "consumeOpeningPointer": true,
+          "previewShape": "knocker"
+        },
+        {
+          "controlId": "DoorKnock.hint",
+          "kind": "Text",
+          "rect": [
+            144,
+            608,
+            968,
+            40
+          ],
+          "textKey": "minigame.door.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        }
+      ],
+      "minigameId": "MG02_Door",
+      "defaultFocus": "DoorKnock.close",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Notes",
+      "name": "七音演奏",
+      "inputMode": "MiniGame",
+      "layer": 40,
+      "visibleWhen": "screen == Notes",
+      "controls": [
+        {
+          "controlId": "Notes.panel",
+          "kind": "Panel",
+          "rect": [
+            104,
+            44,
+            1072,
+            632
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Notes.title",
+          "kind": "Text",
+          "rect": [
+            144,
+            68,
+            840,
+            48
+          ],
+          "textKey": "minigame.notes.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 34,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Notes.instructions",
+          "kind": "Text",
+          "rect": [
+            144,
+            126,
+            968,
+            66
+          ],
+          "textKey": "minigame.notes.instructions",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Notes.close",
+          "kind": "Button",
+          "rect": [
+            1080,
+            64,
+            64,
+            52
+          ],
+          "textKey": "button.close",
+          "action": "CloseMinigame",
+          "visibleWhen": "screen.visible",
+          "fontSize": 20,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.next",
+          "kind": "Text",
+          "rect": [
+            200,
+            222,
+            600,
+            48
+          ],
+          "textKey": "minigame.notes.next",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 30,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textSuffixBinding": "nextNoteDisplayName",
+          "previewSuffix": "4 Fa"
+        },
+        {
+          "controlId": "Notes.progress",
+          "kind": "Text",
+          "rect": [
+            200,
+            300,
+            880,
+            40
+          ],
+          "textKey": "r03.notes.progress",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "formatBindings": {
+            "count": "playedCount",
+            "total": "sequenceLength"
+          },
+          "previewValues": {
+            "count": 3,
+            "total": 14
+          }
+        },
+        {
+          "controlId": "Notes.note1",
+          "kind": "Button",
+          "rect": [
+            200,
+            392,
+            112,
+            132
+          ],
+          "textKey": "minigame.notes.note_1",
+          "action": "PlayNote",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "noteIndex": 1,
+          "keyboard": [
+            "1"
+          ],
+          "emphasisWhen": "nextNote == 1",
+          "previewEmphasis": false,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.note2",
+          "kind": "Button",
+          "rect": [
+            328,
+            392,
+            112,
+            132
+          ],
+          "textKey": "minigame.notes.note_2",
+          "action": "PlayNote",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "noteIndex": 2,
+          "keyboard": [
+            "2"
+          ],
+          "emphasisWhen": "nextNote == 2",
+          "previewEmphasis": false,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.note3",
+          "kind": "Button",
+          "rect": [
+            456,
+            392,
+            112,
+            132
+          ],
+          "textKey": "minigame.notes.note_3",
+          "action": "PlayNote",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "noteIndex": 3,
+          "keyboard": [
+            "3"
+          ],
+          "emphasisWhen": "nextNote == 3",
+          "previewEmphasis": false,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.note4",
+          "kind": "Button",
+          "rect": [
+            584,
+            392,
+            112,
+            132
+          ],
+          "textKey": "minigame.notes.note_4",
+          "action": "PlayNote",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "noteIndex": 4,
+          "keyboard": [
+            "4"
+          ],
+          "emphasisWhen": "nextNote == 4",
+          "previewEmphasis": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.note5",
+          "kind": "Button",
+          "rect": [
+            712,
+            392,
+            112,
+            132
+          ],
+          "textKey": "minigame.notes.note_5",
+          "action": "PlayNote",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "noteIndex": 5,
+          "keyboard": [
+            "5"
+          ],
+          "emphasisWhen": "nextNote == 5",
+          "previewEmphasis": false,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.note6",
+          "kind": "Button",
+          "rect": [
+            840,
+            392,
+            112,
+            132
+          ],
+          "textKey": "minigame.notes.note_6",
+          "action": "PlayNote",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "noteIndex": 6,
+          "keyboard": [
+            "6"
+          ],
+          "emphasisWhen": "nextNote == 6",
+          "previewEmphasis": false,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.note7",
+          "kind": "Button",
+          "rect": [
+            968,
+            392,
+            112,
+            132
+          ],
+          "textKey": "minigame.notes.note_7",
+          "action": "PlayNote",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "noteIndex": 7,
+          "keyboard": [
+            "7"
+          ],
+          "emphasisWhen": "nextNote == 7",
+          "previewEmphasis": false,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.demo",
+          "kind": "Button",
+          "rect": [
+            200,
+            548,
+            232,
+            52
+          ],
+          "textKey": "r03.notes.play_demo",
+          "action": "PlayNoteDemo",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Notes.feedback",
+          "kind": "Text",
+          "rect": [
+            456,
+            552,
+            624,
+            44
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "textBinding": "noteFeedback",
+          "previewTextKey": "minigame.notes.wrong"
+        }
+      ],
+      "minigameId": "MG05_Notes",
+      "defaultFocus": "Notes.close",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Credits",
+      "name": "制作名单",
+      "inputMode": "Menu",
+      "layer": 60,
+      "visibleWhen": "screen == Credits",
+      "controls": [
+        {
+          "controlId": "Credits.panel",
+          "kind": "Panel",
+          "rect": [
+            200,
+            56,
+            880,
+            608
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "Credits.title",
+          "kind": "Text",
+          "rect": [
+            248,
+            88,
+            784,
+            52
+          ],
+          "textKey": "credits.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 36,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Credits.line0",
+          "kind": "Text",
+          "rect": [
+            248,
+            176,
+            784,
+            56
+          ],
+          "textKey": "credits.author",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Credits.line1",
+          "kind": "Text",
+          "rect": [
+            248,
+            244,
+            784,
+            56
+          ],
+          "textKey": "credits.engine",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Credits.line2",
+          "kind": "Text",
+          "rect": [
+            248,
+            312,
+            784,
+            56
+          ],
+          "textKey": "credits.ai_note",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Credits.line3",
+          "kind": "Text",
+          "rect": [
+            248,
+            380,
+            784,
+            56
+          ],
+          "textKey": "credits.details",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Credits.line4",
+          "kind": "Text",
+          "rect": [
+            248,
+            448,
+            784,
+            56
+          ],
+          "textKey": "credits.thanks",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 24,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Credits.back",
+          "kind": "Button",
+          "rect": [
+            800,
+            580,
+            232,
+            52
+          ],
+          "textKey": "button.back",
+          "action": "BackToCaller",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "Credits.back",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "Ending",
+      "name": "故事完成",
+      "inputMode": "Ending",
+      "layer": 40,
+      "visibleWhen": "screen == Ending",
+      "controls": [
+        {
+          "controlId": "Ending.title",
+          "kind": "Text",
+          "rect": [
+            320,
+            180,
+            640,
+            100
+          ],
+          "textKey": "ending.title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 64,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Ending.complete",
+          "kind": "Text",
+          "rect": [
+            240,
+            328,
+            800,
+            60
+          ],
+          "textKey": "ending.complete",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 30,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "Ending.return",
+          "kind": "Button",
+          "rect": [
+            432,
+            472,
+            416,
+            56
+          ],
+          "textKey": "button.return_menu",
+          "action": "ReturnToMenuAfterEnding",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "assetId": "UI01_Button",
+          "focusable": true
+        },
+        {
+          "controlId": "Ending.hint",
+          "kind": "Text",
+          "rect": [
+            240,
+            568,
+            800,
+            48
+          ],
+          "textKey": "ending.return_prompt",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 22,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        }
+      ],
+      "defaultFocus": "Ending.return",
+      "escapeAction": "OpenPause",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    },
+    {
+      "screenId": "SaveError",
+      "name": "存档读取失败",
+      "inputMode": "Modal",
+      "layer": 100,
+      "visibleWhen": "screen == SaveError",
+      "controls": [
+        {
+          "controlId": "SaveError.panel",
+          "kind": "Panel",
+          "rect": [
+            328,
+            196,
+            624,
+            328
+          ],
+          "textKey": null,
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35,
+          "assetId": "UI01_GenericPanel"
+        },
+        {
+          "controlId": "SaveError.title",
+          "kind": "Text",
+          "rect": [
+            368,
+            228,
+            544,
+            48
+          ],
+          "textKey": "save.unreadable_title",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 32,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "SaveError.body",
+          "kind": "Text",
+          "rect": [
+            368,
+            294,
+            544,
+            110
+          ],
+          "textKey": "save.unreadable_body",
+          "action": "None",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": false,
+          "lineHeight": 1.35
+        },
+        {
+          "controlId": "SaveError.confirm",
+          "kind": "Button",
+          "rect": [
+            432,
+            436,
+            416,
+            56
+          ],
+          "textKey": "menu.quit",
+          "action": "QuitWithoutOverwritingSave",
+          "visibleWhen": "screen.visible",
+          "fontSize": 26,
+          "anchor": "TopLeft",
+          "pivot": [
+            0,
+            1
+          ],
+          "raycastTarget": true,
+          "lineHeight": 1.35,
+          "defaultFocus": true,
+          "assetId": "UI01_Button",
+          "focusable": true
+        }
+      ],
+      "defaultFocus": "SaveError.confirm",
+      "escapeAction": "BackOrCancelTopmost",
+      "blocksWorldInput": true,
+      "initialFocusOnKeyboardOnly": true
+    }
+  ]
+}

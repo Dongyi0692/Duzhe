@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0",
+  "chapterId": "CH01_DEV",
+  "displayName": "开发测试章（Placeholder）",
+  "segments": [
+    {
+      "segmentId": "ST01_INTRO",
+      "stageId": "ST01_INTRO",
+      "lines": [
+        {
+          "lineId": "L_DEV_0001",
+          "chapterId": "CH01_DEV",
+          "stageId": "ST01_INTRO",
+          "speakerId": "DEV_GRANDPA",
+          "text": "Placeholder：这位渡客……我的老花镜掉在院子里了，找不回来，连你都看不清啊。"
+        },
+        {
+          "lineId": "L_DEV_0002",
+          "chapterId": "CH01_DEV",
+          "stageId": "ST01_INTRO",
+          "speakerId": "DUKE",
+          "text": "Placeholder：我去帮你找。"
+        }
+      ]
+    },
+    {
+      "segmentId": "ST03_THANKS",
+      "stageId": "ST03_RETURN",
+      "lines": [
+        {
+          "lineId": "L_DEV_0003",
+          "chapterId": "CH01_DEV",
+          "stageId": "ST03_RETURN",
+          "speakerId": "DEV_GRANDPA",
+          "text": "Placeholder：眼镜……回来了。谢谢你，渡客。"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    { "stageId": "ST01_INTRO", "text": "走近河岸的老人（Placeholder）" },
+    { "stageId": "ST02_FIND", "text": "找到老人的眼镜（Placeholder）" },
+    { "stageId": "ST03_RETURN", "text": "把眼镜还给老人（Placeholder）" },
+    { "stageId": "ST04_RITUAL", "text": "在渡口按 E 举行送别仪式（Placeholder）" },
+    { "stageId": "ST05_BOARD", "text": "登船（Placeholder）" },
+    { "stageId": "ST06_RIVER", "text": "渡过冥河，避开漩涡（Placeholder）" }
+  ],
+  "items": [
+    { "itemId": "DEV_GLASSES", "displayName": "老人的眼镜（Placeholder）", "description": "Placeholder 开发用任务物品。" }
+  ]
+}

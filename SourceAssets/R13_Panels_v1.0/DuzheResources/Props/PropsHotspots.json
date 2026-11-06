@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R13_PropsAndPanels_20261027_v1.0",
+  "revision": "1.1.0",
+  "updatedDate": "2026-10-29",
+  "coordinateSystem": {
+    "origin": "TopLeft",
+    "xDirection": "Right",
+    "yDirection": "Down",
+    "panelReferenceWidth": 640,
+    "panelReferenceHeight": 360,
+    "units": "referenceUiPixels",
+    "rectFormat": "[x,y,width,height]"
+  },
+  "sourceStatus": {
+    "R04": "Read",
+    "C02": "Read",
+    "C03FinalExport": "Read",
+    "C03GeometryDocument": "MinigamePanelGeometry.md"
+  },
+  "items": [
+    {
+      "assetId": "PRP03_DoorCloseup",
+      "status": "Reviewed",
+      "doorRingRect": [
+        356,
+        176,
+        48,
+        48
+      ],
+      "doorRingCenter": [
+        380,
+        200
+      ],
+      "notes": "采用C03最终几何：代码与像素扫描双证。旧报告(380,160)已明确为未换算顶左原点的错误读数，不再使用。资源侧已静态检查，未导入引擎。"
+    },
+    {
+      "assetId": "PRP04_Stool",
+      "status": "AssetAnchorReviewed_UiSlotsPendingC03",
+      "assetBottomCenterAnchor": {
+        "pixel": [
+          16,
+          32
+        ],
+        "origin": "TopLeft",
+        "status": "Reviewed",
+        "notes": "32×32资源画布底部中心；y=32表示画布下边界，不是最后一行像素索引。"
+      },
+      "r04WorldPlacementPoints": [
+        {
+          "pointId": "FC_StoolLeft",
+          "pixel": [
+            672,
+            448
+          ]
+        },
+        {
+          "pointId": "FC_StoolRight",
+          "pixel": [
+            800,
+            448
+          ]
+        },
+        {
+          "pointId": "FC_StoolFront",
+          "pixel": [
+            736,
+            496
+          ]
+        }
+      ],
+      "uiTargetSlots": null
+    },
+    {
+      "assetId": "PRP06_PhotoFrame",
+      "status": "Reviewed",
+      "photoAvailableRegions": [
+        [
+          20,
+          40,
+          600,
+          300
+        ]
+      ],
+      "fixedMemberRects": {
+        "memberA": [
+          128,
+          198,
+          48,
+          64
+        ],
+        "memberB": [
+          256,
+          198,
+          48,
+          64
+        ],
+        "memberC": [
+          512,
+          198,
+          48,
+          64
+        ]
+      },
+      "drummerDropTargetRect": [
+        384,
+        198,
+        48,
+        64
+      ],
+      "drummerDropTargetCenter": [
+        408,
+        230
+      ],
+      "drummerStartRect": [
+        296,
+        11,
+        48,
+        64
+      ],
+      "snapRadiusPixels": 80,
+      "snapRadiusUnits": "screenPixelsAt1280x720",
+      "notes": "合照仅烘焙三名固定成员；鼓手缺口为唯一可放入位置，正式底图不含鼓手、空位人影或槽位框线。资源侧已静态检查，未导入引擎。"
+    },
+    {
+      "assetId": "PRP07_BlackboardCloseup",
+      "status": "Reviewed",
+      "writingAreaRect": [
+        0,
+        80,
+        640,
+        320
+      ],
+      "templateDisplayRect": [
+        0,
+        80,
+        640,
+        320
+      ],
+      "redrawButtonRect": [
+        30,
+        300,
+        180,
+        44
+      ],
+      "closeButtonRect": [
+        430,
+        300,
+        180,
+        44
+      ],
+      "notes": "采用C03最终书写区；模板主体保持在y≈80–260并避开下部按钮带。正式底图空白，不含“再见”、其他板书或UI。资源侧已静态检查，未导入引擎。"
+    }
+  ]
+}

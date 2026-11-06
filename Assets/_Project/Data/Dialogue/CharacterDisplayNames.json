@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0",
+  "actors": [
+    {
+      "actorId": "Ferryman",
+      "displayName": "渡客"
+    },
+    {
+      "actorId": "Grandfather",
+      "displayName": "爷爷"
+    },
+    {
+      "actorId": "Grandmother",
+      "displayName": "奶奶"
+    },
+    {
+      "actorId": "PastSelfFamily",
+      "displayName": "孙子"
+    },
+    {
+      "actorId": "LoverSpirit",
+      "displayName": "女孩"
+    },
+    {
+      "actorId": "PastSelfRomance",
+      "displayName": "男孩"
+    },
+    {
+      "actorId": "DrummerSpirit",
+      "displayName": "鼓手"
+    },
+    {
+      "actorId": "PastSelfBand",
+      "displayName": "队友"
+    },
+    {
+      "actorId": "BandmateA",
+      "displayName": "蓝衣队友"
+    },
+    {
+      "actorId": "BandmateB",
+      "displayName": "黄衣队友"
+    },
+    {
+      "actorId": "TeacherSpirit",
+      "displayName": "老师"
+    },
+    {
+      "actorId": "PastSelfSchool",
+      "displayName": "学生"
+    },
+    {
+      "actorId": "MemoryFerryman",
+      "displayName": "记忆中的渡客"
+    },
+    {
+      "actorId": "MemoryGrandfather",
+      "displayName": "记忆中的爷爷"
+    },
+    {
+      "actorId": "MemoryGrandmother",
+      "displayName": "记忆中的奶奶"
+    },
+    {
+      "actorId": "MemoryPastSelfFamily",
+      "displayName": "记忆中的孙子"
+    },
+    {
+      "actorId": "MemoryLoverSpirit",
+      "displayName": "记忆中的女孩"
+    },
+    {
+      "actorId": "MemoryPastSelfRomance",
+      "displayName": "记忆中的男孩"
+    },
+    {
+      "actorId": "MemoryDrummerSpirit",
+      "displayName": "记忆中的鼓手"
+    },
+    {
+      "actorId": "MemoryPastSelfBand",
+      "displayName": "记忆中的队友"
+    },
+    {
+      "actorId": "MemoryBandmateA",
+      "displayName": "记忆中的蓝衣队友"
+    },
+    {
+      "actorId": "MemoryBandmateB",
+      "displayName": "记忆中的黄衣队友"
+    },
+    {
+      "actorId": "MemoryTeacherSpirit",
+      "displayName": "记忆中的老师"
+    },
+    {
+      "actorId": "MemoryPastSelfSchool",
+      "displayName": "记忆中的学生"
+    }
+  ]
+}

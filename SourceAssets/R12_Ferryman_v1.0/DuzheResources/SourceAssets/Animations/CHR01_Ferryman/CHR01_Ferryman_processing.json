@@ -1,0 +1,362 @@
+{
+  "assetId": "CHR01_Ferryman",
+  "sourceFile": "CHR01_Ferryman_walk_source.png",
+  "sourceWidth": 2048,
+  "sourceHeight": 2048,
+  "swapSideWalkB": false,
+  "sheetPath": "Characters/Animations/CHR01_Ferryman.png",
+  "sheetWidth": 96,
+  "sheetHeight": 192,
+  "sheetMode": "RGBA",
+  "sheetSha256": "7b63fea8db42be8aca9a2d19aaf4c75ec6b47a1fc82dd81e139533be977cd607",
+  "uniqueFrameCount": 12,
+  "frameLayout": {
+    "columns": 3,
+    "rows": 4,
+    "cellWidth": 32,
+    "cellHeight": 48,
+    "rowOrder": [
+      "Down",
+      "Left",
+      "Right",
+      "Up"
+    ],
+    "columnOrder": [
+      "WalkA",
+      "Idle",
+      "WalkB"
+    ]
+  },
+  "directionChecks": [
+    {
+      "direction": "Down",
+      "uniqueFrames": 3,
+      "walkAIdleDifferentPixels": 791,
+      "walkBIdleDifferentPixels": 797,
+      "walkAWalkBDifferentPixels": 724
+    },
+    {
+      "direction": "Left",
+      "uniqueFrames": 3,
+      "walkAIdleDifferentPixels": 757,
+      "walkBIdleDifferentPixels": 738,
+      "walkAWalkBDifferentPixels": 703
+    },
+    {
+      "direction": "Right",
+      "uniqueFrames": 3,
+      "walkAIdleDifferentPixels": 687,
+      "walkBIdleDifferentPixels": 740,
+      "walkAWalkBDifferentPixels": 697
+    },
+    {
+      "direction": "Up",
+      "uniqueFrames": 3,
+      "walkAIdleDifferentPixels": 820,
+      "walkBIdleDifferentPixels": 857,
+      "walkAWalkBDifferentPixels": 825
+    }
+  ],
+  "frames": [
+    {
+      "direction": "Down",
+      "pose": "WalkA",
+      "origin": "source cell row=0, col=0",
+      "sourceContentBBox": [
+        376,
+        9,
+        648,
+        492
+      ],
+      "sourceFrameWidth": 272,
+      "sourceFrameHeight": 483,
+      "finalBBox": [
+        3,
+        3,
+        28,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "c9c1c8ccf196b96b07e628a677cf7b9deecbbfb127ff79cb32e22fa188acc5ba"
+    },
+    {
+      "direction": "Down",
+      "pose": "Idle",
+      "origin": "R11 accepted idle and master",
+      "sourceContentBBox": [
+        322,
+        427,
+        700,
+        1226
+      ],
+      "sourceFrameWidth": 378,
+      "sourceFrameHeight": 799,
+      "finalBBox": [
+        5,
+        4,
+        26,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "ebd6e6e8b89af0539b09f70980e20bf4d03e19c12c77c7a15b82fbce293b15a5"
+    },
+    {
+      "direction": "Down",
+      "pose": "WalkB",
+      "origin": "source cell row=0, col=2",
+      "sourceContentBBox": [
+        37,
+        9,
+        306,
+        492
+      ],
+      "sourceFrameWidth": 269,
+      "sourceFrameHeight": 483,
+      "finalBBox": [
+        3,
+        3,
+        28,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "a1f9bc59a6ccb510427274c5b8fdb72bdd9a7bf685e6066cda5e51c03d6f3d98"
+    },
+    {
+      "direction": "Left",
+      "pose": "WalkA",
+      "origin": "source cell row=1, col=0",
+      "sourceContentBBox": [
+        391,
+        3,
+        627,
+        491
+      ],
+      "sourceFrameWidth": 236,
+      "sourceFrameHeight": 488,
+      "finalBBox": [
+        5,
+        3,
+        27,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "be082b7dfb897aab3cb69483309087c21903373e364e730c8203d066fc63e2dd"
+    },
+    {
+      "direction": "Left",
+      "pose": "Idle",
+      "origin": "source cell row=1, col=1",
+      "sourceContentBBox": [
+        232,
+        4,
+        446,
+        497
+      ],
+      "sourceFrameWidth": 214,
+      "sourceFrameHeight": 493,
+      "finalBBox": [
+        6,
+        3,
+        26,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "a9dcb0817e9d99d8be6e58b11ef2c3c9277057345e518f0bf23f3e11be1cf026"
+    },
+    {
+      "direction": "Left",
+      "pose": "WalkB",
+      "origin": "source cell row=1, col=2",
+      "sourceContentBBox": [
+        58,
+        4,
+        289,
+        491
+      ],
+      "sourceFrameWidth": 231,
+      "sourceFrameHeight": 487,
+      "finalBBox": [
+        5,
+        3,
+        26,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "c4e40e712c2c98df6c3ee9ec575b019049973a4f08a853089a25a01601c03e2e"
+    },
+    {
+      "direction": "Right",
+      "pose": "WalkA",
+      "origin": "source cell row=2, col=0",
+      "sourceContentBBox": [
+        396,
+        6,
+        626,
+        488
+      ],
+      "sourceFrameWidth": 230,
+      "sourceFrameHeight": 482,
+      "finalBBox": [
+        5,
+        3,
+        26,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "3f1f287acf396ded40b95eb63e99736fb15cc759c2634a7cc419d0dd11aadf72"
+    },
+    {
+      "direction": "Right",
+      "pose": "Idle",
+      "origin": "source cell row=2, col=1",
+      "sourceContentBBox": [
+        236,
+        6,
+        450,
+        492
+      ],
+      "sourceFrameWidth": 214,
+      "sourceFrameHeight": 486,
+      "finalBBox": [
+        6,
+        3,
+        26,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "bf2b00b258f2c68d7adf83dba01bceb2fc9e2d9ec95a45fe524872ee42be252a"
+    },
+    {
+      "direction": "Right",
+      "pose": "WalkB",
+      "origin": "source cell row=2, col=2",
+      "sourceContentBBox": [
+        51,
+        6,
+        283,
+        489
+      ],
+      "sourceFrameWidth": 232,
+      "sourceFrameHeight": 483,
+      "finalBBox": [
+        5,
+        3,
+        27,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "b4fe72d4843df0a0adbd624bddd0873814fa3b1c4d30adca6f41f4648948af36"
+    },
+    {
+      "direction": "Up",
+      "pose": "WalkA",
+      "origin": "source cell row=3, col=0",
+      "sourceContentBBox": [
+        377,
+        0,
+        635,
+        468
+      ],
+      "sourceFrameWidth": 258,
+      "sourceFrameHeight": 468,
+      "finalBBox": [
+        3,
+        3,
+        28,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "aa2cc4b61c8aaeaabcdfcf0e962f2d57be2c62200a4541e15606621b9c28e329"
+    },
+    {
+      "direction": "Up",
+      "pose": "Idle",
+      "origin": "source cell row=3, col=1",
+      "sourceContentBBox": [
+        205,
+        0,
+        477,
+        468
+      ],
+      "sourceFrameWidth": 272,
+      "sourceFrameHeight": 468,
+      "finalBBox": [
+        3,
+        3,
+        29,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "b48a43154a31b6338f75713cc2bb18a3bd361e19efa93169bf7ce3b3f19e52e9"
+    },
+    {
+      "direction": "Up",
+      "pose": "WalkB",
+      "origin": "source cell row=3, col=2",
+      "sourceContentBBox": [
+        42,
+        0,
+        306,
+        468
+      ],
+      "sourceFrameWidth": 264,
+      "sourceFrameHeight": 468,
+      "finalBBox": [
+        3,
+        3,
+        28,
+        48
+      ],
+      "alphaValues": [
+        0,
+        255
+      ],
+      "connectedComponents": 1,
+      "sha256": "c71d006e4a98c39690b2191e73de1d3656580be48fe0d12bd03d12ab7d5cf3b9"
+    }
+  ]
+}

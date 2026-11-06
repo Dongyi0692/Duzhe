@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "taskId": "R02",
+  "status": "Complete",
+  "approvalStatus": "Approved",
+  "approvedDate": "2026-10-27",
+  "approvedBy": "User",
+  "approvalQuote": "可以的，继续R02",
+  "approvedReference": "Style/VisualGuide.png",
+  "sourceRevision": "VisualGuide_v3.png",
+  "sha256": "b2085150a136303ea18f700d67f25b906586771bfdb6c8e5018bbcfe1cefa6eb",
+  "scope": "Visual direction and character design reference; not runtime asset import or technical production acceptance",
+  "fixedCharacterRules": [
+    "Muted medium blue-grey clothing, slightly lighter but not bright",
+    "Small open hood and short shoulder cape",
+    "Face and eyes visible",
+    "Mystery through quiet expression and silhouette; no dark face concealment"
+  ],
+  "nextTaskId": "R03",
+  "notYetDelivered": [
+    "Production UI assets",
+    "Six production backgrounds",
+    "Character sprite sheets",
+    "Props and illustrations",
+    "Audio assets"
+  ]
+}

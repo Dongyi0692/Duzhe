@@ -1,0 +1,301 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R13_PropsAndPanels_20261027_v1.0",
+  "items": [
+    {
+      "assetId": "IT01_Glasses",
+      "category": "QuestItem",
+      "relativePath": "Props/IT01_Glasses.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_IT01_Glasses_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/IT01_Glasses_raw.png",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "previewPath": "Previews/IT01_Glasses_preview.png",
+      "sha256": "78ffe6be91c9a0c8a0232ccc1aa26d1353e6aa21faa4c850157b98473d6c7f25"
+    },
+    {
+      "assetId": "IT02_Cane",
+      "category": "QuestItem",
+      "relativePath": "Props/IT02_Cane.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 64,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_IT02_Cane_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/IT02_Cane_raw.png",
+      "sourceWidth": 1024,
+      "sourceHeight": 2048,
+      "previewPath": "Previews/IT02_Cane_preview.png",
+      "sha256": "604b660ab6192cf8a38f0e6b8ff6886440580a1b5b96659ed7304e1210599d9e"
+    },
+    {
+      "assetId": "IT03_Necklace",
+      "category": "QuestItem",
+      "relativePath": "Props/IT03_Necklace.png",
+      "chapterIds": [
+        "CH02"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_IT03_Necklace_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/IT03_Necklace_raw.png",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "previewPath": "Previews/IT03_Necklace_preview.png",
+      "sha256": "b924e4c71bbcb6f2a5cc0ee40af158b90f0b562366d83c8c26baf262f2ff4005"
+    },
+    {
+      "assetId": "IT04_Drumsticks",
+      "category": "QuestItem",
+      "relativePath": "Props/IT04_Drumsticks.png",
+      "chapterIds": [
+        "CH03"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_IT04_Drumsticks_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/IT04_Drumsticks_raw.png",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "previewPath": "Previews/IT04_Drumsticks_preview.png",
+      "sha256": "9cd9b8993c680f58a505e6d40199f6aad617521403876a4f411581db18f3613d"
+    },
+    {
+      "assetId": "IT05_LessonPlan",
+      "category": "QuestItem",
+      "relativePath": "Props/IT05_LessonPlan.png",
+      "chapterIds": [
+        "CH04"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_IT05_LessonPlan_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/IT05_LessonPlan_raw.png",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "previewPath": "Previews/IT05_LessonPlan_preview.png",
+      "sha256": "ca96d0d762986b4830a40086df784cb5e1157be7f21b5386aa52065251f09d39"
+    },
+    {
+      "assetId": "PRP01_Boat",
+      "category": "WorldProp",
+      "relativePath": "Props/PRP01_Boat.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 64,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_PRP01_Boat_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_River",
+        "REF_C02_River"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。 R04船中心(640,456)；C02碰撞盒0.8×0.5世界单位，乘客独立叠加。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/PRP01_Boat_raw.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "previewPath": "Previews/PRP01_Boat_preview.png",
+      "sha256": "29d4b9531be72609aa607f71352b07c8aaddc76c6b03ee18905b7a65648d38a4"
+    },
+    {
+      "assetId": "PRP02_Whirlpool",
+      "category": "WorldProp",
+      "relativePath": "Props/PRP02_Whirlpool.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 64,
+      "height": 64,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_PRP02_Whirlpool_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_River",
+        "REF_C02_River"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。 C02碰撞盒0.9×0.9世界单位，视觉大于碰撞区；原图角落生成标记已通过保留中央的裁切副本移除。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/PRP02_Whirlpool_cropped.png",
+      "sourceWidth": 864,
+      "sourceHeight": 880,
+      "previewPath": "Previews/PRP02_Whirlpool_preview.png",
+      "sha256": "8fe3baa2a378a097e033ad0f419b602d1570faaa69e7b55d01db0c0d043d844a"
+    },
+    {
+      "assetId": "PRP04_Stool",
+      "category": "WorldProp",
+      "relativePath": "Props/PRP04_Stool.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 32,
+      "height": 32,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_PRP04_Stool_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_FarmCourtyard"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。 单张素材，由Codely实例化3把；资源底部中心锚点(16,32)。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/PRP04_Stool_raw.png",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "previewPath": "Previews/PRP04_Stool_preview.png",
+      "sha256": "eaa19fcc2865894cb3ab360413693d5a9349c7fe0399165c6ad7706764024494"
+    },
+    {
+      "assetId": "PRP05_DiningTable",
+      "category": "WorldProp",
+      "relativePath": "Props/PRP05_DiningTable.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 64,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image; Pillow deterministic alpha cleanup, crop and nearest-neighbor resize",
+      "promptId": "R13_PRP05_DiningTable_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_FarmCourtyard"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "真实RGBA透明底；已查看明暗底最近邻对照预览；未进行引擎导入或运行验证。 不含凳子；R04桌面视觉锚点(736,400)。",
+      "alpha": "RGBA_TrueAlpha",
+      "sourceAssetPath": "SourceAssets/R13/PRP05_DiningTable_raw.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "previewPath": "Previews/PRP05_DiningTable_preview.png",
+      "sha256": "8c12fc4ec93a7ac543ecb113396ec51c150a910bb2e9455c7102e0c8715ff8cb"
+    }
+  ],
+  "pendingItems": [
+    {
+      "assetId": "PRP03_DoorCloseup",
+      "category": "MinigamePanel",
+      "chapterIds": [
+        "CH01"
+      ],
+      "targetWidth": 640,
+      "targetHeight": 360,
+      "status": "PendingC03",
+      "reason": "缺少C03最终机关导出；R04交接同时指出门环坐标存在符号差异，需Codely实机确认后定稿。"
+    },
+    {
+      "assetId": "PRP06_PhotoFrame",
+      "category": "MinigamePanel",
+      "chapterIds": [
+        "CH03"
+      ],
+      "targetWidth": 640,
+      "targetHeight": 360,
+      "status": "PendingC03",
+      "reason": "缺少C03合照可用区域和鼓手唯一缺口的最终UI坐标。"
+    },
+    {
+      "assetId": "PRP07_BlackboardCloseup",
+      "category": "MinigamePanel",
+      "chapterIds": [
+        "CH04"
+      ],
+      "targetWidth": 640,
+      "targetHeight": 360,
+      "status": "PendingC03",
+      "reason": "缺少C03黑板描画区与逐笔模板的最终UI坐标。"
+    }
+  ],
+  "contactSheetPath": "Previews/R13_ContactSheet.png",
+  "engineImportStatus": "NotImported",
+  "runtimeVerificationStatus": "NotVerified"
+}

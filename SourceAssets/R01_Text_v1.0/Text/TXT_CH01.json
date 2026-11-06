@@ -1,0 +1,492 @@
+{
+  "schemaVersion": "1.0",
+  "chapterId": "CH01",
+  "displayName": "再吃一顿饭",
+  "segments": [
+    {
+      "segmentId": "CH01_Opening",
+      "stageId": "CH01_Opening",
+      "lines": [
+        {
+          "lineId": "CH01_Opening_001",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandmother",
+          "text": "小伙子，你看见一副老花镜没有？镜腿上缠着线的。"
+        },
+        {
+          "lineId": "CH01_Opening_002",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandfather",
+          "text": "还有我的拐杖。刚才还在手边，一转身就不见了。"
+        },
+        {
+          "lineId": "CH01_Opening_003",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Ferryman",
+          "text": "我帮你们找。两位要去哪里？"
+        },
+        {
+          "lineId": "CH01_Opening_004",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandmother",
+          "text": "回家呀。院子里的桌子，该擦一擦了。"
+        },
+        {
+          "lineId": "CH01_Opening_005",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandfather",
+          "text": "她惦记着做饭。我说，孩子忙，哪能天天回来。"
+        },
+        {
+          "lineId": "CH01_Opening_006",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandmother",
+          "text": "我知道他忙。就想着，哪天回来也有口热的。"
+        },
+        {
+          "lineId": "CH01_Opening_007",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Ferryman",
+          "text": "你们在等孙子？"
+        },
+        {
+          "lineId": "CH01_Opening_008",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandfather",
+          "text": "嗯。他小时候嫌凳子高，吃饭总跪在上头。"
+        },
+        {
+          "lineId": "CH01_Opening_009",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandmother",
+          "text": "后来长大了，坐下没一会儿，又说该走了。"
+        },
+        {
+          "lineId": "CH01_Opening_010",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Ferryman",
+          "text": "先把眼镜和拐杖找齐，我带你们过河。"
+        },
+        {
+          "lineId": "CH01_Opening_011",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Grandfather",
+          "text": "拐杖是旧木头做的，弯着个把儿，别找错了。"
+        },
+        {
+          "lineId": "CH01_Opening_012",
+          "chapterId": "CH01",
+          "stageId": "CH01_Opening",
+          "speakerId": "Ferryman",
+          "text": "找不到原来的，我就照着形状，为您做一根。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH01_RitualTalk",
+      "stageId": "CH01_RitualTalk",
+      "lines": [
+        {
+          "lineId": "CH01_RitualTalk_001",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Grandmother",
+          "text": "就是这副。镜腿松了，他还说要给我换呢。"
+        },
+        {
+          "lineId": "CH01_RitualTalk_002",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Grandfather",
+          "text": "这根拐杖也趁手。瞧，我不用她搀着了。"
+        },
+        {
+          "lineId": "CH01_RitualTalk_003",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Grandmother",
+          "text": "刚站稳就逞能。待会儿上船，你还是扶着我。"
+        },
+        {
+          "lineId": "CH01_RitualTalk_004",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "过河前，我要替你们做个仪式。"
+        },
+        {
+          "lineId": "CH01_RitualTalk_005",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Grandfather",
+          "text": "做完，就能让孩子看见我们了？"
+        },
+        {
+          "lineId": "CH01_RitualTalk_006",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "嗯。但这次相见，不能让你们一直留下。"
+        },
+        {
+          "lineId": "CH01_RitualTalk_007",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Grandmother",
+          "text": "我们知道。病着的时候，就没怎么陪他好好吃饭。"
+        },
+        {
+          "lineId": "CH01_RitualTalk_008",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Grandfather",
+          "text": "今天能坐到一张桌上，说说话，就很好。"
+        },
+        {
+          "lineId": "CH01_RitualTalk_009",
+          "chapterId": "CH01",
+          "stageId": "CH01_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "那就准备吧。仪式之后，我们去渡口。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH01_ReunionTalk",
+      "stageId": "CH01_ReunionTalk",
+      "lines": [
+        {
+          "lineId": "CH01_ReunionTalk_001",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "PastSelfFamily",
+          "text": "谁呀？门没锁，推一下就……"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_002",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "PastSelfFamily",
+          "text": "爷爷？奶奶？"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_003",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "Grandmother",
+          "text": "哎。怎么瘦成这样，饭是不是又凑合着吃？"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_004",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "PastSelfFamily",
+          "text": "我还以为，再也听不到你这么说我了。"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_005",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "Grandfather",
+          "text": "站门口做什么？你奶奶一路都在惦记这张桌子。"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_006",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "PastSelfFamily",
+          "text": "我去搬凳子。你们先坐……我去。"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_007",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "Grandmother",
+          "text": "慢一点。今天又没有人催你。"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_008",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "Ferryman",
+          "text": "凳子我来摆。你先陪他们说说话。"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_009",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "PastSelfFamily",
+          "text": "谢谢。就放院里吧，还是从前的位置。"
+        },
+        {
+          "lineId": "CH01_ReunionTalk_010",
+          "chapterId": "CH01",
+          "stageId": "CH01_ReunionTalk",
+          "speakerId": "Grandfather",
+          "text": "院里好。看得见这棵树。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH01_Farewell",
+      "stageId": "CH01_Farewell",
+      "lines": [
+        {
+          "lineId": "CH01_Farewell_001",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandmother",
+          "text": "尝尝，咸淡合不合适？"
+        },
+        {
+          "lineId": "CH01_Farewell_002",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "合适。还是这个味道。"
+        },
+        {
+          "lineId": "CH01_Farewell_003",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandfather",
+          "text": "筷子拿稳。小时候抢那块肉，也没见你这么抖。"
+        },
+        {
+          "lineId": "CH01_Farewell_004",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "爷爷，你别笑我。"
+        },
+        {
+          "lineId": "CH01_Farewell_005",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandmother",
+          "text": "他哪是笑你。他也高兴。"
+        },
+        {
+          "lineId": "CH01_Farewell_006",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "我总想着，等忙完这一阵就回来。"
+        },
+        {
+          "lineId": "CH01_Farewell_007",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "每次你们问，我都说快了。"
+        },
+        {
+          "lineId": "CH01_Farewell_008",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandfather",
+          "text": "你奶奶会在日历上画个圈，过几天再问一回。"
+        },
+        {
+          "lineId": "CH01_Farewell_009",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandmother",
+          "text": "可不是催你。就是想知道，什么时候多买点菜。"
+        },
+        {
+          "lineId": "CH01_Farewell_010",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "可我连一顿饭，都让你们等了那么久。"
+        },
+        {
+          "lineId": "CH01_Farewell_011",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandmother",
+          "text": "饭凉了还能热。你回到家，我们就高兴。"
+        },
+        {
+          "lineId": "CH01_Farewell_012",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "后来你们病了，我还是总往后拖。"
+        },
+        {
+          "lineId": "CH01_Farewell_013",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "有好多话，我以为以后还能慢慢说。"
+        },
+        {
+          "lineId": "CH01_Farewell_014",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandfather",
+          "text": "想说什么，今天说。别一开口就跟我们认错。"
+        },
+        {
+          "lineId": "CH01_Farewell_015",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "我想你们。我真的……很想你们。"
+        },
+        {
+          "lineId": "CH01_Farewell_016",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandmother",
+          "text": "我们听见了。来，把碗递近些。"
+        },
+        {
+          "lineId": "CH01_Farewell_017",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "下次我……"
+        },
+        {
+          "lineId": "CH01_Farewell_018",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "对不起，我又说下次了。"
+        },
+        {
+          "lineId": "CH01_Farewell_019",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandfather",
+          "text": "不说下次。今天这顿，咱们好好吃。"
+        },
+        {
+          "lineId": "CH01_Farewell_020",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandmother",
+          "text": "以后饿了，就给自己做口热饭。不要光喝水顶着。"
+        },
+        {
+          "lineId": "CH01_Farewell_021",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandfather",
+          "text": "累了就歇歇。家里的凳子，不是摆着好看的。"
+        },
+        {
+          "lineId": "CH01_Farewell_022",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "嗯。我记住了。"
+        },
+        {
+          "lineId": "CH01_Farewell_023",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandmother",
+          "text": "以后想起我们，也想想今天。别总想病着的时候。"
+        },
+        {
+          "lineId": "CH01_Farewell_024",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "我记得。你们坐在这儿，菜还是热的。"
+        },
+        {
+          "lineId": "CH01_Farewell_025",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "Grandfather",
+          "text": "好。那我们就放心了。"
+        },
+        {
+          "lineId": "CH01_Farewell_026",
+          "chapterId": "CH01",
+          "stageId": "CH01_Farewell",
+          "speakerId": "PastSelfFamily",
+          "text": "爷爷，奶奶。今天这顿饭，我会一直记着。"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "stageId": "CH01_Opening",
+      "text": "走近两位老人，听听他们需要什么。"
+    },
+    {
+      "stageId": "CH01_Prepare",
+      "text": "找回老花镜，并按轮廓画出拐杖。"
+    },
+    {
+      "stageId": "CH01_ReturnItems",
+      "text": "回到老人身边，按 E 交还眼镜和拐杖。"
+    },
+    {
+      "stageId": "CH01_RitualTalk",
+      "text": "听完两位老人的话。"
+    },
+    {
+      "stageId": "CH01_Ritual",
+      "text": "靠近两位老人，按 E 开始仪式。"
+    },
+    {
+      "stageId": "CH01_Board",
+      "text": "带两位老人前往渡口，按 E 上船。"
+    },
+    {
+      "stageId": "CH01_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "stageId": "CH01_Door",
+      "text": "点击院门，再点击放大画面中的门环。"
+    },
+    {
+      "stageId": "CH01_ReunionTalk",
+      "text": "陪他们说说话。"
+    },
+    {
+      "stageId": "CH01_Stools",
+      "text": "靠近餐桌按 E，将三把凳子放进空位。"
+    },
+    {
+      "stageId": "CH01_Farewell",
+      "text": "坐下来，吃完这顿团圆饭。"
+    },
+    {
+      "stageId": "CH01_Complete",
+      "text": "这一程，已经完成。"
+    }
+  ],
+  "items": [
+    {
+      "itemId": "IT01_Glasses",
+      "displayName": "老花镜",
+      "description": "镜腿上缠着一圈细线，镜片擦得很干净。"
+    },
+    {
+      "itemId": "IT02_Cane",
+      "displayName": "拐杖",
+      "description": "一根弯把木拐杖，握住的地方光滑温润。"
+    }
+  ]
+}

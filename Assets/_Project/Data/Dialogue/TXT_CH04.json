@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": "1.0",
+  "chapterId": "CH04",
+  "displayName": "最后一课",
+  "segments": [
+    {
+      "segmentId": "CH04_Opening",
+      "stageId": "CH04_Opening",
+      "lines": [
+        {
+          "lineId": "CH04_Opening_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "你就是渡客吧？能帮我找一本教案吗？"
+        },
+        {
+          "lineId": "CH04_Opening_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "Ferryman",
+          "text": "里面有什么特别的标记？"
+        },
+        {
+          "lineId": "CH04_Opening_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "封角卷着，夹了几张作文。自己的字写得密，看着挺费劲。"
+        },
+        {
+          "lineId": "CH04_Opening_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "Ferryman",
+          "text": "还有课没有讲完？"
+        },
+        {
+          "lineId": "CH04_Opening_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "有。那节课，我讲了不少不该讲那么久的话，真正要说的，倒留到下次了。"
+        },
+        {
+          "lineId": "CH04_Opening_006",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "Ferryman",
+          "text": "什么话？"
+        },
+        {
+          "lineId": "CH04_Opening_007",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "学生问我，写一个人，该怎么结尾。我让他先把开头改好。"
+        },
+        {
+          "lineId": "CH04_Opening_008",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "总想着，还有时间一点点教。"
+        },
+        {
+          "lineId": "CH04_Opening_009",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "他们后来写的悼念信，我都看了。一个个说，老师的话还没听够。"
+        },
+        {
+          "lineId": "CH04_Opening_010",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "上课的时候，倒总偷偷看钟。"
+        },
+        {
+          "lineId": "CH04_Opening_011",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "我已经不能像从前那样，天天站在讲台上了。只想再把这节课讲完。"
+        },
+        {
+          "lineId": "CH04_Opening_012",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "Ferryman",
+          "text": "你想回去回答他。"
+        },
+        {
+          "lineId": "CH04_Opening_013",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "也想听听他怎么说。我以前有个毛病，一着急就自己讲完，留给学生的时间太少。"
+        },
+        {
+          "lineId": "CH04_Opening_014",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "Ferryman",
+          "text": "找到教案后，我带你回教室。"
+        },
+        {
+          "lineId": "CH04_Opening_015",
+          "chapterId": "CH04",
+          "stageId": "CH04_Opening",
+          "speakerId": "TeacherSpirit",
+          "text": "好。今天我少讲一点，让他讲。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH04_RitualTalk",
+      "stageId": "CH04_RitualTalk",
+      "lines": [
+        {
+          "lineId": "CH04_RitualTalk_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "找到了。夹着的也还在。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "这些作文很重要？"
+        },
+        {
+          "lineId": "CH04_RitualTalk_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "有一篇，我当时以为他抄的。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "后来呢？"
+        },
+        {
+          "lineId": "CH04_RitualTalk_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "后来听他讲家里的事，才知道，那一句真是他自己写的。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_006",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "我把分改了，旁边加了批注。他看了一眼，就把本子合上了。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_007",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "没跟他说清楚？"
+        },
+        {
+          "lineId": "CH04_RitualTalk_008",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "我只说“这次算你对”。做老师做久了，认错反倒绕起弯子。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_009",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "这次，我想把那句话补上。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_010",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "石灯就在那边。完成仪式，学生能看见你。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_011",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "教室可以再回去，课却不能一直上。这个我明白。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_012",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "Ferryman",
+          "text": "嗯。"
+        },
+        {
+          "lineId": "CH04_RitualTalk_013",
+          "chapterId": "CH04",
+          "stageId": "CH04_RitualTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "那也把课讲完。最后下课的时候，让他知道我听见了。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH04_ReunionTalk",
+      "stageId": "CH04_ReunionTalk",
+      "lines": [
+        {
+          "lineId": "CH04_ReunionTalk_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "老师？"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "哎。椅子轻一点，又刮地了。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "……您真回来了。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "你倒像刚干了坏事，让我撞上了。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "没有。我就是不知道，该说什么。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_006",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "那先坐。教室空着，也用不着非挑最后一排。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_007",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "我以前觉得，坐后面您就看不见我。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_008",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "你一低头，我就知道你没听。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_009",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "您也有猜错的时候。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_010",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "有。那篇作文，我就猜错了。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_011",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "我以为你借了别人的话。那天你解释，我没听完。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_012",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "后来您改分了。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_013",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "改分是一回事。我还欠你一句，对不起。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_014",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "我以为您早就忘了。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_015",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "没有。就是没找个像样的时候说。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_016",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "我那会儿也赌气。故意把最后一段空着。"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_017",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "我看见了。今天补吗？"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_018",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "PastSelfSchool",
+          "text": "今天您还教我吗？"
+        },
+        {
+          "lineId": "CH04_ReunionTalk_019",
+          "chapterId": "CH04",
+          "stageId": "CH04_ReunionTalk",
+          "speakerId": "TeacherSpirit",
+          "text": "教。咱们先把没讲完的接上。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH04_Lesson",
+      "stageId": "CH04_Lesson",
+      "lines": [
+        {
+          "lineId": "CH04_Lesson_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "你问我，写一个人，最后该落在哪里。"
+        },
+        {
+          "lineId": "CH04_Lesson_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "我想写得好一点。好像最后一句不够好，前面的就都不算数了。"
+        },
+        {
+          "lineId": "CH04_Lesson_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "你先念念，前面写的是什么。"
+        },
+        {
+          "lineId": "CH04_Lesson_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "写回家。写家里的饭，还有等我的人。"
+        },
+        {
+          "lineId": "CH04_Lesson_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "那句话，今天还记得？"
+        },
+        {
+          "lineId": "CH04_Lesson_006",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "记得。可我不太想念。"
+        },
+        {
+          "lineId": "CH04_Lesson_007",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "行。先说为什么不想念。"
+        },
+        {
+          "lineId": "CH04_Lesson_008",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "有点傻。别人都写得特别好。"
+        },
+        {
+          "lineId": "CH04_Lesson_009",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "我教了这么久，也犯过这个毛病。看见漂亮句子，觉得像好作文；看见一句老实话，倒疑心它不够好。"
+        },
+        {
+          "lineId": "CH04_Lesson_010",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "所以您才觉得我抄了？"
+        },
+        {
+          "lineId": "CH04_Lesson_011",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "嗯。这点我得改。"
+        },
+        {
+          "lineId": "CH04_Lesson_012",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "您现在也要改作业？"
+        },
+        {
+          "lineId": "CH04_Lesson_013",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "我自己的作业，当然得改。"
+        },
+        {
+          "lineId": "CH04_Lesson_014",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "你写的那个人，平时怎么说话？"
+        },
+        {
+          "lineId": "CH04_Lesson_015",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "挺普通的。有时候，还挺烦。"
+        },
+        {
+          "lineId": "CH04_Lesson_016",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "怎么烦？"
+        },
+        {
+          "lineId": "CH04_Lesson_017",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "同一句话说好多遍。吃饭要说，走路要说，坐着也要说。"
+        },
+        {
+          "lineId": "CH04_Lesson_018",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "这是把我写进去了？"
+        },
+        {
+          "lineId": "CH04_Lesson_019",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "也有您。"
+        },
+        {
+          "lineId": "CH04_Lesson_020",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "那时您一天能叫我三次名字。我都怕别的老师也认识我。"
+        },
+        {
+          "lineId": "CH04_Lesson_021",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "有一次我叫错了，自己也没发现。"
+        },
+        {
+          "lineId": "CH04_Lesson_022",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "我发现了。"
+        },
+        {
+          "lineId": "CH04_Lesson_023",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "你怎么不说？"
+        },
+        {
+          "lineId": "CH04_Lesson_024",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "难得不是在叫我。我想多安静一会儿。"
+        },
+        {
+          "lineId": "CH04_Lesson_025",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "怪不得你那天坐得那么直。"
+        },
+        {
+          "lineId": "CH04_Lesson_026",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "可最后您还是让我回答了。"
+        },
+        {
+          "lineId": "CH04_Lesson_027",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "答对没有？"
+        },
+        {
+          "lineId": "CH04_Lesson_028",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "答对了。您说“这不就会了吗”。"
+        },
+        {
+          "lineId": "CH04_Lesson_029",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "嗯。"
+        },
+        {
+          "lineId": "CH04_Lesson_030",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "我后来才敢举手的。"
+        },
+        {
+          "lineId": "CH04_Lesson_031",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "那就写。写我讲错的时候，也写你生气的时候。"
+        },
+        {
+          "lineId": "CH04_Lesson_032",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "都能写？"
+        },
+        {
+          "lineId": "CH04_Lesson_033",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "能。认识一个人那么久，总有高兴，有难堪，还有没说清楚的地方。"
+        },
+        {
+          "lineId": "CH04_Lesson_034",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "如果最后发生了一件特别难过的事呢？"
+        },
+        {
+          "lineId": "CH04_Lesson_035",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "那也写进去。"
+        },
+        {
+          "lineId": "CH04_Lesson_036",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "可我一想到那件事，前面的就都想不起来了。"
+        },
+        {
+          "lineId": "CH04_Lesson_037",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "像一本书，只剩下最后一页。"
+        },
+        {
+          "lineId": "CH04_Lesson_038",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "那咱们今天先往前翻。你挑一件，愿意想起来的小事。"
+        },
+        {
+          "lineId": "CH04_Lesson_039",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "……您那天陪我改作文。大家都走了。"
+        },
+        {
+          "lineId": "CH04_Lesson_040",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "嗯。然后呢？"
+        },
+        {
+          "lineId": "CH04_Lesson_041",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "然后天黑了，我说回去又要挨说。您让我先收书包。"
+        },
+        {
+          "lineId": "CH04_Lesson_042",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "还记得为什么吗？"
+        },
+        {
+          "lineId": "CH04_Lesson_043",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "您说，明天接着改。先别让家里等太久。"
+        },
+        {
+          "lineId": "CH04_Lesson_044",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "你看，还找得回来。"
+        },
+        {
+          "lineId": "CH04_Lesson_045",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "可最后一句呢？"
+        },
+        {
+          "lineId": "CH04_Lesson_046",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "你现在最想对那个人说什么？"
+        },
+        {
+          "lineId": "CH04_Lesson_047",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "谢谢。还有……再见。"
+        },
+        {
+          "lineId": "CH04_Lesson_048",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "那就写这两句。"
+        },
+        {
+          "lineId": "CH04_Lesson_049",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "这么普通也可以？"
+        },
+        {
+          "lineId": "CH04_Lesson_050",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "可以。你愿意亲口说，就已经不容易了。"
+        },
+        {
+          "lineId": "CH04_Lesson_051",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "后面的，坐直一点。"
+        },
+        {
+          "lineId": "CH04_Lesson_052",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "老师，今天真要下课了吗？"
+        },
+        {
+          "lineId": "CH04_Lesson_053",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "嗯。"
+        },
+        {
+          "lineId": "CH04_Lesson_054",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "我以前总盼着铃响。"
+        },
+        {
+          "lineId": "CH04_Lesson_055",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "我知道。你们笔都收进去了，还假装在写。"
+        },
+        {
+          "lineId": "CH04_Lesson_056",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "PastSelfSchool",
+          "text": "今天我没收。"
+        },
+        {
+          "lineId": "CH04_Lesson_057",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "我看见了。"
+        },
+        {
+          "lineId": "CH04_Lesson_058",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "这就是，最后一课了。"
+        },
+        {
+          "lineId": "CH04_Lesson_059",
+          "chapterId": "CH04",
+          "stageId": "CH04_Lesson",
+          "speakerId": "TeacherSpirit",
+          "text": "下课。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH04_Memory01",
+      "stageId": "CH04_Memory",
+      "lines": [
+        {
+          "lineId": "CH04_Memory01_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "怎么不写？"
+        },
+        {
+          "lineId": "CH04_Memory01_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "PastSelfSchool",
+          "text": "怕写错。"
+        },
+        {
+          "lineId": "CH04_Memory01_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "先写一句，我看看。"
+        },
+        {
+          "lineId": "CH04_Memory01_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "PastSelfSchool",
+          "text": "写错了又要擦。"
+        },
+        {
+          "lineId": "CH04_Memory01_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "那就擦。纸还多着呢。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH04_Memory02",
+      "stageId": "CH04_Memory",
+      "lines": [
+        {
+          "lineId": "CH04_Memory02_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "PastSelfSchool",
+          "text": "这句也不行吗？"
+        },
+        {
+          "lineId": "CH04_Memory02_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "你自己念念。"
+        },
+        {
+          "lineId": "CH04_Memory02_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "PastSelfSchool",
+          "text": "……念不通。"
+        },
+        {
+          "lineId": "CH04_Memory02_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "发现在哪儿了？"
+        },
+        {
+          "lineId": "CH04_Memory02_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "PastSelfSchool",
+          "text": "这里。我改一下。"
+        },
+        {
+          "lineId": "CH04_Memory02_006",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "好。这回你自己找到了。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH04_Memory03",
+      "stageId": "CH04_Memory",
+      "lines": [
+        {
+          "lineId": "CH04_Memory03_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "书包收好。今天先到这儿。"
+        },
+        {
+          "lineId": "CH04_Memory03_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "PastSelfSchool",
+          "text": "还有一段没改完。"
+        },
+        {
+          "lineId": "CH04_Memory03_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "明天接着改。先别让家里等太久。"
+        },
+        {
+          "lineId": "CH04_Memory03_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "PastSelfSchool",
+          "text": "好。老师，明天见。"
+        },
+        {
+          "lineId": "CH04_Memory03_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_Memory",
+          "speakerId": "TeacherSpirit",
+          "text": "明天见。路上别跑。"
+        }
+      ]
+    },
+    {
+      "segmentId": "CH04_Farewell",
+      "stageId": "CH04_Farewell",
+      "lines": [
+        {
+          "lineId": "CH04_Farewell_001",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "写完了？"
+        },
+        {
+          "lineId": "CH04_Farewell_002",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "嗯。这次没空着。"
+        },
+        {
+          "lineId": "CH04_Farewell_003",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "我看见了。"
+        },
+        {
+          "lineId": "CH04_Farewell_004",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "老师，谢谢您。"
+        },
+        {
+          "lineId": "CH04_Farewell_005",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "也谢谢你。今天把我没讲好的地方，重新讲了一遍。"
+        },
+        {
+          "lineId": "CH04_Farewell_006",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "您还有什么要叮嘱的吗？"
+        },
+        {
+          "lineId": "CH04_Farewell_007",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "有。窗要关，椅子放回去，书包别落下。"
+        },
+        {
+          "lineId": "CH04_Farewell_008",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "还有呢？"
+        },
+        {
+          "lineId": "CH04_Farewell_009",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "有不会的就问。别因为怕别人笑，连开头都不敢写。"
+        },
+        {
+          "lineId": "CH04_Farewell_010",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "还有呢？"
+        },
+        {
+          "lineId": "CH04_Farewell_011",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "今天就这些了。"
+        },
+        {
+          "lineId": "CH04_Farewell_012",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "……我知道了。"
+        },
+        {
+          "lineId": "CH04_Farewell_013",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "你以后会遇见很多人。会教你新东西的人，愿意听你说话的人。"
+        },
+        {
+          "lineId": "CH04_Farewell_014",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "也让他们认识认识你。"
+        },
+        {
+          "lineId": "CH04_Farewell_015",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "那我再来看您，能说这些吗？"
+        },
+        {
+          "lineId": "CH04_Farewell_016",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "你愿意想起我的时候，就想一想。也可以想想，我陪你改好过的那一句。"
+        },
+        {
+          "lineId": "CH04_Farewell_017",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "我记得。"
+        },
+        {
+          "lineId": "CH04_Farewell_018",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "好。"
+        },
+        {
+          "lineId": "CH04_Farewell_019",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "PastSelfSchool",
+          "text": "再见，老师。"
+        },
+        {
+          "lineId": "CH04_Farewell_020",
+          "chapterId": "CH04",
+          "stageId": "CH04_Farewell",
+          "speakerId": "TeacherSpirit",
+          "text": "再见。"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "stageId": "CH04_Opening",
+      "text": "走近老师，听他说起没讲完的课。"
+    },
+    {
+      "stageId": "CH04_FindLessonPlan",
+      "text": "找到老师丢失的教案。"
+    },
+    {
+      "stageId": "CH04_ReturnLessonPlan",
+      "text": "回到老师身边，按 E 交还教案。"
+    },
+    {
+      "stageId": "CH04_RitualTalk",
+      "text": "听完老师的话。"
+    },
+    {
+      "stageId": "CH04_Ritual",
+      "text": "靠近石灯，按 E 开始仪式。"
+    },
+    {
+      "stageId": "CH04_Board",
+      "text": "带老师前往渡口，按 E 上船。"
+    },
+    {
+      "stageId": "CH04_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "stageId": "CH04_ReunionTalk",
+      "text": "听老师和学生叙旧。"
+    },
+    {
+      "stageId": "CH04_Lesson",
+      "text": "听完这堂课，点击对白区域或按空格继续。"
+    },
+    {
+      "stageId": "CH04_WriteGoodbye",
+      "text": "下课了。用鼠标沿笔画写下“再见”。"
+    },
+    {
+      "stageId": "CH04_Farewell",
+      "text": "把没说出口的告别说完。"
+    },
+    {
+      "stageId": "CH04_Complete",
+      "text": "这一程，已经完成。"
+    },
+    {
+      "stageId": "CH04_Memory",
+      "text": "想起老师陪伴的日子。"
+    }
+  ],
+  "items": [
+    {
+      "itemId": "IT05_LessonPlan",
+      "displayName": "教案",
+      "description": "翻旧的册子里，夹着几张批改过的作文。"
+    }
+  ]
+}

@@ -1,0 +1,821 @@
+{
+  "schemaVersion": "1.0",
+  "strings": [
+    {
+      "key": "r03.trace.progress",
+      "text": "当前笔画 {current} / {total}"
+    },
+    {
+      "key": "r03.notes.progress",
+      "text": "已奏 {count} / {total}"
+    },
+    {
+      "key": "r03.notes.play_demo",
+      "text": "听一遍示范"
+    },
+    {
+      "key": "game.title",
+      "text": "渡者"
+    },
+    {
+      "key": "menu.start",
+      "text": "开始故事"
+    },
+    {
+      "key": "menu.continue",
+      "text": "继续故事"
+    },
+    {
+      "key": "menu.replay_first",
+      "text": "重温第一章"
+    },
+    {
+      "key": "menu.chapters",
+      "text": "章节目录"
+    },
+    {
+      "key": "menu.gallery",
+      "text": "回忆馆"
+    },
+    {
+      "key": "menu.settings",
+      "text": "设置"
+    },
+    {
+      "key": "menu.credits",
+      "text": "制作名单"
+    },
+    {
+      "key": "menu.quit",
+      "text": "退出游戏"
+    },
+    {
+      "key": "menu.subtitle",
+      "text": "把没说完的话，好好说完。"
+    },
+    {
+      "key": "menu.story_input",
+      "text": "点击对白区域或按空格，继续故事。"
+    },
+    {
+      "key": "menu.continue_hint",
+      "text": "从首个未通关章节的开头继续。"
+    },
+    {
+      "key": "menu.save_notice",
+      "text": "章节内进度不保存；已通关章节与回忆会保留。"
+    },
+    {
+      "key": "menu.replay_notice",
+      "text": "重玩已通关章节不会改变主线进度。"
+    },
+    {
+      "key": "button.confirm",
+      "text": "确认"
+    },
+    {
+      "key": "button.cancel",
+      "text": "取消"
+    },
+    {
+      "key": "button.back",
+      "text": "返回"
+    },
+    {
+      "key": "button.close",
+      "text": "关闭"
+    },
+    {
+      "key": "button.resume",
+      "text": "继续游戏"
+    },
+    {
+      "key": "button.return_menu",
+      "text": "返回开始界面"
+    },
+    {
+      "key": "button.retry_river",
+      "text": "重新渡河"
+    },
+    {
+      "key": "button.start_crossing",
+      "text": "开始渡河"
+    },
+    {
+      "key": "button.clear_stroke",
+      "text": "重画当前笔画"
+    },
+    {
+      "key": "button.clear_shape",
+      "text": "重新描画"
+    },
+    {
+      "key": "button.replay",
+      "text": "回看"
+    },
+    {
+      "key": "button.leave_replay",
+      "text": "返回回忆馆"
+    },
+    {
+      "key": "pause.title",
+      "text": "已暂停"
+    },
+    {
+      "key": "pause.focus_lost",
+      "text": "已暂停。准备好后，继续游戏。"
+    },
+    {
+      "key": "pause.help",
+      "text": "按 ESC 返回游戏。"
+    },
+    {
+      "key": "settings.title",
+      "text": "设置"
+    },
+    {
+      "key": "volume.master",
+      "text": "主音量"
+    },
+    {
+      "key": "volume.music",
+      "text": "音乐"
+    },
+    {
+      "key": "volume.sfx",
+      "text": "音效"
+    },
+    {
+      "key": "chapters.title",
+      "text": "章节目录"
+    },
+    {
+      "key": "chapters.empty",
+      "text": "通关后，可以在这里重玩章节。"
+    },
+    {
+      "key": "chapters.completed",
+      "text": "已通关"
+    },
+    {
+      "key": "chapters.replay_action",
+      "text": "重玩本章"
+    },
+    {
+      "key": "chapters.replay_finished",
+      "text": "本章重温完毕。"
+    },
+    {
+      "key": "gallery.title",
+      "text": "回忆馆"
+    },
+    {
+      "key": "gallery.empty",
+      "text": "完成一次告别后，这里的回忆就会亮起。"
+    },
+    {
+      "key": "gallery.play_action",
+      "text": "回看这段回忆"
+    },
+    {
+      "key": "gallery.manual_hint",
+      "text": "点击对白区域或按空格继续；按 ESC 暂停。"
+    },
+    {
+      "key": "gallery.exit_confirm",
+      "text": "结束回看，返回回忆馆？"
+    },
+    {
+      "key": "confirm.leave_chapter_title",
+      "text": "离开当前章节？"
+    },
+    {
+      "key": "confirm.leave_chapter_body",
+      "text": "本章未完成的进度将不保留。已通关章节、回忆和音量设置会保留。"
+    },
+    {
+      "key": "confirm.replay_chapter_title",
+      "text": "重玩已通关章节？"
+    },
+    {
+      "key": "confirm.replay_chapter_body",
+      "text": "将离开当前章节，本章未完成进度不保留。重玩不会改变主线进度。"
+    },
+    {
+      "key": "confirm.quit_title",
+      "text": "退出游戏？"
+    },
+    {
+      "key": "confirm.quit_body",
+      "text": "本章未完成进度不保留。已通关章节与回忆已保存。"
+    },
+    {
+      "key": "hint.move",
+      "text": "使用 WASD 或方向键移动。"
+    },
+    {
+      "key": "hint.npc_auto",
+      "text": "走近人物，即可开始当前对话。"
+    },
+    {
+      "key": "hint.item_interact",
+      "text": "靠近物品后按 E 交互。"
+    },
+    {
+      "key": "hint.dialogue_next",
+      "text": "点击对白区域或按空格继续。"
+    },
+    {
+      "key": "hint.pause",
+      "text": "按 ESC 暂停。"
+    },
+    {
+      "key": "hint.pickup",
+      "text": "按 E 拾取"
+    },
+    {
+      "key": "hint.return_items",
+      "text": "按 E 交还物品"
+    },
+    {
+      "key": "hint.ritual",
+      "text": "按 E 开始仪式"
+    },
+    {
+      "key": "hint.board",
+      "text": "按 E 上船"
+    },
+    {
+      "key": "hint.table",
+      "text": "按 E 摆放凳子"
+    },
+    {
+      "key": "hint.cane_station",
+      "text": "按 E 画出拐杖"
+    },
+    {
+      "key": "hint.door",
+      "text": "按 E 敲门"
+    },
+    {
+      "key": "hint.unavailable",
+      "text": "先完成当前目标。"
+    },
+    {
+      "key": "hint.ritual_locked",
+      "text": "先把丢失的物品交还，再听完对话。"
+    },
+    {
+      "key": "hint.dock_locked",
+      "text": "完成仪式后，才能上船。"
+    },
+    {
+      "key": "hint.dialogue_paused",
+      "text": "对话已暂停。"
+    },
+    {
+      "key": "feedback.item_collected",
+      "text": "已找到物品。"
+    },
+    {
+      "key": "feedback.items_returned",
+      "text": "物品已交还。"
+    },
+    {
+      "key": "feedback.puzzle_complete",
+      "text": "完成了。"
+    },
+    {
+      "key": "feedback.ritual_complete",
+      "text": "仪式完成，可以前往渡口。"
+    },
+    {
+      "key": "feedback.chapter_complete",
+      "text": "这一程，已经完成。"
+    },
+    {
+      "key": "feedback.gallery_unlocked",
+      "text": "一段回忆已收进回忆馆。"
+    },
+    {
+      "key": "loading.scene",
+      "text": "正在前往下一处……"
+    },
+    {
+      "key": "river.instructions_title",
+      "text": "渡过冥河"
+    },
+    {
+      "key": "river.instructions",
+      "text": "船会自行前进。使用 A、D 或左右方向键，避开漩涡。"
+    },
+    {
+      "key": "river.instructions_retry",
+      "text": "碰到漩涡后，只需重新渡河，之前完成的任务会保留。"
+    },
+    {
+      "key": "river.active_hint",
+      "text": "A / D 或 ← / →：左右避开漩涡"
+    },
+    {
+      "key": "river.retry_title",
+      "text": "被漩涡卷回了渡口"
+    },
+    {
+      "key": "river.retry_body",
+      "text": "之前的任务已经完成。准备好后，再渡一次河。"
+    },
+    {
+      "key": "river.arrived",
+      "text": "到岸了。"
+    },
+    {
+      "key": "minigame.cane.title",
+      "text": "画出拐杖"
+    },
+    {
+      "key": "minigame.cane.instructions",
+      "text": "按住鼠标左键，沿轮廓描出拐杖。可以抬笔，再接着画。"
+    },
+    {
+      "key": "minigame.cane.success",
+      "text": "拐杖做好了。带回老人身边吧。"
+    },
+    {
+      "key": "minigame.door.title",
+      "text": "敲门"
+    },
+    {
+      "key": "minigame.door.instructions",
+      "text": "点击门环，轻轻敲门。"
+    },
+    {
+      "key": "minigame.stools.title",
+      "text": "摆好凳子"
+    },
+    {
+      "key": "minigame.stools.instructions",
+      "text": "把三把凳子分别拖进空位，松开鼠标放下。"
+    },
+    {
+      "key": "minigame.stools.progress",
+      "text": "已摆好 {count} / {total}"
+    },
+    {
+      "key": "minigame.heart.title",
+      "text": "画一颗心"
+    },
+    {
+      "key": "minigame.heart.instructions",
+      "text": "按住鼠标左键，沿引导描出完整的爱心。可以抬笔。"
+    },
+    {
+      "key": "minigame.notes.title",
+      "text": "同一张相片"
+    },
+    {
+      "key": "minigame.notes.instructions",
+      "text": "依次点击亮起的音。也可按数字键 1–7；不用赶节拍。"
+    },
+    {
+      "key": "minigame.notes.next",
+      "text": "下一个音"
+    },
+    {
+      "key": "minigame.notes.wrong",
+      "text": "试试亮起的那个音。"
+    },
+    {
+      "key": "minigame.notes.finished",
+      "text": "这段旋律，完整了。"
+    },
+    {
+      "key": "minigame.notes.note_1",
+      "text": "1  Do"
+    },
+    {
+      "key": "minigame.notes.note_2",
+      "text": "2  Re"
+    },
+    {
+      "key": "minigame.notes.note_3",
+      "text": "3  Mi"
+    },
+    {
+      "key": "minigame.notes.note_4",
+      "text": "4  Fa"
+    },
+    {
+      "key": "minigame.notes.note_5",
+      "text": "5  Sol"
+    },
+    {
+      "key": "minigame.notes.note_6",
+      "text": "6  La"
+    },
+    {
+      "key": "minigame.notes.note_7",
+      "text": "7  Si"
+    },
+    {
+      "key": "minigame.photo.title",
+      "text": "把空位补上"
+    },
+    {
+      "key": "minigame.photo.instructions",
+      "text": "将鼓手拖进合照的空位，松开鼠标放下。"
+    },
+    {
+      "key": "minigame.photo.success",
+      "text": "这一次，一个也没少。"
+    },
+    {
+      "key": "minigame.goodbye.title",
+      "text": "写下再见"
+    },
+    {
+      "key": "minigame.goodbye.instructions",
+      "text": "沿亮起的笔画，用鼠标写下“再见”。一笔一笔慢慢来。"
+    },
+    {
+      "key": "minigame.goodbye.finished",
+      "text": "再见。"
+    },
+    {
+      "key": "minigame.trace.incomplete",
+      "text": "还有一段没有描到，沿着提示继续吧。"
+    },
+    {
+      "key": "minigame.trace.off_path",
+      "text": "靠近亮起的轮廓，再试一次。"
+    },
+    {
+      "key": "minigame.trace.stroke_complete",
+      "text": "这一笔完成了。"
+    },
+    {
+      "key": "minigame.drag.wrong_position",
+      "text": "放到标出的空位试试。"
+    },
+    {
+      "key": "minigame.drag.reset_after_pause",
+      "text": "尚未放好的物件已回到原位，可以继续。"
+    },
+    {
+      "key": "save.restored_backup",
+      "text": "已恢复上一份有效进度。"
+    },
+    {
+      "key": "save.unreadable_title",
+      "text": "暂时无法读取进度"
+    },
+    {
+      "key": "save.unreadable_body",
+      "text": "未覆盖原来的存档。请先关闭游戏并保留存档文件，联系开发者处理。"
+    },
+    {
+      "key": "save.write_failed",
+      "text": "进度暂时未能保存，请保留本次游戏并联系开发者。"
+    },
+    {
+      "key": "ending.title",
+      "text": "渡者"
+    },
+    {
+      "key": "ending.complete",
+      "text": "故事已结束，全部章节已解锁。"
+    },
+    {
+      "key": "ending.return_prompt",
+      "text": "点击按钮或按空格，返回开始界面。"
+    },
+    {
+      "key": "credits.title",
+      "text": "制作名单"
+    },
+    {
+      "key": "credits.author",
+      "text": "策划与叙事设计：東壹"
+    },
+    {
+      "key": "credits.engine",
+      "text": "引擎：团结引擎 1.10.4"
+    },
+    {
+      "key": "credits.ai_note",
+      "text": "本作使用 AI 辅助创作与开发。"
+    },
+    {
+      "key": "credits.details",
+      "text": "制作工具与素材来源详见随附说明。"
+    },
+    {
+      "key": "credits.thanks",
+      "text": "谢谢你，陪他们走完这一程。"
+    },
+    {
+      "key": "speaker.Ferryman",
+      "text": "渡客"
+    },
+    {
+      "key": "speaker.Grandfather",
+      "text": "爷爷"
+    },
+    {
+      "key": "speaker.Grandmother",
+      "text": "奶奶"
+    },
+    {
+      "key": "speaker.PastSelfFamily",
+      "text": "孙子"
+    },
+    {
+      "key": "speaker.LoverSpirit",
+      "text": "女孩"
+    },
+    {
+      "key": "speaker.PastSelfRomance",
+      "text": "男孩"
+    },
+    {
+      "key": "speaker.DrummerSpirit",
+      "text": "鼓手"
+    },
+    {
+      "key": "speaker.PastSelfBand",
+      "text": "队友"
+    },
+    {
+      "key": "speaker.BandmateA",
+      "text": "贝斯手"
+    },
+    {
+      "key": "speaker.BandmateB",
+      "text": "主唱"
+    },
+    {
+      "key": "speaker.TeacherSpirit",
+      "text": "老师"
+    },
+    {
+      "key": "speaker.PastSelfSchool",
+      "text": "学生"
+    },
+    {
+      "key": "chapter.CH01.name",
+      "text": "别让等待成为遗憾"
+    },
+    {
+      "key": "objective.CH01_Opening",
+      "text": "走近两位老人，听听他们需要什么。"
+    },
+    {
+      "key": "objective.CH01_Prepare",
+      "text": "找回老花镜，并按轮廓画出拐杖。"
+    },
+    {
+      "key": "objective.CH01_ReturnItems",
+      "text": "回到老人身边，按 E 交还眼镜和拐杖。"
+    },
+    {
+      "key": "objective.CH01_RitualTalk",
+      "text": "听完两位老人的话。"
+    },
+    {
+      "key": "objective.CH01_Ritual",
+      "text": "靠近石灯，按 E 开始仪式。"
+    },
+    {
+      "key": "objective.CH01_Board",
+      "text": "带两位老人前往渡口，按 E 上船。"
+    },
+    {
+      "key": "objective.CH01_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "key": "objective.CH01_Door",
+      "text": "点击院门，再点击放大画面中的门环。"
+    },
+    {
+      "key": "objective.CH01_ReunionTalk",
+      "text": "陪他们说说话。"
+    },
+    {
+      "key": "objective.CH01_Stools",
+      "text": "靠近餐桌按 E，将三把凳子放进空位。"
+    },
+    {
+      "key": "objective.CH01_Farewell",
+      "text": "坐下来，吃完这顿团圆饭。"
+    },
+    {
+      "key": "objective.CH01_Complete",
+      "text": "这一程，已经完成。"
+    },
+    {
+      "key": "chapter.CH02.name",
+      "text": "真心为你"
+    },
+    {
+      "key": "objective.CH02_Opening",
+      "text": "走近女孩，听她说说项链的事。"
+    },
+    {
+      "key": "objective.CH02_FindNecklace",
+      "text": "在附近找到女孩丢失的项链。"
+    },
+    {
+      "key": "objective.CH02_ReturnNecklace",
+      "text": "回到女孩身边，按 E 交还项链。"
+    },
+    {
+      "key": "objective.CH02_RitualTalk",
+      "text": "听完女孩的话。"
+    },
+    {
+      "key": "objective.CH02_Ritual",
+      "text": "靠近石灯，按 E 开始仪式。"
+    },
+    {
+      "key": "objective.CH02_Board",
+      "text": "带女孩前往渡口，按 E 上船。"
+    },
+    {
+      "key": "objective.CH02_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "key": "objective.CH02_ReunionTalk",
+      "text": "走近长椅旁的男孩。"
+    },
+    {
+      "key": "objective.CH02_Heart",
+      "text": "按住鼠标，沿引导画出完整的爱心。"
+    },
+    {
+      "key": "objective.CH02_Farewell",
+      "text": "陪他们完成这次告别。"
+    },
+    {
+      "key": "objective.CH02_Complete",
+      "text": "这一程，已经完成。"
+    },
+    {
+      "key": "chapter.CH03.name",
+      "text": "组一辈子乐队"
+    },
+    {
+      "key": "objective.CH03_Opening",
+      "text": "走近鼓手，听他提起那张合照。"
+    },
+    {
+      "key": "objective.CH03_FindDrumsticks",
+      "text": "找到鼓手丢失的一对鼓槌。"
+    },
+    {
+      "key": "objective.CH03_ReturnDrumsticks",
+      "text": "回到鼓手身边，按 E 交还鼓槌。"
+    },
+    {
+      "key": "objective.CH03_RitualTalk",
+      "text": "听完鼓手的话。"
+    },
+    {
+      "key": "objective.CH03_Ritual",
+      "text": "靠近石灯，按 E 开始仪式。"
+    },
+    {
+      "key": "objective.CH03_Board",
+      "text": "带鼓手前往渡口，按 E 上船。"
+    },
+    {
+      "key": "objective.CH03_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "key": "objective.CH03_ReunionTalk",
+      "text": "走近录音室里的队友。"
+    },
+    {
+      "key": "objective.CH03_Perform",
+      "text": "依次选择亮起的音，和乐队完成这段旋律。"
+    },
+    {
+      "key": "objective.CH03_Photo",
+      "text": "把鼓手拖到合照中空着的位置。"
+    },
+    {
+      "key": "objective.CH03_Farewell",
+      "text": "留下这张完整的合照。"
+    },
+    {
+      "key": "objective.CH03_Complete",
+      "text": "这一程，已经完成。"
+    },
+    {
+      "key": "chapter.CH04.name",
+      "text": "最后一课"
+    },
+    {
+      "key": "objective.CH04_Opening",
+      "text": "走近老师，听他说起没讲完的课。"
+    },
+    {
+      "key": "objective.CH04_FindLessonPlan",
+      "text": "找到老师丢失的教案。"
+    },
+    {
+      "key": "objective.CH04_ReturnLessonPlan",
+      "text": "回到老师身边，按 E 交还教案。"
+    },
+    {
+      "key": "objective.CH04_RitualTalk",
+      "text": "听完老师的话。"
+    },
+    {
+      "key": "objective.CH04_Ritual",
+      "text": "靠近石灯，按 E 开始仪式。"
+    },
+    {
+      "key": "objective.CH04_Board",
+      "text": "带老师前往渡口，按 E 上船。"
+    },
+    {
+      "key": "objective.CH04_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "key": "objective.CH04_ReunionTalk",
+      "text": "听老师和学生叙旧。"
+    },
+    {
+      "key": "objective.CH04_Lesson",
+      "text": "听完这堂课，点击对白区域或按空格继续。"
+    },
+    {
+      "key": "objective.CH04_WriteGoodbye",
+      "text": "下课了。用鼠标沿笔画写下“再见”。"
+    },
+    {
+      "key": "objective.CH04_Farewell",
+      "text": "把没说出口的告别说完。"
+    },
+    {
+      "key": "objective.CH04_Complete",
+      "text": "这一程，已经完成。"
+    },
+    {
+      "key": "chapter.CH05.name",
+      "text": "自渡"
+    },
+    {
+      "key": "objective.CH05_Recall",
+      "text": "听渡客说完想起的往事。"
+    },
+    {
+      "key": "objective.CH05_LetGo",
+      "text": "把最后的心事说完。"
+    },
+    {
+      "key": "objective.CH05_Board",
+      "text": "独自走向渡口，按 E 上船。"
+    },
+    {
+      "key": "objective.CH05_River",
+      "text": "左右移动船只，避开漩涡。"
+    },
+    {
+      "key": "objective.CH05_Reincarnation",
+      "text": "走完最后这一程。"
+    },
+    {
+      "key": "objective.CH05_Complete",
+      "text": "故事已结束。返回开始界面。"
+    },
+    {
+      "key": "gallery.PR_CH01_Farewell.title",
+      "text": "别让等待成为遗憾"
+    },
+    {
+      "key": "gallery.PR_CH02_Farewell.title",
+      "text": "再抱一会儿"
+    },
+    {
+      "key": "gallery.PR_CH03_Farewell.title",
+      "text": "一个也没少"
+    },
+    {
+      "key": "gallery.PR_CH04_Farewell.title",
+      "text": "最后一课"
+    },
+    {
+      "key": "gallery.PR_CH05_Recall.title",
+      "text": "想起来了"
+    },
+    {
+      "key": "gallery.PR_CH05_Reincarnation.title",
+      "text": "最后这一程"
+    }
+  ]
+}

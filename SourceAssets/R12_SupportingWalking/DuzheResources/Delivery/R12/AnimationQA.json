@@ -1,0 +1,2080 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R12_SupportingWalking_20261028_v1.0",
+  "technicalStatus": "Passed",
+  "visualStatus": "Reviewed",
+  "reviewedFrameCount": 60,
+  "engineImportStatus": "Not imported or runtime-tested",
+  "items": [
+    {
+      "assetId": "CHR02_Grandfather",
+      "sheetSha256": "4e512556e71f20ecf4f4d9c138f52b9e3cfe65ccee30620d978df163fd212794",
+      "uniqueFrameCount": 12,
+      "r11IdleMatch": true,
+      "directionChecks": [
+        {
+          "direction": "Down",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 789,
+          "walkBIdleDifferentPixels": 783,
+          "walkAWalkBDifferentPixels": 739
+        },
+        {
+          "direction": "Left",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 669,
+          "walkBIdleDifferentPixels": 694,
+          "walkAWalkBDifferentPixels": 779
+        },
+        {
+          "direction": "Right",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 683,
+          "walkBIdleDifferentPixels": 678,
+          "walkAWalkBDifferentPixels": 608
+        },
+        {
+          "direction": "Up",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 762,
+          "walkBIdleDifferentPixels": 808,
+          "walkAWalkBDifferentPixels": 618
+        }
+      ],
+      "frameChecks": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "bbox": [
+            4,
+            3,
+            28,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 13.0,
+          "bboxCenterX": 15.5,
+          "sha256": "7e16459349a1a262d550b2679a51f2510e50e4288b751b173fb227446c425687",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "bbox": [
+            4,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.0,
+          "bboxCenterX": 15.0,
+          "sha256": "ed092ba4e5fc18ab45b3f5ca608480d69d92560ccc00f431531f90c78c4af091",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "bbox": [
+            4,
+            3,
+            28,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 18.0,
+          "bboxCenterX": 15.5,
+          "sha256": "4c8bc48c5fab28086d30a6559a5e56d5406627aa2c796a2a5c48d04289bfb12d",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 12.0,
+          "bboxCenterX": 15.5,
+          "sha256": "03f8c5a66dcedeadf5e77a9e5f60d3d189404de66f2d2f5c077c3581e6d3a8d8",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "bbox": [
+            7,
+            3,
+            24,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.5,
+          "bboxCenterX": 15.0,
+          "sha256": "9a4c138a3d5639233b85b8cca78ed3eb67daf86809d20b47e0b7930a04d5ec12",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 18.5,
+          "bboxCenterX": 15.0,
+          "sha256": "ff9aed834c48727945bc6ddf34e011e4755905a10fa3d28868b91b26fe677313",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 18.5,
+          "bboxCenterX": 15.5,
+          "sha256": "da56d08dec465c0ce5c99f0990b2fd93f742f59ce828b5724d1520c037ba6681",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "bbox": [
+            7,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 13.5,
+          "bboxCenterX": 15.5,
+          "sha256": "5110ff15d640e0be747f9ed0de69a5b4971904b8785becdb3188e6b3be8ea7b3",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 18.5,
+          "bboxCenterX": 15.5,
+          "sha256": "4b6ea0c68f2f31ec8ab65405c6ca58a5102b18e22124610ecef0a95b99956412",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "bbox": [
+            4,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.0,
+          "bboxCenterX": 15.0,
+          "sha256": "c75c64e315a52ffab516fdf16eb0aea3b0e4a01e4f675ac182a9ef4f5e47bbe7",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "bbox": [
+            4,
+            3,
+            28,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.5,
+          "bboxCenterX": 15.5,
+          "sha256": "796c9a88fece76c6f157037b8e441b2f3eaeb1b9bd3a18193b15992f1c99b368",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "bbox": [
+            4,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.5,
+          "bboxCenterX": 15.0,
+          "sha256": "d8ca5ee265fab90f7cc5190ca8df77f02647263eeb1de375a3f71f67bea70cf8",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        }
+      ],
+      "sheetChecks": {
+        "sheet96x192RGBA": true,
+        "all60CellChecksPass": true,
+        "twelveUniqueFrames": true,
+        "threeUniquePosesPerDirection": true,
+        "allWalkPairsDiffer": true,
+        "downIdleExactlyMatchesR11": true,
+        "animatedPreviewFourFrames": true,
+        "processingReportExists": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "灰短发、灰橄榄外套与老人比例保持一致；四向跨步与手臂变化可读。",
+      "swapSideWalkB": true,
+      "staticPreview": "SourceAssets/Animations/CHR02_Grandfather/CHR02_Grandfather_sheet_preview.png",
+      "animatedPreview": "SourceAssets/Animations/CHR02_Grandfather/CHR02_Grandfather_walk_preview.gif"
+    },
+    {
+      "assetId": "CHR03_Grandmother",
+      "sheetSha256": "2f7743f1e47d5be05221210e62bfe40bb78036a15329daed0a9aea55ac745d7e",
+      "uniqueFrameCount": 12,
+      "r11IdleMatch": true,
+      "directionChecks": [
+        {
+          "direction": "Down",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 752,
+          "walkBIdleDifferentPixels": 734,
+          "walkAWalkBDifferentPixels": 687
+        },
+        {
+          "direction": "Left",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 748,
+          "walkBIdleDifferentPixels": 696,
+          "walkAWalkBDifferentPixels": 744
+        },
+        {
+          "direction": "Right",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 769,
+          "walkBIdleDifferentPixels": 765,
+          "walkAWalkBDifferentPixels": 654
+        },
+        {
+          "direction": "Up",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 830,
+          "walkBIdleDifferentPixels": 817,
+          "walkAWalkBDifferentPixels": 676
+        }
+      ],
+      "frameChecks": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "bbox": [
+            4,
+            5,
+            28,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 18.0,
+          "bboxCenterX": 15.5,
+          "sha256": "fc2e9528370fdde1124535280c18ed56b11d6eef9c54e0293d1ee15622550d34",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "bbox": [
+            5,
+            5,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 14.285714285714286,
+          "bboxCenterX": 15.0,
+          "sha256": "52c830638dbad11957eb4aaf1211d26617953d20f8efdd2b1593e557632ca852",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "bbox": [
+            4,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.5,
+          "bboxCenterX": 15.0,
+          "sha256": "e4e219b5d1f8f549f52aa940d6eced25d9bc9949e70560eb37061de3a3b704f9",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "bbox": [
+            5,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 10.5,
+          "bboxCenterX": 15.5,
+          "sha256": "9aa8e457901bce862b293bf452b6c29a2d2fde4a852ff8ecfe7a67f85cd15be5",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "bbox": [
+            5,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 14.5,
+          "bboxCenterX": 15.5,
+          "sha256": "46eb0a95bacd07d62fb09deb9c886a2461def74e01b71701e76da89f576f1693",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "bbox": [
+            4,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 8.5,
+          "bboxCenterX": 15.0,
+          "sha256": "56f83c6053e7055adeba769878cc77dcfd00a4c7257b49b13c8ba6218d147ad9",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "bbox": [
+            4,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 20.5,
+          "bboxCenterX": 15.0,
+          "sha256": "647d85204f4b5e8b5779cdb7a77b0ccaa94ce03c9f1d24f5ed178de231fb21f6",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "bbox": [
+            4,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 16.5,
+          "bboxCenterX": 15.0,
+          "sha256": "5a2abd1164613b6630eb2b7118a5c9b4c2b303c2f3e1ff70eb589aaf1eeda2aa",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "bbox": [
+            4,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 20.5,
+          "bboxCenterX": 15.0,
+          "sha256": "d3163f19c559d3d72ddaea7bc5da4e682c1a54b60e985f6e773baab73a1dad96",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "bbox": [
+            4,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.0,
+          "bboxCenterX": 15.0,
+          "sha256": "5d8c4ec193d1f1d14a79377873462b619d05ea451efc0a842c3c40aa6e9cd3d1",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "bbox": [
+            4,
+            5,
+            28,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.5,
+          "bboxCenterX": 15.5,
+          "sha256": "1290fd109fc3c74dc7908cdc6418ffb9fc9c835a460b03b97aea1730857e5aee",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "bbox": [
+            4,
+            5,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 18.0,
+          "bboxCenterX": 15.0,
+          "sha256": "ffaa0de072d545adb2733135c274c60ccd2382657110f1e3f2c545b5f272fa29",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        }
+      ],
+      "sheetChecks": {
+        "sheet96x192RGBA": true,
+        "all60CellChecksPass": true,
+        "twelveUniqueFrames": true,
+        "threeUniquePosesPerDirection": true,
+        "allWalkPairsDiffer": true,
+        "downIdleExactlyMatchesR11": true,
+        "animatedPreviewFourFrames": true,
+        "processingReportExists": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "灰白盘发、灰紫开衫和较矮比例保持一致；Down/Idle 与 R11 完全一致。",
+      "swapSideWalkB": true,
+      "staticPreview": "SourceAssets/Animations/CHR03_Grandmother/CHR03_Grandmother_sheet_preview.png",
+      "animatedPreview": "SourceAssets/Animations/CHR03_Grandmother/CHR03_Grandmother_walk_preview.gif"
+    },
+    {
+      "assetId": "CHR05_LoverSpirit",
+      "sheetSha256": "f64700a276954a36f5873e0052b7fa6e3a5cc2ac8007eb9cead1d05522463d39",
+      "uniqueFrameCount": 12,
+      "r11IdleMatch": true,
+      "directionChecks": [
+        {
+          "direction": "Down",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 588,
+          "walkBIdleDifferentPixels": 587,
+          "walkAWalkBDifferentPixels": 530
+        },
+        {
+          "direction": "Left",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 661,
+          "walkBIdleDifferentPixels": 647,
+          "walkAWalkBDifferentPixels": 661
+        },
+        {
+          "direction": "Right",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 654,
+          "walkBIdleDifferentPixels": 655,
+          "walkAWalkBDifferentPixels": 564
+        },
+        {
+          "direction": "Up",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 670,
+          "walkBIdleDifferentPixels": 686,
+          "walkAWalkBDifferentPixels": 658
+        }
+      ],
+      "frameChecks": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "bbox": [
+            7,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 16.5,
+          "bboxCenterX": 15.5,
+          "sha256": "16d80ec9a8e951b8e05c6e9c4044da7f49c42d4b20c02305b47df5980af8ec42",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "bbox": [
+            8,
+            3,
+            24,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 16.0,
+          "bboxCenterX": 15.5,
+          "sha256": "136957183ed88ad13ba491adbd2f23696099a6341d42b60333da453666483636",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "bbox": [
+            7,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 13.5,
+          "bboxCenterX": 15.5,
+          "sha256": "245954db2deaf0df9e263561099cacec52fd422263c7710d3effd0a58ad2d2c3",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 13.666666666666666,
+          "bboxCenterX": 15.0,
+          "sha256": "45fabab4b06ce1e93f82c3fa4110bda4ba059c953b291844a91628cca213a2db",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "bbox": [
+            7,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 14.5,
+          "bboxCenterX": 15.5,
+          "sha256": "f40343e89118bae2e0f555eb40e1125c300e9ca9dc6d99f88b30c5ca0f54c72b",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 20.5,
+          "bboxCenterX": 15.0,
+          "sha256": "1a0d49187b211d60a2ea9e7e71446b7defc684621d54333bd1ab8a41a1801cc5",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 20.5,
+          "bboxCenterX": 15.0,
+          "sha256": "8781b2d9e03f79a0e653cde5fec27da3b333759a3463c8def791e517dc23d35e",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "bbox": [
+            6,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 16.5,
+          "bboxCenterX": 15.0,
+          "sha256": "cd414be9d84f2014e278aaaed32053c4f2c3589e1d5051493c03d4189cbf5435",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 9.5,
+          "bboxCenterX": 15.0,
+          "sha256": "91ff627c32caf98af05da80c050271588bad76d4371c94422ae1c046a8903d43",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.5,
+          "bboxCenterX": 15.5,
+          "sha256": "a377678690964d47d24a271f46f638ade364b3b076c97a85998e0e6c20655275",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "bbox": [
+            6,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.0,
+          "bboxCenterX": 15.0,
+          "sha256": "5d25b213019e6d92c6570fad877a42a3ff0ace9e95b6b99a650cb2ef8a08b7c5",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 14.0,
+          "bboxCenterX": 15.5,
+          "sha256": "89e79be1307c07252801eb28d4f9c521fe8ac82198fd04840899e00bd3efb4e4",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        }
+      ],
+      "sheetChecks": {
+        "sheet96x192RGBA": true,
+        "all60CellChecksPass": true,
+        "twelveUniqueFrames": true,
+        "threeUniquePosesPerDirection": true,
+        "allWalkPairsDiffer": true,
+        "downIdleExactlyMatchesR11": true,
+        "animatedPreviewFourFrames": true,
+        "processingReportExists": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "中长发、柔绿开衫和裤装保持一致；侧面发束与步态方向正确。",
+      "swapSideWalkB": false,
+      "staticPreview": "SourceAssets/Animations/CHR05_LoverSpirit/CHR05_LoverSpirit_sheet_preview.png",
+      "animatedPreview": "SourceAssets/Animations/CHR05_LoverSpirit/CHR05_LoverSpirit_walk_preview.gif"
+    },
+    {
+      "assetId": "CHR07_DrummerSpirit",
+      "sheetSha256": "66888b0a215e474666fa2d6651a53147270b091d62849b646bc274aeea9adf0c",
+      "uniqueFrameCount": 12,
+      "r11IdleMatch": true,
+      "directionChecks": [
+        {
+          "direction": "Down",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 656,
+          "walkBIdleDifferentPixels": 670,
+          "walkAWalkBDifferentPixels": 664
+        },
+        {
+          "direction": "Left",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 635,
+          "walkBIdleDifferentPixels": 657,
+          "walkAWalkBDifferentPixels": 665
+        },
+        {
+          "direction": "Right",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 672,
+          "walkBIdleDifferentPixels": 654,
+          "walkAWalkBDifferentPixels": 551
+        },
+        {
+          "direction": "Up",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 769,
+          "walkBIdleDifferentPixels": 711,
+          "walkAWalkBDifferentPixels": 666
+        }
+      ],
+      "frameChecks": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 13.5,
+          "bboxCenterX": 15.5,
+          "sha256": "d3578a86cbd3947ea35ffcbe82fdabcbeca94b1626d3ec5a2b12761fc4358ef3",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "bbox": [
+            6,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.0,
+          "bboxCenterX": 15.0,
+          "sha256": "0d4b826e839330ae419bceee9167cf6e5753a9d67c0d3fdda0c482d0a55bcb88",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 16.5,
+          "bboxCenterX": 15.0,
+          "sha256": "525082511ae16577fac1c4ae46155eb00c14c04e31e56eaad19d658a7970f2d5",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 12.0,
+          "bboxCenterX": 15.5,
+          "sha256": "538359c36963adb37668fe7b8bfedabe0cad7aba118614355bf454c11d790ee5",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.0,
+          "bboxCenterX": 15.0,
+          "sha256": "4a4dac16a84537841d3cbc3dd4a564b28c058eae652fc4b63f10852e23cae98d",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 9.5,
+          "bboxCenterX": 15.0,
+          "sha256": "662571d2900c4ec53f60da7ea1df188214494cbece87d5fd7b83f141a8d1e503",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 19.5,
+          "bboxCenterX": 15.5,
+          "sha256": "50b21f9729a85c58ba2fe66bdbcd8bc9c44a61ebb8d38567fe1ea5af0e541da5",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.0,
+          "bboxCenterX": 15.0,
+          "sha256": "e1f7766e62597ed9205fdd0a609cc8ac03069fb959ec6867dbdfd6c217c91eee",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 20.0,
+          "bboxCenterX": 15.5,
+          "sha256": "588b8f32dd73b2bce3f6a819d31f7840cb95d683c115046bea86c8417dc54f07",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.0,
+          "bboxCenterX": 15.5,
+          "sha256": "590424c30ee74eb3721ecc0e9d7654e093a4f056804f25f54bf25833d6c9c2be",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.636363636363637,
+          "bboxCenterX": 15.5,
+          "sha256": "48757188a71fc5797e00d402b0aa3e03ecdb9822201acc3542af95c868b78d62",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 14.5,
+          "bboxCenterX": 15.5,
+          "sha256": "b94e984e99870bac94821741c9c9a7313dc75c1219ab5d7defc84e2f05517dc3",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        }
+      ],
+      "sheetChecks": {
+        "sheet96x192RGBA": true,
+        "all60CellChecksPass": true,
+        "twelveUniqueFrames": true,
+        "threeUniquePosesPerDirection": true,
+        "allWalkPairsDiffer": true,
+        "downIdleExactlyMatchesR11": true,
+        "animatedPreviewFourFrames": true,
+        "processingReportExists": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "蓬松短发、灰锈棕外套与运动鞋保持一致；左右 WalkB 已纠正朝向。",
+      "swapSideWalkB": true,
+      "staticPreview": "SourceAssets/Animations/CHR07_DrummerSpirit/CHR07_DrummerSpirit_sheet_preview.png",
+      "animatedPreview": "SourceAssets/Animations/CHR07_DrummerSpirit/CHR07_DrummerSpirit_walk_preview.gif"
+    },
+    {
+      "assetId": "CHR11_TeacherSpirit",
+      "sheetSha256": "9c9962d22e8bef17ab6e790db5a8837781d4d7da4a2ab06afce29f458e4d863a",
+      "uniqueFrameCount": 12,
+      "r11IdleMatch": true,
+      "directionChecks": [
+        {
+          "direction": "Down",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 636,
+          "walkBIdleDifferentPixels": 655,
+          "walkAWalkBDifferentPixels": 639
+        },
+        {
+          "direction": "Left",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 588,
+          "walkBIdleDifferentPixels": 661,
+          "walkAWalkBDifferentPixels": 655
+        },
+        {
+          "direction": "Right",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 523,
+          "walkBIdleDifferentPixels": 664,
+          "walkAWalkBDifferentPixels": 654
+        },
+        {
+          "direction": "Up",
+          "uniqueFrames": 3,
+          "walkAIdleDifferentPixels": 691,
+          "walkBIdleDifferentPixels": 678,
+          "walkAWalkBDifferentPixels": 568
+        }
+      ],
+      "frameChecks": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.0,
+          "bboxCenterX": 15.5,
+          "sha256": "1875aa03a17fc69cb9583ce14610bd67305be9d049d3d29509f62b2463c3db2e",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "bbox": [
+            7,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.5,
+          "bboxCenterX": 15.5,
+          "sha256": "64e6cc75b122da9e180e7ad0d97bd0530610000b744adccb6e4d976c6bb62b2a",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 16.0,
+          "bboxCenterX": 15.0,
+          "sha256": "0fc5962a6b1eac6f7ce77d5d1d696f7644d996c159e2402c4a7979cf808ef36f",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 10.0,
+          "bboxCenterX": 15.5,
+          "sha256": "e8908660d5cfc73bc44921cc6c3b6351b06272fc9371d100a5f123c5beb7c0bd",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 14.0,
+          "bboxCenterX": 15.5,
+          "sha256": "a963c058286424ed8ce1339e0df227d657196058b9251ec246f172930a577d95",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 10.5,
+          "bboxCenterX": 15.0,
+          "sha256": "9d42299cbc0b0da87b72e11ef118240b6baacc3f1a8ef833f8f8710de959816a",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 21.5,
+          "bboxCenterX": 15.5,
+          "sha256": "01c0751d3d6e021d5645e4797320d517ef59cd3866c6c7795fa33d0ade0e5458",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 16.0,
+          "bboxCenterX": 15.5,
+          "sha256": "95e6eee7c76f62ff65ffbbb328136c962c80c12494065f75f882fbd2c80a7873",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            27,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 21.0,
+          "bboxCenterX": 15.5,
+          "sha256": "d17b66fec98f00edccbe0b2154d1f73853667fe6249e5472d278f442ccc7bb1e",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "bbox": [
+            6,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.5,
+          "bboxCenterX": 15.5,
+          "sha256": "3aa400b89264b7137962a8336498565489887cd091d004c54a10be97edfd8e84",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "bbox": [
+            6,
+            3,
+            25,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 15.0,
+          "bboxCenterX": 15.0,
+          "sha256": "d69e445b1c678a90bb231ff161d0c074b2a1544b29b07dfde501ece37be949af",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "bbox": [
+            5,
+            3,
+            26,
+            48
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "connectedComponents": 1,
+          "footCenterX": 17.0,
+          "bboxCenterX": 15.0,
+          "sha256": "184b9395f50c05d952afe4b1cbb9a095e3b7a4b4b13f475f02613e9107659e3c",
+          "checks": {
+            "cell32x48RGBA": true,
+            "trueBinaryAlpha": true,
+            "contentInsideCell": true,
+            "singleConnectedComponent": true,
+            "bottomBaseline": true,
+            "bodyCenterNearPivot": true,
+            "idleFootCentered": true,
+            "finalFrameFileExists": true,
+            "sourceFrameFileExists": true
+          },
+          "status": "Passed"
+        }
+      ],
+      "sheetChecks": {
+        "sheet96x192RGBA": true,
+        "all60CellChecksPass": true,
+        "twelveUniqueFrames": true,
+        "threeUniquePosesPerDirection": true,
+        "allWalkPairsDiffer": true,
+        "downIdleExactlyMatchesR11": true,
+        "animatedPreviewFourFrames": true,
+        "processingReportExists": true
+      },
+      "technicalStatus": "Passed",
+      "visualStatus": "Reviewed",
+      "visualNotes": "深色低盘发、米棕外套和灰蓝内搭保持一致；四向步态清楚。",
+      "swapSideWalkB": false,
+      "staticPreview": "SourceAssets/Animations/CHR11_TeacherSpirit/CHR11_TeacherSpirit_sheet_preview.png",
+      "animatedPreview": "SourceAssets/Animations/CHR11_TeacherSpirit/CHR11_TeacherSpirit_walk_preview.gif"
+    }
+  ]
+}

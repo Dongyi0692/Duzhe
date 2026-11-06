@@ -1,0 +1,54 @@
+{
+  "cues": [
+    {
+      "lineId": "CH05_Recall_004",
+      "imageId": "CG17_TeacherMemory03",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_012",
+      "imageId": "CG09_FamilyMemory01",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_018",
+      "imageId": "CG01_FamilyFarewell",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_021",
+      "imageId": "CG07_LoversMemory02",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_024",
+      "imageId": "CG08_LoversMemory03",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_027",
+      "imageId": "CG02_LoversFarewell",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_028",
+      "imageId": "CG13_BandMemory02",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_032",
+      "imageId": "CG03_BandFarewell",
+      "blackboard": false
+    },
+    {
+      "lineId": "CH05_Recall_033",
+      "imageId": "CG04_TeacherFarewell",
+      "blackboard": true
+    },
+    {
+      "lineId": "CH05_Recall_039",
+      "imageId": "",
+      "blackboard": false
+    }
+  ]
+}

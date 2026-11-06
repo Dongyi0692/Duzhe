@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R12_MainCharacter_20261028_v1.0",
+  "items": [
+    {
+      "assetId": "CHR01_Ferryman",
+      "actorId": "Ferryman",
+      "category": "CharacterAnimation",
+      "relativePath": "Characters/Animations/CHR01_Ferryman.png",
+      "chapterIds": [
+        "CH01",
+        "CH02",
+        "CH03",
+        "CH04",
+        "CH05"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 96,
+      "height": 192,
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "durationSeconds": 0.5,
+      "sourceTool": "image_generation via agent-gw; deterministic Pillow frame slicing and sheet assembly",
+      "promptId": "R12_MainCharacter_20261028_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "CHR01_Ferryman"
+      ],
+      "usageStatus": "Reviewed animation source; Codely must slice and validate in the actual Unity project",
+      "sourceAssetPath": "SourceAssets/Animations/CHR01_Ferryman/CHR01_Ferryman_walk_source.png",
+      "processingReportPath": "SourceAssets/Animations/CHR01_Ferryman/CHR01_Ferryman_processing.json",
+      "previewPath": "SourceAssets/Animations/CHR01_Ferryman/CHR01_Ferryman_sheet_preview.png",
+      "animatedPreviewPath": "SourceAssets/Animations/CHR01_Ferryman/CHR01_Ferryman_walk_preview.gif",
+      "notes": "Four-direction 12-frame walking sheet, 6 fps, idle column index 1, pivot=(0.5,0). Down/Idle exactly matches R11. Original source, cleaned source frames and final 32x48 frames retained. Not engine-imported or runtime-tested.",
+      "sha256": "7b63fea8db42be8aca9a2d19aaf4c75ec6b47a1fc82dd81e139533be977cd607"
+    }
+  ],
+  "scope": "CHR01_Ferryman R12 four-direction walking animation based on the supplied R11 main-character asset.",
+  "taskStatus": "Complete for CHR01_Ferryman; not a claim that other character animation packs are included"
+}

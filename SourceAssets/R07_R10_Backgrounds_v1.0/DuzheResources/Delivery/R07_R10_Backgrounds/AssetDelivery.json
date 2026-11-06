@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R07_R10_Backgrounds_20261028_v1.0",
+  "items": [
+    {
+      "assetId": "BG03_FarmCourtyard",
+      "category": "Background",
+      "relativePath": "Backgrounds/BG03_FarmCourtyard.png",
+      "chapterIds": [
+        "CH01"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image with R02 and R04 references; Pillow deterministic local alignment and cleanup",
+      "promptId": "R07_BG03_FarmCourtyard_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_FarmCourtyard"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "门位于R04上部中央，餐桌和三凳留白；不含人物、餐桌、凳子、任务物或狗。仅对左下角生成标记做邻近像素修补。 资源侧已Reviewed；未进行引擎导入或运行验证。",
+      "alpha": "Opaque_RGB",
+      "foregroundPath": null,
+      "sourceAssetPath": "SourceAssets/Backgrounds/BG03_FarmCourtyard_raw.png",
+      "processingSourcePath": null,
+      "previewPath": "Previews/Backgrounds/BG03_FarmCourtyard_QA.png",
+      "comparisonPath": "Previews/Backgrounds/BG03_FarmCourtyard_LayoutComparison.png",
+      "normalization": "None; source and final are both 1280x720",
+      "sha256": "db0396d5abbcd39a00be307bf93ceb6fcbdfb88055479e8c54c41120d867d4dd"
+    },
+    {
+      "assetId": "BG04_Park",
+      "category": "Background",
+      "relativePath": "Backgrounds/BG04_Park.png",
+      "chapterIds": [
+        "CH02"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image with R02 and R04 references; Pillow deterministic local alignment and cleanup",
+      "promptId": "R08_BG04_Park_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_Park"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "长椅已校正至R04目标区域(800,224,128,64)，入口到长椅通路和相会空地保持开放；不含人物或项链。 资源侧已Reviewed；未进行引擎导入或运行验证。",
+      "alpha": "Opaque_RGB",
+      "foregroundPath": null,
+      "sourceAssetPath": "SourceAssets/Backgrounds/BG04_Park_raw.png",
+      "processingSourcePath": "SourceAssets/Backgrounds/BG04_Park_aligned.png",
+      "previewPath": "Previews/Backgrounds/BG04_Park_QA.png",
+      "comparisonPath": "Previews/Backgrounds/BG04_Park_LayoutComparison.png",
+      "normalization": "None; source and final are both 1280x720",
+      "sha256": "f0fe425121a72e51d39e51cd4aefc43951296b6c9ec68c766e647f3d840ad7c2"
+    },
+    {
+      "assetId": "BG05_RecordingStudio",
+      "category": "Background",
+      "relativePath": "Backgrounds/BG05_RecordingStudio.png",
+      "chapterIds": [
+        "CH03"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image with R02 and R04 references; Pillow deterministic local alignment and cleanup",
+      "promptId": "R09_BG05_RecordingStudio_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_RecordingStudio"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "排练区、四人站位和合照接近区均为空地；鼓组与乐器架仅作非交互陈设；无人物或永久空位人影。 资源侧已Reviewed；未进行引擎导入或运行验证。",
+      "alpha": "Opaque_RGB",
+      "foregroundPath": null,
+      "sourceAssetPath": "SourceAssets/Backgrounds/BG05_RecordingStudio_raw.png",
+      "processingSourcePath": null,
+      "previewPath": "Previews/Backgrounds/BG05_RecordingStudio_QA.png",
+      "comparisonPath": "Previews/Backgrounds/BG05_RecordingStudio_LayoutComparison.png",
+      "normalization": "None; source and final are both 1280x720",
+      "sha256": "f6526908af22fb6ef1d8b7dc7bf2de53d9226364aa1afb516b7ed2857d4238c3"
+    },
+    {
+      "assetId": "BG06_Classroom",
+      "category": "Background",
+      "relativePath": "Backgrounds/BG06_Classroom.png",
+      "chapterIds": [
+        "CH04"
+      ],
+      "version": "1.0.0",
+      "status": "Reviewed",
+      "width": 1280,
+      "height": 720,
+      "frameLayout": null,
+      "durationSeconds": null,
+      "sourceTool": "agent-gw generate_image with R02 and R04 references; Pillow deterministic local alignment and cleanup",
+      "promptId": "R10_BG06_Classroom_v1",
+      "referenceIds": [
+        "REF_R02_VisualGuide",
+        "REF_R04_Classroom"
+      ],
+      "usageStatus": "ReadyForCodelyImport_NotImported",
+      "notes": "空白黑板已对齐中心(768,96)，右上课桌已移至R04区域；入口、学生、教师和观察位保持可读；不含人物、教案或书写痕迹。 资源侧已Reviewed；未进行引擎导入或运行验证。",
+      "alpha": "Opaque_RGB",
+      "foregroundPath": null,
+      "sourceAssetPath": "SourceAssets/Backgrounds/BG06_Classroom_raw.png",
+      "processingSourcePath": "SourceAssets/Backgrounds/BG06_Classroom_aligned.png",
+      "previewPath": "Previews/Backgrounds/BG06_Classroom_QA.png",
+      "comparisonPath": "Previews/Backgrounds/BG06_Classroom_LayoutComparison.png",
+      "normalization": "None; source and final are both 1280x720",
+      "sha256": "7b952f2cbc02d111d7a68d1b51a5f6ef963c8aa425ca3305ac18535747dc85c8"
+    }
+  ],
+  "contactSheetPath": "Previews/Backgrounds/R07_R10_ContactSheet.png",
+  "missingPrerequisites": [],
+  "engineImportStatus": "NotImported",
+  "runtimeVerificationStatus": "NotVerified"
+}

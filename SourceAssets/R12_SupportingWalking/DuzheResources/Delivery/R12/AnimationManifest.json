@@ -1,0 +1,461 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R12_SupportingWalking_20261028_v1.0",
+  "items": [
+    {
+      "assetId": "CHR02_Grandfather",
+      "relativePath": "Characters/Animations/CHR02_Grandfather.png",
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "fps": 6,
+      "idleColumnIndex": 1,
+      "footPivot": {
+        "x": 0.5,
+        "y": 0
+      },
+      "cycleFrameCount": 3,
+      "durationSeconds": 0.5,
+      "frames": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Down_WalkA.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Down_Idle.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Down_WalkB.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Left_WalkA.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Left_Idle.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Left_WalkB.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Right_WalkA.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Right_Idle.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Right_WalkB.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Up_WalkA.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Up_Idle.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR02_Grandfather/Frames/Up_WalkB.png"
+        }
+      ]
+    },
+    {
+      "assetId": "CHR03_Grandmother",
+      "relativePath": "Characters/Animations/CHR03_Grandmother.png",
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "fps": 6,
+      "idleColumnIndex": 1,
+      "footPivot": {
+        "x": 0.5,
+        "y": 0
+      },
+      "cycleFrameCount": 3,
+      "durationSeconds": 0.5,
+      "frames": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Down_WalkA.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Down_Idle.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Down_WalkB.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Left_WalkA.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Left_Idle.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Left_WalkB.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Right_WalkA.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Right_Idle.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Right_WalkB.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Up_WalkA.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Up_Idle.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR03_Grandmother/Frames/Up_WalkB.png"
+        }
+      ]
+    },
+    {
+      "assetId": "CHR05_LoverSpirit",
+      "relativePath": "Characters/Animations/CHR05_LoverSpirit.png",
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "fps": 6,
+      "idleColumnIndex": 1,
+      "footPivot": {
+        "x": 0.5,
+        "y": 0
+      },
+      "cycleFrameCount": 3,
+      "durationSeconds": 0.5,
+      "frames": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Down_WalkA.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Down_Idle.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Down_WalkB.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Left_WalkA.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Left_Idle.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Left_WalkB.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Right_WalkA.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Right_Idle.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Right_WalkB.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Up_WalkA.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Up_Idle.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR05_LoverSpirit/Frames/Up_WalkB.png"
+        }
+      ]
+    },
+    {
+      "assetId": "CHR07_DrummerSpirit",
+      "relativePath": "Characters/Animations/CHR07_DrummerSpirit.png",
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "fps": 6,
+      "idleColumnIndex": 1,
+      "footPivot": {
+        "x": 0.5,
+        "y": 0
+      },
+      "cycleFrameCount": 3,
+      "durationSeconds": 0.5,
+      "frames": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Down_WalkA.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Down_Idle.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Down_WalkB.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Left_WalkA.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Left_Idle.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Left_WalkB.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Right_WalkA.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Right_Idle.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Right_WalkB.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Up_WalkA.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Up_Idle.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR07_DrummerSpirit/Frames/Up_WalkB.png"
+        }
+      ]
+    },
+    {
+      "assetId": "CHR11_TeacherSpirit",
+      "relativePath": "Characters/Animations/CHR11_TeacherSpirit.png",
+      "frameLayout": {
+        "columns": 3,
+        "rows": 4,
+        "cellWidth": 32,
+        "cellHeight": 48,
+        "rowOrder": [
+          "Down",
+          "Left",
+          "Right",
+          "Up"
+        ],
+        "columnOrder": [
+          "WalkA",
+          "Idle",
+          "WalkB"
+        ]
+      },
+      "fps": 6,
+      "idleColumnIndex": 1,
+      "footPivot": {
+        "x": 0.5,
+        "y": 0
+      },
+      "cycleFrameCount": 3,
+      "durationSeconds": 0.5,
+      "frames": [
+        {
+          "direction": "Down",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Down_WalkA.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Down_Idle.png"
+        },
+        {
+          "direction": "Down",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Down_WalkB.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Left_WalkA.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Left_Idle.png"
+        },
+        {
+          "direction": "Left",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Left_WalkB.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Right_WalkA.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Right_Idle.png"
+        },
+        {
+          "direction": "Right",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Right_WalkB.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkA",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Up_WalkA.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "Idle",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Up_Idle.png"
+        },
+        {
+          "direction": "Up",
+          "pose": "WalkB",
+          "relativePath": "SourceAssets/Animations/CHR11_TeacherSpirit/Frames/Up_WalkB.png"
+        }
+      ]
+    }
+  ]
+}

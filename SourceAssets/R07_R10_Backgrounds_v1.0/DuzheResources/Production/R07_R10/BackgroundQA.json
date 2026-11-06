@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "batchId": "R07_R10_Backgrounds_20261028_v1.0",
+  "checks": [
+    "1280x720 actual dimensions",
+    "opaque RGB",
+    "clean background opened",
+    "QA overlay opened",
+    "R04 layout visually compared",
+    "no QA annotations in clean background"
+  ],
+  "allResourceSideChecksPassed": true,
+  "items": [
+    {
+      "assetId": "BG03_FarmCourtyard",
+      "actualWidth": 1280,
+      "actualHeight": 720,
+      "mode": "RGB",
+      "opaque": true,
+      "cleanBackgroundVisualReviewed": true,
+      "qaOverlayVisualReviewed": true,
+      "layoutVisualReviewed": true,
+      "layoutChecks": [
+        "FC_Door视觉锚点(640,152)",
+        "FC_Spawn(288,576)通路清楚",
+        "餐桌与三凳区域无烘焙道具",
+        "QA叠放含R13桌椅及角色占位，独立于干净背景"
+      ],
+      "deterministicEdits": [
+        "清除左下角生成标记；未裁切、未整体缩放"
+      ],
+      "foregroundLayer": null,
+      "sha256": "db0396d5abbcd39a00be307bf93ceb6fcbdfb88055479e8c54c41120d867d4dd",
+      "passed": true
+    },
+    {
+      "assetId": "BG04_Park",
+      "actualWidth": 1280,
+      "actualHeight": 720,
+      "mode": "RGB",
+      "opaque": true,
+      "cleanBackgroundVisualReviewed": true,
+      "qaOverlayVisualReviewed": true,
+      "layoutVisualReviewed": true,
+      "layoutChecks": [
+        "PK_Bench目标(864,256)，局部校正后长椅区域(800,224,128,64)",
+        "PK_Reunion(832,384)空地无遮挡",
+        "PK_Spawn(192,576)至长椅路径可读",
+        "树冠未覆盖主要通路和相会点"
+      ],
+      "deterministicEdits": [
+        "移动并重采样长椅到R04区域",
+        "修补原长椅位置",
+        "清除左下角生成标记；未裁切、未整体缩放"
+      ],
+      "foregroundLayer": null,
+      "sha256": "f0fe425121a72e51d39e51cd4aefc43951296b6c9ec68c766e647f3d840ad7c2",
+      "passed": true
+    },
+    {
+      "assetId": "BG05_RecordingStudio",
+      "actualWidth": 1280,
+      "actualHeight": 720,
+      "mode": "RGB",
+      "opaque": true,
+      "cleanBackgroundVisualReviewed": true,
+      "qaOverlayVisualReviewed": true,
+      "layoutVisualReviewed": true,
+      "layoutChecks": [
+        "RS_Performance(768,320)中央区域开放",
+        "四人站位x=704/768/832/896,y=384无遮挡",
+        "RS_PhotoApproach(960,448)保持开放",
+        "入口(224,576)至中央路径清楚"
+      ],
+      "deterministicEdits": [
+        "清除左下角生成标记及残留；未裁切、未整体缩放"
+      ],
+      "foregroundLayer": null,
+      "sha256": "f6526908af22fb6ef1d8b7dc7bf2de53d9226364aa1afb516b7ed2857d4238c3",
+      "passed": true
+    },
+    {
+      "assetId": "BG06_Classroom",
+      "actualWidth": 1280,
+      "actualHeight": 720,
+      "mode": "RGB",
+      "opaque": true,
+      "cleanBackgroundVisualReviewed": true,
+      "qaOverlayVisualReviewed": true,
+      "layoutVisualReviewed": true,
+      "layoutChecks": [
+        "CL_Blackboard中心(768,96)，黑板区域(544,40,448,112)",
+        "七组课桌与R04 footprints对照",
+        "CL_Teacher(768,192)及CL_FrontApproach(768,256)无遮挡",
+        "CL_Spawn(224,600)、CL_Student(608,416)、CL_Observe(448,416)检查预览可读"
+      ],
+      "deterministicEdits": [
+        "移动并缩放空白黑板至中心(768,96)",
+        "移动右上课桌至R04区域",
+        "清理墙面拼接痕迹",
+        "清除左下角生成标记；未裁切、未整体缩放"
+      ],
+      "foregroundLayer": null,
+      "sha256": "7b952f2cbc02d111d7a68d1b51a5f6ef963c8aa425ca3305ac18535747dc85c8",
+      "passed": true
+    }
+  ],
+  "engineImportStatus": "NotImported",
+  "runtimeVerificationStatus": "NotVerified"
+}

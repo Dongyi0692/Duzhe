@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "1.0",
+  "sceneId": "Underworld",
+  "canvasWidth": 1280,
+  "canvasHeight": 720,
+  "pixelsPerUnit": 32,
+  "origin": "TopLeft",
+  "points": [
+    {
+      "pointId": "UW_Spawn",
+      "x": 640,
+      "y": 552
+    },
+    {
+      "pointId": "UW_Departed",
+      "x": 704,
+      "y": 424
+    },
+    {
+      "pointId": "UW_Companion",
+      "x": 748,
+      "y": 424
+    },
+    {
+      "pointId": "UW_Item",
+      "x": 512,
+      "y": 328
+    },
+    {
+      "pointId": "UW_CaneDrawing",
+      "x": 480,
+      "y": 400
+    },
+    {
+      "pointId": "UW_Ritual",
+      "x": 576,
+      "y": 520
+    },
+    {
+      "pointId": "UW_Dock",
+      "x": 704,
+      "y": 558
+    },
+    {
+      "pointId": "UW_Recall",
+      "x": 704,
+      "y": 424
+    }
+  ],
+  "walkablePolygons": [
+    [
+      [
+        48,
+        48
+      ],
+      [
+        1232,
+        48
+      ],
+      [
+        1232,
+        672
+      ],
+      [
+        48,
+        672
+      ]
+    ]
+  ],
+  "solidPolygons": [
+    [
+      [
+        48,
+        48
+      ],
+      [
+        1232,
+        48
+      ],
+      [
+        1232,
+        128
+      ],
+      [
+        48,
+        128
+      ]
+    ],
+    [
+      [
+        48,
+        128
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        528
+      ],
+      [
+        48,
+        528
+      ]
+    ],
+    [
+      [
+        1152,
+        128
+      ],
+      [
+        1232,
+        128
+      ],
+      [
+        1232,
+        528
+      ],
+      [
+        1152,
+        528
+      ]
+    ]
+  ],
+  "hotspots": [
+    {
+      "hotspotId": "UW_OpenTalk",
+      "rect": [
+        672,
+        392,
+        64,
+        64
+      ],
+      "stageIds": [
+        "CH01_Opening",
+        "CH02_Opening",
+        "CH03_Opening",
+        "CH04_Opening"
+      ]
+    },
+    {
+      "hotspotId": "UW_Return",
+      "rect": [
+        672,
+        392,
+        64,
+        64
+      ],
+      "stageIds": [
+        "CH01_ReturnItems",
+        "CH02_ReturnNecklace",
+        "CH03_ReturnDrumsticks",
+        "CH04_ReturnLessonPlan"
+      ]
+    },
+    {
+      "hotspotId": "UW_PickItem",
+      "rect": [
+        488,
+        304,
+        48,
+        48
+      ],
+      "stageIds": [
+        "CH01_Prepare",
+        "CH02_FindNecklace",
+        "CH03_FindDrumsticks",
+        "CH04_FindLessonPlan"
+      ]
+    },
+    {
+      "hotspotId": "UW_Cane",
+      "rect": [
+        456,
+        376,
+        48,
+        48
+      ],
+      "stageIds": [
+        "CH01_Prepare"
+      ]
+    },
+    {
+      "hotspotId": "UW_RitualTrigger",
+      "rect": [
+        552,
+        496,
+        48,
+        48
+      ],
+      "stageIds": [
+        "CH01_Ritual",
+        "CH02_Ritual",
+        "CH03_Ritual",
+        "CH04_Ritual"
+      ]
+    },
+    {
+      "hotspotId": "UW_BoardTrigger",
+      "rect": [
+        672,
+        526,
+        64,
+        64
+      ],
+      "stageIds": [
+        "CH01_Board",
+        "CH02_Board",
+        "CH03_Board",
+        "CH04_Board",
+        "CH05_Board"
+      ]
+    }
+  ]
+}

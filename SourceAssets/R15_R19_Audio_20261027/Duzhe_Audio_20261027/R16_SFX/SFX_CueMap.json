@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0",
+  "cues": [
+    {
+      "assetId": "SFX01_UIConfirm",
+      "trigger": "界面确认；重试点击复用",
+      "loop": false,
+      "suggestedGain": 0.75,
+      "stopCondition": "播放结束"
+    },
+    {
+      "assetId": "SFX02_Footstep",
+      "trigger": "角色移动",
+      "loop": true,
+      "suggestedGain": 0.55,
+      "stopCondition": "停止移动、暂停或切换场景"
+    },
+    {
+      "assetId": "SFX03_Pickup",
+      "trigger": "拾取任务物",
+      "loop": false,
+      "suggestedGain": 0.75,
+      "stopCondition": "播放结束"
+    },
+    {
+      "assetId": "SFX04_ReturnItem",
+      "trigger": "向对应亡者交还任务物",
+      "loop": false,
+      "suggestedGain": 0.75,
+      "stopCondition": "播放结束"
+    },
+    {
+      "assetId": "SFX05_Ritual",
+      "trigger": "纪念仪式关键节点",
+      "loop": false,
+      "suggestedGain": 0.65,
+      "stopCondition": "播放结束或仪式关闭"
+    },
+    {
+      "assetId": "SFX06_Rowing",
+      "trigger": "开航及持续航行",
+      "loop": true,
+      "suggestedGain": 0.65,
+      "stopCondition": "停止航行、靠岸、暂停或切换场景"
+    },
+    {
+      "assetId": "SFX07_Whirlpool",
+      "trigger": "船只碰撞漩涡",
+      "loop": false,
+      "suggestedGain": 0.7,
+      "stopCondition": "播放结束或切换场景"
+    },
+    {
+      "assetId": "SFX08_Shutter",
+      "trigger": "拍照或补齐合照",
+      "loop": false,
+      "suggestedGain": 0.75,
+      "stopCondition": "播放结束"
+    },
+    {
+      "assetId": "SFX09_Chalk",
+      "trigger": "按住进行粉笔绘制",
+      "loop": true,
+      "suggestedGain": 0.5,
+      "stopCondition": "松开、暂停或关闭机关"
+    },
+    {
+      "assetId": "SFX10_SchoolBell",
+      "trigger": "老师章相会后的下课铃节点",
+      "loop": false,
+      "suggestedGain": 0.6,
+      "stopCondition": "播放结束或切换场景"
+    },
+    {
+      "assetId": "SFX11_Knock",
+      "trigger": "轻敲门交互",
+      "loop": false,
+      "suggestedGain": 0.7,
+      "stopCondition": "播放结束"
+    },
+    {
+      "assetId": "SFX12_PuzzleSuccess",
+      "trigger": "机关成功；七音演奏成功可复用",
+      "loop": false,
+      "suggestedGain": 0.7,
+      "stopCondition": "播放结束"
+    }
+  ]
+}

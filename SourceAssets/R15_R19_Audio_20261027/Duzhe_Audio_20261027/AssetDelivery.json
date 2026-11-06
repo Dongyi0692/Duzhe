@@ -1,0 +1,602 @@
+{
+  "schemaVersion": "1.0",
+  "project": "渡者",
+  "deliveryDate": "2026-10-27",
+  "baseWavCount": 23,
+  "optionalWavCount": 1,
+  "totalWavCount": 24,
+  "scope": "R15、R16、R17及可选R19狗叫声",
+  "scopeExclusion": "原提示词第八节IT01–IT05五个道具已取消本对话分工，未制作、未包含。",
+  "assets": [
+    {
+      "assetId": "N01_Do",
+      "relativePath": "R15_Notes/N01_Do.wav",
+      "durationSeconds": 1.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/N01_Do",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "基频/音高"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "932ce65b80f5aac97fbf2d74df0e0e12e255fd56d032d5361f48a27f701e299a"
+    },
+    {
+      "assetId": "N02_Re",
+      "relativePath": "R15_Notes/N02_Re.wav",
+      "durationSeconds": 1.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/N02_Re",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "基频/音高"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "890a9689c069901512f79b64a39dd29d4321ef092405e324fd4532fdbdcc44ab"
+    },
+    {
+      "assetId": "N03_Mi",
+      "relativePath": "R15_Notes/N03_Mi.wav",
+      "durationSeconds": 1.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/N03_Mi",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "基频/音高"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "57787c06aa1e66343122b5619707adcf7cd69a7af0d3adc5e4de6b6c508871c1"
+    },
+    {
+      "assetId": "N04_Fa",
+      "relativePath": "R15_Notes/N04_Fa.wav",
+      "durationSeconds": 1.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/N04_Fa",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "基频/音高"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "3bae521307f629f1daf71162bcfaef9f8ee54ba44d6c821dd80cd1d61b7b6852"
+    },
+    {
+      "assetId": "N05_Sol",
+      "relativePath": "R15_Notes/N05_Sol.wav",
+      "durationSeconds": 1.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/N05_Sol",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "基频/音高"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "8eccfa292268a51d75b6eef9f51fe1b9200177a90969c3074f2cbc52d098450a"
+    },
+    {
+      "assetId": "N06_La",
+      "relativePath": "R15_Notes/N06_La.wav",
+      "durationSeconds": 1.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/N06_La",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "基频/音高"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "78ad230cb097bafe15900f5ef7ecfe245ceb6ea3b429f7caee9123f736ef3490"
+    },
+    {
+      "assetId": "N07_Si",
+      "relativePath": "R15_Notes/N07_Si.wav",
+      "durationSeconds": 1.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/N07_Si",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "基频/音高"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "a041fc0d7d6f7b4f739269086c07869e7625b5d15483ceb003132b84b9cda51e"
+    },
+    {
+      "assetId": "MEL01_BandPhrase",
+      "relativePath": "R15_Notes/MEL01_BandPhrase.wav",
+      "durationSeconds": 12.788458,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Python 3.12 + NumPy 程序加法合成（原创，无外部采样，非真实乐器录音）",
+      "promptId": "R15/MEL01_BandPhrase",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "音序、音高序列与noteBeats生成一致性"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "3bf725407d1050fb31c03ff9462b58a42a0b48a01daf56a1a9ec813128ca9bf5"
+    },
+    {
+      "assetId": "SFX01_UIConfirm",
+      "relativePath": "R16_SFX/SFX01_UIConfirm.wav",
+      "durationSeconds": 0.6,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX01_UIConfirm",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "d4bf13affc922c544af8b6ddd671ed0bd41daac32b0016394f1871dd99d61189"
+    },
+    {
+      "assetId": "SFX02_Footstep",
+      "relativePath": "R16_SFX/SFX02_Footstep.wav",
+      "durationSeconds": 0.57,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX02_Footstep",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "循环接缝数值检查"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "81585f08c7bf468cb55570251eecb630d440d6c443cb1cde4b002cc4299048d4"
+    },
+    {
+      "assetId": "SFX03_Pickup",
+      "relativePath": "R16_SFX/SFX03_Pickup.wav",
+      "durationSeconds": 0.680249,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX03_Pickup",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "1f298a6300acc2a2b777c5bcff0f3b1cc926886f3330e376b9439e8519c27221"
+    },
+    {
+      "assetId": "SFX04_ReturnItem",
+      "relativePath": "R16_SFX/SFX04_ReturnItem.wav",
+      "durationSeconds": 0.8,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX04_ReturnItem",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "4eacc2bf1539dbfb400cb7aef2ec0a9c33212b0702450f0a98038e8b146e9c0d"
+    },
+    {
+      "assetId": "SFX05_Ritual",
+      "relativePath": "R16_SFX/SFX05_Ritual.wav",
+      "durationSeconds": 2.48,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX05_Ritual",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "0bd3184f6a2c5f4a39e482055a05d8972a1c6b77ffd766537009ad85f713a5fe"
+    },
+    {
+      "assetId": "SFX06_Rowing",
+      "relativePath": "R16_SFX/SFX06_Rowing.wav",
+      "durationSeconds": 1.275102,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX06_Rowing",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "循环接缝数值检查"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "78be9f4eebf6394e733ce51503080401971f71705e7006532342b92edeccc761"
+    },
+    {
+      "assetId": "SFX07_Whirlpool",
+      "relativePath": "R16_SFX/SFX07_Whirlpool.wav",
+      "durationSeconds": 1.48,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX07_Whirlpool",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "f5171120f2cfbee7f3718b3bee9dc1f68105ed8ac8873cf10ba4934af4749b2e"
+    },
+    {
+      "assetId": "SFX08_Shutter",
+      "relativePath": "R16_SFX/SFX08_Shutter.wav",
+      "durationSeconds": 0.086259,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX08_Shutter",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "b0e993633d3438672255613e806137f71e311668e952668a473880a84ada1c38"
+    },
+    {
+      "assetId": "SFX09_Chalk",
+      "relativePath": "R16_SFX/SFX09_Chalk.wav",
+      "durationSeconds": 1.38,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX09_Chalk",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "循环接缝数值检查"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "9f0ee6a22cd67c9732a0148e23fabf9539fa9f7d00e60262ba70e55bf23ac09f"
+    },
+    {
+      "assetId": "SFX10_SchoolBell",
+      "relativePath": "R16_SFX/SFX10_SchoolBell.wav",
+      "durationSeconds": 2.48,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX10_SchoolBell",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "fd90cd4c7f79a73b4999d26ccd62af3689e8bf8df6f0665375b3d6d09b070a5f"
+    },
+    {
+      "assetId": "SFX11_Knock",
+      "relativePath": "R16_SFX/SFX11_Knock.wav",
+      "durationSeconds": 1.36,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX11_Knock",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "3366fb1a56902fa2ed990b7eab65ffbce188b672ce725d4fe8df70fa251f5473"
+    },
+    {
+      "assetId": "SFX12_PuzzleSuccess",
+      "relativePath": "R16_SFX/SFX12_PuzzleSuccess.wav",
+      "durationSeconds": 1.2,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R16/SFX12_PuzzleSuccess",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "a2b40e855ee163b4498f2f7dad15a8627ad07cf34ee257a9d3a13bb219d62e6b"
+    },
+    {
+      "assetId": "BGM01_RiverMist",
+      "relativePath": "R17_Music/BGM01_RiverMist.wav",
+      "durationSeconds": 72.0,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 2,
+      "sourceTool": "Python 3.12 + NumPy 原创程序合成（无外部采样、无人声，非真实乐器录音）",
+      "promptId": "R17/BGM01_RiverMist",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "循环接缝数值检查"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "0b3d87cc4e22f9f3dbad0ea84e2e57c6ff3bdb047f16f21b55dea0463ba33bc4"
+    },
+    {
+      "assetId": "BGM02_Reunion",
+      "relativePath": "R17_Music/BGM02_Reunion.wav",
+      "durationSeconds": 72.0,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 2,
+      "sourceTool": "Python 3.12 + NumPy 原创程序合成（无外部采样、无人声，非真实乐器录音）",
+      "promptId": "R17/BGM02_Reunion",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "循环接缝数值检查"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "76ccebc031a7e704eb0e025d9c43ce42fe750b25c838cbe549861804232a5312"
+    },
+    {
+      "assetId": "BGM03_SelfCrossing",
+      "relativePath": "R17_Music/BGM03_SelfCrossing.wav",
+      "durationSeconds": 72.0,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 2,
+      "sourceTool": "Python 3.12 + NumPy 原创程序合成（无外部采样、无人声，非真实乐器录音）",
+      "promptId": "R17/BGM03_SelfCrossing",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波",
+        "循环接缝数值检查"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "62db2c60024bfa990f3258022d55ae0ad45693608ff66f1fcc2caee7f1a17edb"
+    },
+    {
+      "assetId": "SFX13_DogHappy",
+      "relativePath": "R19_Optional/SFX13_DogHappy.wav",
+      "durationSeconds": 2.276576,
+      "sampleRate": 44100,
+      "bitDepth": 16,
+      "channels": 1,
+      "sourceTool": "Kimi audio_generation / generate_sound_effects（AI 生成）；miniaudio 1.71 + NumPy 转码与后期",
+      "promptId": "R19/SFX13_DogHappy",
+      "status": "complete_validated",
+      "actualTested": [
+        "时长",
+        "采样率",
+        "位深",
+        "声道",
+        "非静音",
+        "峰值与削波"
+      ],
+      "actualNotTested": [
+        "实际试听"
+      ],
+      "auditioned": false,
+      "sha256": "fb19854686f0930cfd196eae83c394ff95d65250cc1159fc14757265d976872d"
+    }
+  ]
+}

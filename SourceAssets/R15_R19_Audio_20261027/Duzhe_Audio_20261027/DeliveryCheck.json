@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "passed": true,
+  "baseWavCount": 23,
+  "optionalWavCount": 1,
+  "totalWavCount": 24,
+  "allPathsPresent": true,
+  "allFormatsMatch": true,
+  "allNonSilentAndUnclipped": true,
+  "r15MelodyConfigLengthsValid": true,
+  "cueCountsValid": true,
+  "sectionEightPropsIncluded": false,
+  "auditioned": false,
+  "note": "数值与文件检测通过；实际试听未执行，仍需人工听感验收。"
+}
